@@ -4,7 +4,7 @@ Core Contributors 核心贡献者
 
 | *昵称* | *github id* | *email* | *高级KYC* | *已加入 Jouleverse/core-contributors *|
 |-|-|-|-|-|
-| Angel | @Sunshinewla23 | | Yes | Pending |
+| Angel | @Sunshinewla | | Yes | Pending |
 | Koant | @koant-jns |  | Yes | Yes |
 | Jacky | @liujiaqiid | | Yes | Pending |
 | 教链 | @hmisty | evan (at) blockcoach.com | Yes | Yes |
