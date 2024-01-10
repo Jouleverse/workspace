@@ -4,7 +4,7 @@
 | 统计月份
 | 2023年10月
 |-
-| 统计规范([[../work-package-specs.md | Work Package Specs]])
+| 统计规范([[../work-package-specs.mediawiki | Work Package Specs]])
 | rev2
 |-
 | 汇总人
