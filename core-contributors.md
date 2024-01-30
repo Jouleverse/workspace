@@ -15,12 +15,12 @@ Core Contributors 核心贡献者
 | Menger | [@mengal](https://github.com/mengal) | mengaili1988 (at) 126.com | Yes | Pending |
 | 岑云 | [@LU1986HZ](https://github.com/LU1986HZ) | yun.ceny (at) hotmail.com | Yes | Pending |
 | 稳清活(谢勇) | [@Timothyxie513](https://github.com/Timothyxie513) | | Yes | Pending |
-| 明海云 | | | Yes | - |
+| 明海云 | [@240616-ming](https://github.com/240616-ming) | 28021246 (at) qq.com | Yes | - |
 | 楼兰渔夫 | | | Yes | - |
 | 张恩畅 | | | Yes | - |
 | li17 | | | Yes | - |
 | 火星 | [@gjw00001](https://github.com/gjw00001) | | Yes | - |
-| 严光红 | | | Yes | - |
+| 严光红 | [@YGH200](https://github.com/240616-ming) | ygh200 (at) 126.com | Yes | - |
 | 老谢 | | | Yes | - |
 | yj | [@AqoursSunshine](https://github.com/AqoursSunshine) | | Not yet | Pending |
 | LouisAwesome | | | Yes |  |
