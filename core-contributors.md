@@ -18,7 +18,7 @@ Core Contributors 核心贡献者
 | 明海云 | [@240616-ming](https://github.com/240616-ming) | 28021246 (at) qq.com | Yes | - |
 | 楼兰渔夫 | | | Yes | - |
 | 张恩畅 | | | Yes | - |
-| li17 | | | Yes | - |
+| li17 | [lii1717](https://github.com/lii1717) | | Yes | - |
 | 火星 | [@gjw00001](https://github.com/gjw00001) | | Yes | - |
 | 严光红 | [@YGH200](https://github.com/240616-ming) | ygh200 (at) 126.com | Yes | - |
 | 老谢 | | | Yes | - |
