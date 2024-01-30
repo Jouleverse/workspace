@@ -19,12 +19,12 @@ Core Contributors 核心贡献者
 | 楼兰渔夫 | | | Yes | - |
 | 张恩畅 | | | Yes | - |
 | li17 | | | Yes | - |
-| 火星 | | | Yes | - |
+| 火星 | [@gjw00001](https://github.com/gjw00001) | | Yes | - |
 | 严光红 | | | Yes | - |
 | 老谢 | | | Yes | - |
 | yj | [@AqoursSunshine](https://github.com/AqoursSunshine) | | Not yet | Pending |
 | LouisAwesome | | | Yes |  |
 | 狮子猫 | | | Yes |  |
-| 琰熙 |  |  | Yes |  |
+| 琰熙 | [@Yanxi02](https://github.com/Yanxi02) |  | Yes |  |
 | gwendol |  |  | Yes |   |
 
