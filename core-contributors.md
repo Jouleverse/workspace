@@ -21,5 +21,10 @@ Core Contributors 核心贡献者
 | li17 | | | Yes | - |
 | 火星 | | | Yes | - |
 | 严光红 | | | Yes | - |
+| 老谢 | | | Yes | - |
 | yj | [@AqoursSunshine](https://github.com/AqoursSunshine) | | Not yet | Pending |
+| LouisAwesome | | | Yes |  |
+| 狮子猫 | | | Yes |  |
+| 琰熙 |  |  | Yes |  |
+| gwendol |  |  | Yes |   |
 
