@@ -21,5 +21,5 @@ Core Contributors 核心贡献者
 | li17 | | | Yes | - |
 | 火星 | | | Yes | - |
 | 严光红 | | | Yes | - |
-| yj | @AqoursSunshine | | Not yet | Pending |
+| yj | [@AqoursSunshine](https://github.com/AqoursSunshine) | | Not yet | Pending |
 
