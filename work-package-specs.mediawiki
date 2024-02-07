@@ -3,7 +3,7 @@
 层次（Layer）：
 # 共识 Consensus - 目标：增强共识，去中心化
 # 社群 Community - 目标：更多的人，builder, contributor, user
-# 应用 Application - 目标：更多的工具型DApp或生态型DApp
+# 应用 Application - 目标：孵化或验证工具型/生态型DApp的PoC（概念验证产品），更重要的是透过EcoFund等机制，推动生态应用的繁荣发展
 
 == 标准工作包 Standardized WPs ==
 
