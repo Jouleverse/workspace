@@ -1,5 +1,7 @@
 == 说明 Preface ==
 
+本文档定义了Jouleverse核心资产的20%部分所支持的核心基础工作范围、测量办法和激励标准。
+
 层次（Layer）：
 # 共识 Consensus - 目标：增强共识，去中心化
 # 社群 Community - 目标：更多的人，builder, contributor, user
