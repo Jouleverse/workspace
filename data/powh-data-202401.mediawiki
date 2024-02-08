@@ -25,10 +25,10 @@
 统计人：evan.j
 {|
 | 贡献者
-| WP-1 多签人 || WP-2 节点 || WP-3 PoWh 
-| WP-4 社群 || WP-5 JNSDAO || WP-6 CGC 
-| WP-7 链 || WP-12 EcoFund || WP-13 网站
-| WP-8 浏览器 || WP-10 JTI || WP-16 红包
+| [[https://github.com/jouleverse/workspace/issues/1|WP-1]] 多签人 || [[https://github.com/jouleverse/workspace/issues/2|WP-2]] 节点 || [[https://github.com/jouleverse/workspace/issues/3|WP-3]] PoWh 
+| [[https://github.com/jouleverse/workspace/issues/4|WP-4]] 社群 || [[https://github.com/jouleverse/workspace/issues/5|WP-5]] JNSDAO || [[https://github.com/jouleverse/workspace/issues/6|WP-6]] CGC 
+| [[https://github.com/jouleverse/workspace/issues/7|WP-7]] 链 || [[https://github.com/jouleverse/workspace/issues/12|WP-12]] EcoFund || [[https://github.com/jouleverse/workspace/issues/13|WP-13]] 网站
+| [[https://github.com/jouleverse/workspace/issues/8|WP-8]] 浏览器 || [[https://github.com/jouleverse/workspace/issues/10|WP-10]] JTI || [[https://github.com/jouleverse/workspace/issues/16|WP-16]] 红包
 | 合计
 |-
 | yj
@@ -43,7 +43,7 @@
 | - || - || -
 | - || - || -
 | - || - || -
-| 45.3
+| 
 |-
 | 一痕
 | 0.5 || 0.5 || -
