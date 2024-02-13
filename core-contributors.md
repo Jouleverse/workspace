@@ -4,29 +4,29 @@ Core Contributors 核心贡献者
 
 | **昵称** | **github link** | **email** | **高级KYC** | **已加入 core-contributors**|
 |-|-|-|-|-|
-| Angel | [@Sunshinewla](https://github.com/Sunshinewla) | | Yes | Pending |
+| Angel | [@Sunshinewla](https://github.com/Sunshinewla) | | Yes | Yes |
 | Koant | [@koant-bit](https://github.com/koant-bit) |  | Yes | Yes |
 | Jacky | [@liujiaqiid](https://github.com/liujiaqiid) | | Yes | Pending |
 | 教链 | [@hmisty](https://github.com/hmisty) | evan (at) blockcoach.com | Yes | Yes |
 | Yihen | [@Yihen-Liu](https://github.com/Yihen-Liu) | | Yes | Yes |
 | 比尔盖 | [@biergai](https://github.com/biergai) | | Yes | Yes |
 | Open | [@open-666](https://github.com/open-666) | | Yes | Pending |
-| 芳芳 | [@zhao20200902](https://github.com/zhao20200902) | zhao20200902 (at) 163.com | Yes | Pending |
-| Menger | [@mengal](https://github.com/mengal) | mengaili1988 (at) 126.com | Yes | Pending |
+| 芳芳 | [@zhao20200902](https://github.com/zhao20200902) | zhao20200902 (at) 163.com | Yes | Yes |
+| Menger | [@mengal](https://github.com/mengal) | mengaili1988 (at) 126.com | Yes | Yes |
 | 岑云 | [@LU1986HZ](https://github.com/LU1986HZ) | yun.ceny (at) hotmail.com | Yes | Pending |
-| 稳清活(谢勇) | [@Timothyxie513](https://github.com/Timothyxie513) | | Yes | Pending |
-| 明海云 | [@240616-ming](https://github.com/240616-ming) | 28021246 (at) qq.com | Yes | - |
+| 稳清活(谢勇) | [@Timothyxie513](https://github.com/Timothyxie513) | | Yes | Yes |
+| 明海云 | [@240616-ming](https://github.com/240616-ming) | 28021246 (at) qq.com | Yes | Pending |
 | 楼兰渔夫 | | | Yes | - |
 | 张恩畅 | | | Yes | - |
-| li17 | [@lii1717](https://github.com/lii1717) | | Yes | - |
-| 火星 | [@gjw00001](https://github.com/gjw00001) | | Yes | - |
-| 严光红 | [@YGH200](https://github.com/240616-ming) | ygh200 (at) 126.com | Yes | - |
+| li17 | [@lii1717](https://github.com/lii1717) | | Yes | Pending |
+| 火星 | [@gjw00001](https://github.com/gjw00001) | | Yes | Pending |
+| 严光红 | [@YGH200](https://github.com/240616-ming) | ygh200 (at) 126.com | Yes | Pending |
 | 老谢 | | | Yes | - |
-| yj | [@AqoursSunshine](https://github.com/AqoursSunshine) | | Yes | Pending |
+| yj | [@AqoursSunshine](https://github.com/AqoursSunshine) | | Yes | Yes |
 | Jeff | [@29n](https://github.com/29n) |  | Yes | Pending |
 | LouisAwesome | | | Yes |  |
 | 狮子猫 | | | Yes |  |
-| 琰熙 | [@Yanxi02](https://github.com/Yanxi02) |  | Yes |  |
+| 琰熙 | [@Yanxi02](https://github.com/Yanxi02) |  | Yes | Pending |
 | gwendol |  |  | Yes |   |
 
 ---
