@@ -2,7 +2,7 @@ Core Contributors 核心贡献者
 
 此处列出核心贡献者的名单（为隐私保护起见，此处仅列出昵称和github id，接收激励的KYC信息暂由教链负责单独安全保管）
 
-| *昵称* | *github link* | *email* | *高级KYC* | *已加入 Jouleverse/core-contributors *|
+| **昵称** | **github link** | **email** | **高级KYC** | **已加入 core-contributors**|
 |-|-|-|-|-|
 | Angel | [@Sunshinewla](https://github.com/Sunshinewla) | | Yes | Pending |
 | Koant | [@koant-bit](https://github.com/koant-bit) |  | Yes | Yes |
@@ -22,9 +22,26 @@ Core Contributors 核心贡献者
 | 火星 | [@gjw00001](https://github.com/gjw00001) | | Yes | - |
 | 严光红 | [@YGH200](https://github.com/240616-ming) | ygh200 (at) 126.com | Yes | - |
 | 老谢 | | | Yes | - |
-| yj | [@AqoursSunshine](https://github.com/AqoursSunshine) | | Not yet | Pending |
+| yj | [@AqoursSunshine](https://github.com/AqoursSunshine) | | Yes | Pending |
+| Jeff | [@29n](https://github.com/29n) |  | Yes | Pending |
 | LouisAwesome | | | Yes |  |
 | 狮子猫 | | | Yes |  |
 | 琰熙 | [@Yanxi02](https://github.com/Yanxi02) |  | Yes |  |
 | gwendol |  |  | Yes |   |
 
+核心贡献者在github/Jouleverse的相关权限处理规则暂定如下：
+1. 仍在活跃贡献的core成员（前置条件：经过高等级KYC登记），其github id将被加入到[team "core-contributors"](https://github.com/orgs/Jouleverse/teams/core-contributors/members)；不活跃则及时移除。
+2. 所有core-contributors成员，均默认具有对github/Jouleverse下面所有源代码仓库（简称repo）——无论是public repo还是private repo——的读权限（Read）。非core-contributors成员，只对public repo有读权限。
+3. 一般情况下，所有人（包括非core-contributors成员）都可以fork具有读权限的repo，自由地编写新代码或文档内容，然后通过发送Pull Request（简称PR）的方式把自己的贡献提交code review（代码审查），合格的将被merge（合并）到repo，贡献被接收，成为有效贡献。
+4. 对于向某一repo活跃贡献代码或内容的核心贡献者，达到一定贡献度和活跃水平后，赋予写权限（Write）。非core-contibutors不可以采用赋予Write权限的方式来贡献！
+5. Maintain权限和Admin权限尚未确定。未来需要逐步考虑，以达到更高程度的去中心化。
+
+目前的写权限赋予情况：
+| **repo** | **type** | **public/private** | **about** | **Writers** |
+| explorer | code | public | a serverless block explorer | 教链, yj, Jeff |
+| redpacket | code | public | contract source code for a red packet implementation | 教链, Jeff |
+| audit | code | public | audit script and data | Jeff, 教链 |
+| jouleverse | code | private | chain node source code (will open later) | 一痕, 教链, Jacky |
+| go-relay | code | private | go implementation of relay server | 一痕, 教链 |
+| open-meetings | docs | public | CGC meeting minutes | 教链, 比尔盖, Koant |
+| workspace | docs | public | PoWh committee and data | 教链, Koant, 岑云(Invite expired) |
