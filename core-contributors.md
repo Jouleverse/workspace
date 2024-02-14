@@ -15,7 +15,7 @@ Core Contributors 核心贡献者
 | Jacky | [@liujiaqiid](https://github.com/liujiaqiid) | liujiaqiid (at) gmail.com | Yes | Pending |
 | 张恩畅 | | 584183702 (at) qq.com | Yes | - |
 | Open | [@open-666](https://github.com/open-666) | 18916392128 (at) 163.com | Yes | Pending |
-| 火星 | [@gjw00001](https://github.com/gjw00001) | gjw00001 (at) 126.com | Yes | Pending |
+| 火星 | [@gjw00001](https://github.com/gjw00001) | gjw00001 (at) 126.com | Yes | Yes |
 | 谢勇(稳清活) | [@Timothyxie513](https://github.com/Timothyxie513) | xieyong513 (at) 126.com | Yes | Yes |
 | Angel | [@Sunshinewla](https://github.com/Sunshinewla) | angelztwu2021 (at) gmail.com | Yes | Yes |
 | 比尔盖 | [@biergai](https://github.com/biergai) | 1320058132 (at) qq.com | Yes | Yes |
