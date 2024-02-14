@@ -24,14 +24,14 @@ Core Contributors 核心贡献者
 | gwendol(c) |  | gwendol (at) qq.com | Yes |   |
 | 教链(evan) | [@hmisty](https://github.com/hmisty) | evan (at) blockcoach.com | Yes | Yes |
 | 严光红 | [@YGH200](https://github.com/240616-ming) | ygh200 (at) 126.com | Yes | Pending |
-| 狮子猫 | [sizimao](https://github.com/sizimao) | 421292662 (at) qq.com | Yes |  |
-| 老谢 | [Dambo36142](https://github.com/Dambo36142) | 87420811 (at) qq.com | Yes | - |
+| 狮子猫 | [@sizimao](https://github.com/sizimao) | 421292662 (at) qq.com | Yes | Pending |
+| 老谢 | [@Dambo36142](https://github.com/Dambo36142) | 87420811 (at) qq.com | Yes | Pending |
 | Jeff | [@29n](https://github.com/29n) | 1864850 (at) qq.com | Yes | Pending |
 | yj | [@AqoursSunshine](https://github.com/AqoursSunshine) | 869987385 (at) qq.com | Yes | Yes |
-| kylin | [@kylin](https://github.com/kylin) | 251619366 (at) qq.com | Yes | - |
-| 王十二 | [amberwong0824](https://github.com/amberwong0824) | 1120869184 (at) qq.com | Yes | - |
-| 煜歌 | [tuoling1314](https://github.com/tuoling1314) | 1507117933 (at) qq.com | Yes | - |
-| cijin | [Astudysunny](https://github.com/Astudysunny) | cjverify (at) 163.com | Yes | - |
+| kylin | [@kylin](https://github.com/kylin) | 251619366 (at) qq.com | Yes | Pending |
+| 王十二 | [@amberwong0824](https://github.com/amberwong0824) | 1120869184 (at) qq.com | Yes | Pending |
+| 煜歌 | [@tuoling1314](https://github.com/tuoling1314) | 1507117933 (at) qq.com | Yes | Pending |
+| cijin | [@Astudysunny](https://github.com/Astudysunny) | cjverify (at) 163.com | Yes | Pending |
 
 ---
 
