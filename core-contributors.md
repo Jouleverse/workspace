@@ -4,30 +4,34 @@ Core Contributors 核心贡献者
 
 | **昵称** | **github link** | **email** | **高级KYC** | **已加入 core-contributors**|
 |-|-|-|-|-|
-| Angel | [@Sunshinewla](https://github.com/Sunshinewla) | | Yes | Yes |
-| Koant | [@koant-bit](https://github.com/koant-bit) |  | Yes | Yes |
-| Jacky | [@liujiaqiid](https://github.com/liujiaqiid) | | Yes | Pending |
-| 教链 | [@hmisty](https://github.com/hmisty) | evan (at) blockcoach.com | Yes | Yes |
-| Yihen | [@Yihen-Liu](https://github.com/Yihen-Liu) | | Yes | Yes |
-| 比尔盖 | [@biergai](https://github.com/biergai) | | Yes | Yes |
-| Open | [@open-666](https://github.com/open-666) | | Yes | Pending |
+| Koant | [@koant-bit](https://github.com/koant-bit) | koant.j (at) jnsdao.com | Yes | Yes |
 | 芳芳 | [@zhao20200902](https://github.com/zhao20200902) | zhao20200902 (at) 163.com | Yes | Yes |
-| Menger | [@mengal](https://github.com/mengal) | mengaili1988 (at) 126.com | Yes | Yes |
 | 岑云 | [@LU1986HZ](https://github.com/LU1986HZ) | yun.ceny (at) hotmail.com | Yes | Pending |
-| 稳清活(谢勇) | [@Timothyxie513](https://github.com/Timothyxie513) | | Yes | Yes |
+| 楼兰渔夫 | | 139527518 (at) qq.com | Yes | - |
+| Menger | [@mengal](https://github.com/mengal) | mengaili1988 (at) 126.com | Yes | Yes |
+| li17 | [@lii1717](https://github.com/lii1717) | lilei855x (at) 163.com | Yes | Pending |
 | 明海云 | [@240616-ming](https://github.com/240616-ming) | 28021246 (at) qq.com | Yes | Pending |
-| 楼兰渔夫 | | | Yes | - |
-| 张恩畅 | | | Yes | - |
-| li17 | [@lii1717](https://github.com/lii1717) | | Yes | Pending |
-| 火星 | [@gjw00001](https://github.com/gjw00001) | | Yes | Pending |
+| Yihen | [@Yihen-Liu](https://github.com/Yihen-Liu) | liuyihen (at) yeah.net | Yes | Yes |
+| Jacky | [@liujiaqiid](https://github.com/liujiaqiid) | liujiaqiid (at) gmail.com | Yes | Pending |
+| 张恩畅 | | 584183702 (at) qq.com | Yes | - |
+| Open | [@open-666](https://github.com/open-666) | 18916392128 (at) 163.com | Yes | Pending |
+| 火星 | [@gjw00001](https://github.com/gjw00001) | gjw00001 (at) 126.com | Yes | Pending |
+| 谢勇(稳清活) | [@Timothyxie513](https://github.com/Timothyxie513) | xieyong513 (at) 126.com | Yes | Yes |
+| Angel | [@Sunshinewla](https://github.com/Sunshinewla) | angelztwu2021 (at) gmail.com | Yes | Yes |
+| 比尔盖 | [@biergai](https://github.com/biergai) | 1320058132 (at) qq.com | Yes | Yes |
+| LouisAwesome | | louisluyuan (at) yahoo.com | Yes |  |
+| 琰熙 | [@Yanxi02](https://github.com/Yanxi02) | 812431358 (at) qq.com | Yes | Pending |
+| gwendol(c) |  | gwendol (at) qq.com | Yes |   |
+| 教链(evan) | [@hmisty](https://github.com/hmisty) | evan (at) blockcoach.com | Yes | Yes |
 | 严光红 | [@YGH200](https://github.com/240616-ming) | ygh200 (at) 126.com | Yes | Pending |
-| 老谢 | | | Yes | - |
-| yj | [@AqoursSunshine](https://github.com/AqoursSunshine) | | Yes | Yes |
-| Jeff | [@29n](https://github.com/29n) |  | Yes | Pending |
-| LouisAwesome | | | Yes |  |
-| 狮子猫 | | | Yes |  |
-| 琰熙 | [@Yanxi02](https://github.com/Yanxi02) |  | Yes | Pending |
-| gwendol |  |  | Yes |   |
+| 狮子猫 | [sizimao](https://github.com/sizimao) | 421292662 (at) qq.com | Yes |  |
+| 老谢 | [Dambo36142](https://github.com/Dambo36142) | 87420811 (at) qq.com | Yes | - |
+| Jeff | [@29n](https://github.com/29n) | 1864850 (at) qq.com | Yes | Pending |
+| yj | [@AqoursSunshine](https://github.com/AqoursSunshine) | 869987385 (at) qq.com | Yes | Yes |
+| kylin | [@kylin](https://github.com/kylin) | 251619366 (at) qq.com | Yes | - |
+| 王十二 | [amberwong0824](https://github.com/amberwong0824) | 1120869184 (at) qq.com | Yes | - |
+| 煜歌 | [tuoling1314](https://github.com/tuoling1314) | 1507117933 (at) qq.com | Yes | - |
+| cijin | [Astudysunny](https://github.com/Astudysunny) | cjverify (at) 163.com | Yes | - |
 
 ---
 
