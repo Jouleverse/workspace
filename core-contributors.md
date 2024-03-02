@@ -19,7 +19,7 @@ Core Contributors 核心贡献者
 | 谢勇(稳清活) | [@Timothyxie513](https://github.com/Timothyxie513) | xieyong513 (at) 126.com | Yes | Yes |
 | Angel | [@Sunshinewla](https://github.com/Sunshinewla) | angelztwu2021 (at) gmail.com | Yes | Yes |
 | 比尔盖 | [@biergai](https://github.com/biergai) | 1320058132 (at) qq.com | Yes | Yes |
-| LouisAwesome | | louisluyuan (at) yahoo.com | Yes |  |
+| LouisAwesome | [wowodog126](https://github.com/wowodog126) | louisluyuan (at) yahoo.com | Yes |  |
 | 琰熙 | [@Yanxi02](https://github.com/Yanxi02) | 812431358 (at) qq.com | Yes | Pending |
 | gwendol(c) |  | gwendol (at) qq.com | Yes |   |
 | 教链(evan) | [@hmisty](https://github.com/hmisty) | evan (at) blockcoach.com | Yes | Yes |
