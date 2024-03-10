@@ -7,7 +7,7 @@ Core Contributors 核心贡献者
 | Koant | [@koant-bit](https://github.com/koant-bit) | koant.j (at) jnsdao.com | Yes | Yes |
 | 芳芳 | [@zhao20200902](https://github.com/zhao20200902) | zhao20200902 (at) 163.com | Yes | Yes |
 | 岑云 | [@LU1986HZ](https://github.com/LU1986HZ) | yun.ceny (at) hotmail.com | Yes | Pending |
-| 楼兰渔夫 | | 139527518 (at) qq.com | Yes | - |
+| 楼兰渔夫 | [@LouLanFisherman](https://github.com/LouLanFisherman) | 139527518 (at) qq.com | Yes | Pending |
 | Menger | [@mengal](https://github.com/mengal) | mengaili1988 (at) 126.com | Yes | Yes |
 | li17 | [@lii1717](https://github.com/lii1717) | lilei855x (at) 163.com | Yes | Pending |
 | 明海云 | [@240616-ming](https://github.com/240616-ming) | 28021246 (at) qq.com | Yes | Pending |
