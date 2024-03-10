@@ -45,7 +45,7 @@ Core Contributors 核心贡献者
 目前的写权限赋予情况：
 | **repo** | **type** | **public/private** | **about** | **Writers** |
 |-|-|-|-|-|
-| [ecofund](https://github.com/Jouleverse/ecofund) | docs | public | the first ecofund exercise | 教链, LouisAwesome |
+| [ecofund1](https://github.com/Jouleverse/ecofund1) | docs | public | the first ecofund exercise | 教链, LouisAwesome(invite expired), 楼兰渔夫 |
 | [explorer](https://github.com/Jouleverse/explorer) | code | public | a serverless block explorer | 教链, yj, Jeff |
 | [redpacket](https://github.com/Jouleverse/redpacket) | code | public | contract source code for a red packet implementation | 教链, Jeff |
 | [audit](https://github.com/Jouleverse/audit) | code | public | audit script and data | Jeff, 教链 |
