@@ -1,37 +1,38 @@
 Core Contributors 核心贡献者
 
-此处列出核心贡献者的名单（为隐私保护起见，此处仅列出昵称和github id，接收激励的KYC信息暂由教链负责单独安全保管）
+此处列出核心贡献者的名单（为隐私保护起见，此处仅列出昵称和github id，接收激励的KYC信息暂由教链负责单独安全保管）。
+注：登记日期以[正确填报高级KYC信息日期](https://docs.qq.com/form/page/DTHBITWl4dGdRQlVo)为准（审核后置，若信息有误审核不通过则需要重填重审）。
 
-| **昵称** | **github link** | **email** | **高级KYC** | **已加入 core-contributors**|
-|-|-|-|-|-|
-| Koant | [@koant-bit](https://github.com/koant-bit) | koant.j (at) jnsdao.com | Yes | Yes |
-| 芳芳 | [@zhao20200902](https://github.com/zhao20200902) | zhao20200902 (at) 163.com | Yes | Yes |
-| 岑云 | [@LU1986HZ](https://github.com/LU1986HZ) | yun.ceny (at) hotmail.com | Yes | Pending |
-| 楼兰渔夫 | [@LouLanFisherman](https://github.com/LouLanFisherman) | 139527518 (at) qq.com | Yes | Pending |
-| Menger | [@mengal](https://github.com/mengal) | mengaili1988 (at) 126.com | Yes | Yes |
-| li17 | [@lii1717](https://github.com/lii1717) | lilei855x (at) 163.com | Yes | Pending |
-| 明海云 | [@240616-ming](https://github.com/240616-ming) | 28021246 (at) qq.com | Yes | Pending |
-| Yihen | [@Yihen-Liu](https://github.com/Yihen-Liu) | liuyihen (at) yeah.net | Yes | Yes |
-| Jacky | [@liujiaqiid](https://github.com/liujiaqiid) | liujiaqiid (at) gmail.com | Yes | Pending |
-| 张恩畅 | | 584183702 (at) qq.com | Yes | - |
-| Open | [@open-666](https://github.com/open-666) | 18916392128 (at) 163.com | Yes | Pending |
-| 火星 | [@gjw00001](https://github.com/gjw00001) | gjw00001 (at) 126.com | Yes | Yes |
-| 谢勇(稳清活) | [@Timothyxie513](https://github.com/Timothyxie513) | xieyong513 (at) 126.com | Yes | Yes |
-| Angel | [@Sunshinewla](https://github.com/Sunshinewla) | angelztwu2021 (at) gmail.com | Yes | Yes |
-| 比尔盖 | [@biergai](https://github.com/biergai) | 1320058132 (at) qq.com | Yes | Yes |
-| LouisAwesome | [@wowodog126](https://github.com/wowodog126) | louisluyuan (at) yahoo.com | Yes |  |
-| 琰熙 | [@Yanxi02](https://github.com/Yanxi02) | 812431358 (at) qq.com | Yes | Pending |
-| gwendol(c) |  | gwendol (at) qq.com | Yes |   |
-| 教链(evan) | [@hmisty](https://github.com/hmisty) | evan (at) blockcoach.com | Yes | Yes |
-| 严光红 | [@YGH200](https://github.com/240616-ming) | ygh200 (at) 126.com | Yes | Pending |
-| 狮子猫 | [@sizimao](https://github.com/sizimao) | 421292662 (at) qq.com | Yes | Pending |
-| 老谢 | [@Dambo36142](https://github.com/Dambo36142) | 87420811 (at) qq.com | Yes | Pending |
-| Jeff | [@29n](https://github.com/29n) | 1864850 (at) qq.com | Yes | Pending |
-| yj | [@AqoursSunshine](https://github.com/AqoursSunshine) | 869987385 (at) qq.com | Yes | Yes |
-| kylin | [@kylin](https://github.com/kylin) | 251619366 (at) qq.com | Yes | Pending |
-| 王十二 | [@amberwong0824](https://github.com/amberwong0824) | 1120869184 (at) qq.com | Yes | Pending |
-| 煜歌 | [@tuoling1314](https://github.com/tuoling1314) | 1507117933 (at) qq.com | Yes | Pending |
-| cijin | [@Astudysunny](https://github.com/Astudysunny) | cjverify (at) 163.com | Yes | Pending |
+| **昵称** | **github link** |  **github组织** | **email** | **高级KYC** | **登记日期** |
+|-|-|-|-|-|-|
+| Koant | [@koant-bit](https://github.com/koant-bit) | Yes | koant.j (at) jnsdao.com | ✅ | 2022/10/1 | 
+| 芳芳 | [@zhao20200902](https://github.com/zhao20200902) | Yes |zhao20200902 (at) 163.com | ✅ | 2022/10/1 |
+| 岑云 | [@LU1986HZ](https://github.com/LU1986HZ) | Pending | yun.ceny (at) hotmail.com | ✅ | 2022/10/1 |
+| 楼兰渔夫 | [@LouLanFisherman](https://github.com/LouLanFisherman) | Pending | 139527518 (at) qq.com | ✅ | 2022/10/1 |
+| Menger | [@mengal](https://github.com/mengal) | Yes | mengaili1988 (at) 126.com | ✅ | 2023/2/1 |
+| li17 | [@lii1717](https://github.com/lii1717) | Pending | lilei855x (at) 163.com | ✅ | 2023/2/1 |
+| 明海云 | [@240616-ming](https://github.com/240616-ming) | Pending | 28021246 (at) qq.com | ✅ | 2022/10/1 |
+| Yihen | [@Yihen-Liu](https://github.com/Yihen-Liu) | Yes | liuyihen (at) yeah.net | ✅ | 2022/10/1 |
+| Jacky | [@liujiaqiid](https://github.com/liujiaqiid) | Pending | liujiaqiid (at) gmail.com | ✅ | 2022/10/1 |
+| 张恩畅 | - | - | 584183702 (at) qq.com | ✅ | 2023/7/26 |
+| Open | [@open-666](https://github.com/open-666) | Pending | 18916392128 (at) 163.com | ✅ | 2023/7/26 |
+| 火星 | [@gjw00001](https://github.com/gjw00001) | Yes | gjw00001 (at) 126.com | ✅ | 2023/7/26 |
+| 谢勇(稳清活) | [@Timothyxie513](https://github.com/Timothyxie513) | Yes | xieyong513 (at) 126.com | ✅ | 2023/7/30 |
+| Angel | [@Sunshinewla](https://github.com/Sunshinewla) | Yes | angelztwu2021 (at) gmail.com | ✅ | 2023/8/9 |
+| 比尔盖 | [@biergai](https://github.com/biergai) | Yes | 1320058132 (at) qq.com | ✅ | 2023/10/13 |
+| LouisAwesome | [@wowodog126](https://github.com/wowodog126) | - | louisluyuan (at) yahoo.com | ✅ | 2024/1/20 |
+| 琰熙 | [@Yanxi02](https://github.com/Yanxi02) | Pending | 812431358 (at) qq.com | ✅ | 2024/1/21 | 
+| gwendol(c) | - | - | gwendol (at) qq.com | ✅ | 2024/1/23 |
+| 教链(evan) | [@hmisty](https://github.com/hmisty) |  Yes | evan (at) blockcoach.com | ✅ | 2022/10/1 |
+| 严光红 | [@YGH200](https://github.com/240616-ming) | Pending | ygh200 (at) 126.com | ✅ | 2024/1/30 |
+| 狮子猫 | [@sizimao](https://github.com/sizimao) | Pending | 421292662 (at) qq.com | ✅ | 2024/1/30 | 
+| 老谢 | [@Dambo36142](https://github.com/Dambo36142) | Pending | 87420811 (at) qq.com | ✅ | 2024/1/30 |
+| Jeff | [@29n](https://github.com/29n) | Pending | 1864850 (at) qq.com | ✅ | 2024/1/31 |
+| yj | [@AqoursSunshine](https://github.com/AqoursSunshine) | Yes | 869987385 (at) qq.com | ✅ | 2024/2/2 |
+| kylin | [@kylin](https://github.com/kylin) | Pending | 251619366 (at) qq.com | ✅ | 2024/2/4 |
+| 王十二 | [@amberwong0824](https://github.com/amberwong0824) | Pending | 1120869184 (at) qq.com | ✅ | 2024/2/4 |
+| 煜歌 | [@tuoling1314](https://github.com/tuoling1314) | Pending | 1507117933 (at) qq.com | ✅ | 2024/2/5 |
+| cijin | [@Astudysunny](https://github.com/Astudysunny) | Pending | cjverify (at) 163.com | ✅ | 2024/2/7 |
 
 ---
 
@@ -51,5 +52,5 @@ Core Contributors 核心贡献者
 | [audit](https://github.com/Jouleverse/audit) | code | public | audit script and data | Jeff, 教链 |
 | [jouleverse](https://github.com/Jouleverse/jouleverse) | code | private | chain node source code (will open later) | 一痕, 教链, Jacky |
 | [go-relay](https://github.com/Jouleverse/go-relay) | code | private | go implementation of relay server | 一痕, 教链 |
-| [open-meetings](https://github.com/Jouleverse/open-meetings) | docs | public | CGC meeting minutes | 教链, 比尔盖, Koant |
+| [open-meetings](https://github.com/Jouleverse/open-meetings) | docs | public | CGC meeting minutes | 教链, 比尔盖, Koant, 福 |
 | [workspace](https://github.com/Jouleverse/workspace) | docs | public | PoWh committee and data | 教链, Koant, 岑云(Invite expired) |
