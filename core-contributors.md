@@ -33,6 +33,17 @@ Core Contributors 核心贡献者
 | 王十二 | [@amberwong0824](https://github.com/amberwong0824) | Pending | 1120869184 (at) qq.com | ✅ | 2024/2/4 |
 | 煜歌 | [@tuoling1314](https://github.com/tuoling1314) | Pending | 1507117933 (at) qq.com | ✅ | 2024/2/5 |
 | cijin | [@Astudysunny](https://github.com/Astudysunny) | Pending | cjverify (at) 163.com | ✅ | 2024/2/7 |
+布道外部山 | [@king-68](https://github.com/king-68) | - | younyww (at) 126.com | ✅ | 2024/2/18
+得葱 | [@decong2077](https://github.com/decong2077) | - | decong2077 (at) foxmail.com | ✅ | 2024/2/18
+剪云为裳 | ❌ | - | 527628414 (at) qq.com | ✅ | 2024/3/2
+Victor | [@geevictor](https://github.com/geevictor) | - | 532794421 (at) qq.com | ✅ | 2024/3/3
+花开的声音 | ❌ | - | 3265354002 (at) qq.com | ✅ | 2024/3/9
+星际 | [@qianbo-mxc20](https://github.com/qianbo-mxc20) | - | bo.qian (at) live.com | ✅ | 2024/3/12
+福 | [@afu100860](https://github.com/afu100860) | - | lidaofu_zlx (at) 163.com | ✅ | 2024/3/14
+米高 | [@jason8605](https://github.com/jason8605) | - | 1251534576 (at) qq.com | ✅ | 2024/3/14
+Ted | [@weffer001](https://github.com/weffer001) | - | ccie123 (at) 139.com | ✅ | 2024/3/21
+团子 | ❌ | - | 982232488 (at) qq.com | ✅ | 2024/3/24
+杨敦鹏 | ❌ | - | 1223932404 (at) qq.com | ✅ | 2024/3/26
 
 ---
 
