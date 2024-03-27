@@ -8,10 +8,10 @@ Core Contributors 核心贡献者
 | Koant | [@koant-bit](https://github.com/koant-bit) | Yes | koant.j (at) jnsdao.com | ✅ | 2022/10/1 | 
 | 芳芳 | [@zhao20200902](https://github.com/zhao20200902) | Yes |zhao20200902 (at) 163.com | ✅ | 2022/10/1 |
 | 岑云 | [@LU1986HZ](https://github.com/LU1986HZ) | Pending | yun.ceny (at) hotmail.com | ✅ | 2022/10/1 |
-| 楼兰渔夫 | [@LouLanFisherman](https://github.com/LouLanFisherman) | Pending | 139527518 (at) qq.com | ✅ | 2022/10/1 |
+| 楼兰渔夫 | [@LouLanFisherman](https://github.com/LouLanFisherman) | Yes | 139527518 (at) qq.com | ✅ | 2022/10/1 |
 | Menger | [@mengal](https://github.com/mengal) | Yes | mengaili1988 (at) 126.com | ✅ | 2023/2/1 |
 | li17 | [@lii1717](https://github.com/lii1717) | Pending | lilei855x (at) 163.com | ✅ | 2023/2/1 |
-| 明海云 | [@240616-ming](https://github.com/240616-ming) | Pending | 28021246 (at) qq.com | ✅ | 2022/10/1 |
+| 明海云 | [@240616-ming](https://github.com/240616-ming) | Yes | 28021246 (at) qq.com | ✅ | 2022/10/1 |
 | Yihen | [@Yihen-Liu](https://github.com/Yihen-Liu) | Yes | liuyihen (at) yeah.net | ✅ | 2022/10/1 |
 | Jacky | [@liujiaqiid](https://github.com/liujiaqiid) | Pending | liujiaqiid (at) gmail.com | ✅ | 2022/10/1 |
 | 张恩畅 | [@enchang1](https://github.com/enchang1) | Yes | 584183702 (at) qq.com | ✅ | 2023/7/26 |
@@ -20,28 +20,28 @@ Core Contributors 核心贡献者
 | 谢勇(稳清活) | [@Timothyxie513](https://github.com/Timothyxie513) | Yes | xieyong513 (at) 126.com | ✅ | 2023/7/30 |
 | Angel | [@Sunshinewla](https://github.com/Sunshinewla) | Yes | angelztwu2021 (at) gmail.com | ✅ | 2023/8/9 |
 | 比尔盖 | [@biergai](https://github.com/biergai) | Yes | 1320058132 (at) qq.com | ✅ | 2023/10/13 |
-| LouisAwesome | [@wowodog126](https://github.com/wowodog126) | - | louisluyuan (at) yahoo.com | ✅ | 2024/1/20 |
+| LouisAwesome | [@wowodog126](https://github.com/wowodog126) | Pending | louisluyuan (at) yahoo.com | ✅ | 2024/1/20 |
 | 琰熙 | [@Yanxi02](https://github.com/Yanxi02) | Pending | 812431358 (at) qq.com | ✅ | 2024/1/21 | 
 | gwendol(c) | - | - | gwendol (at) qq.com | ✅ | 2024/1/23 |
 | 教链(evan) | [@hmisty](https://github.com/hmisty) |  Yes | evan (at) blockcoach.com | ✅ | 2022/10/1 |
 | 严光红 | [@YGH200](https://github.com/240616-ming) | Pending | ygh200 (at) 126.com | ✅ | 2024/1/30 |
-| 狮子猫 | [@sizimao](https://github.com/sizimao) | Pending | 421292662 (at) qq.com | ✅ | 2024/1/30 | 
+| 狮子猫 | [@sizimao](https://github.com/sizimao) | Yes | 421292662 (at) qq.com | ✅ | 2024/1/30 | 
 | 老谢 | [@Dambo36142](https://github.com/Dambo36142) | Pending | 87420811 (at) qq.com | ✅ | 2024/1/30 |
-| Jeff | [@29n](https://github.com/29n) | Pending | 1864850 (at) qq.com | ✅ | 2024/1/31 |
+| Jeff | [@29n](https://github.com/29n) | Yes | 1864850 (at) qq.com | ✅ | 2024/1/31 |
 | yj | [@AqoursSunshine](https://github.com/AqoursSunshine) | Yes | 869987385 (at) qq.com | ✅ | 2024/2/2 |
 | kylin | [@kylin](https://github.com/kylin) | Pending | 251619366 (at) qq.com | ✅ | 2024/2/4 |
-| 王十二 | [@amberwong0824](https://github.com/amberwong0824) | Pending | 1120869184 (at) qq.com | ✅ | 2024/2/4 |
+| 王十二 | [@amberwong0824](https://github.com/amberwong0824) | Yes | 1120869184 (at) qq.com | ✅ | 2024/2/4 |
 | 煜歌 | [@tuoling1314](https://github.com/tuoling1314) | Pending | 1507117933 (at) qq.com | ✅ | 2024/2/5 |
 | cijin | [@Astudysunny](https://github.com/Astudysunny) | Pending | cjverify (at) 163.com | ✅ | 2024/2/7 |
-布道外部山 | [@king-68](https://github.com/king-68) | - | younyww (at) 126.com | ✅ | 2024/2/18
-得葱 | [@decong2077](https://github.com/decong2077) | - | decong2077 (at) foxmail.com | ✅ | 2024/2/18
-剪云为裳 | [zhm114](https://github.com/zhm114) | Pending | 527628414 (at) qq.com | ✅ | 2024/3/2
-Victor | [@geevictor](https://github.com/geevictor) | - | 532794421 (at) qq.com | ✅ | 2024/3/3
+布道外部山 | [@king-68](https://github.com/king-68) | Pending | younyww (at) 126.com | ✅ | 2024/2/18
+得葱 | [@decong2077](https://github.com/decong2077) | Pending | decong2077 (at) foxmail.com | ✅ | 2024/2/18
+剪云为裳 | [@zhm114](https://github.com/zhm114) | Pending | 527628414 (at) qq.com | ✅ | 2024/3/2
+Victor | [@geevictor](https://github.com/geevictor) | Pending | 532794421 (at) qq.com | ✅ | 2024/3/3
 花开的声音 | ❌ | - | 3265354002 (at) qq.com | ✅ | 2024/3/9
-星际 | [@qianbo-mxc20](https://github.com/qianbo-mxc20) | - | bo.qian (at) live.com | ✅ | 2024/3/12
-福 | [@afu100860](https://github.com/afu100860) | - | lidaofu_zlx (at) 163.com | ✅ | 2024/3/14
-米高 | [@jason8605](https://github.com/jason8605) | - | 1251534576 (at) qq.com | ✅ | 2024/3/14
-Ted | [@weffer001](https://github.com/weffer001) | - | ccie123 (at) 139.com | ✅ | 2024/3/21
+星际 | [@qianbo-mxc20](https://github.com/qianbo-mxc20) | Pending | bo.qian (at) live.com | ✅ | 2024/3/12
+福 | [@afu100860](https://github.com/afu100860) | Pending | lidaofu_zlx (at) 163.com | ✅ | 2024/3/14
+米高 | [@jason8605](https://github.com/jason8605) | Pending | 1251534576 (at) qq.com | ✅ | 2024/3/14
+Ted | [@weffer001](https://github.com/weffer001) | Pending | ccie123 (at) 139.com | ✅ | 2024/3/21
 团子 | ❌ | - | 982232488 (at) qq.com | ✅ | 2024/3/24
 杨敦鹏 | ❌ | - | 1223932404 (at) qq.com | ✅ | 2024/3/26
 
