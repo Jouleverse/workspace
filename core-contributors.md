@@ -14,7 +14,7 @@ Core Contributors 核心贡献者
 | 明海云 | [@240616-ming](https://github.com/240616-ming) | Pending | 28021246 (at) qq.com | ✅ | 2022/10/1 |
 | Yihen | [@Yihen-Liu](https://github.com/Yihen-Liu) | Yes | liuyihen (at) yeah.net | ✅ | 2022/10/1 |
 | Jacky | [@liujiaqiid](https://github.com/liujiaqiid) | Pending | liujiaqiid (at) gmail.com | ✅ | 2022/10/1 |
-| 张恩畅 | - | - | 584183702 (at) qq.com | ✅ | 2023/7/26 |
+| 张恩畅 | [@enchang1](https://github.com/enchang1) | Yes | 584183702 (at) qq.com | ✅ | 2023/7/26 |
 | Open | [@open-666](https://github.com/open-666) | Pending | 18916392128 (at) 163.com | ✅ | 2023/7/26 |
 | 火星 | [@gjw00001](https://github.com/gjw00001) | Yes | gjw00001 (at) 126.com | ✅ | 2023/7/26 |
 | 谢勇(稳清活) | [@Timothyxie513](https://github.com/Timothyxie513) | Yes | xieyong513 (at) 126.com | ✅ | 2023/7/30 |
