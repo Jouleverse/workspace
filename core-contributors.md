@@ -43,7 +43,11 @@ Victor | [@geevictor](https://github.com/geevictor) | Pending | 532794421 (at) q
 米高 | [@jason8605](https://github.com/jason8605) | Pending | 1251534576 (at) qq.com | ✅ | 2024/3/14
 Ted | [@weffer001](https://github.com/weffer001) | Pending | ccie123 (at) 139.com | ✅ | 2024/3/21
 团子 | ❌ | - | 982232488 (at) qq.com | ✅ | 2024/3/24
-杨敦鹏 | ❌ | - | 1223932404 (at) qq.com | ✅ | 2024/3/26
+杨敦鹏 | [@066y](https://github.com/066y) | - | 1223932404 (at) qq.com | ✅ | 2024/3/26
+xiangwang | [@xiangwang6300](https://github.com/xiangwang6300) | - | zhuhongyi55 (at) 126.com | ✅ | 2024/3/29
+邱泳渼 | [@qymei123](https://github.com/qymei123) | - | 2064404262 (at) qq.com | ✅ | 2024/3/31
+子非鱼 | ❌ | - | 52240777 (at) qq.com | ✅ | 2024/3/31
+星语欣愿 | [@xingyu13146](https://github.com/xingyu13146) | - | lna02601 (at) gmail.com | ✅ | 2024/3/31
 
 ---
 
