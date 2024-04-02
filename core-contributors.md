@@ -37,12 +37,12 @@ Core Contributors 核心贡献者
 得葱 | [@decong2077](https://github.com/decong2077) | Pending | decong2077 (at) foxmail.com | ✅ | 2024/2/18
 剪云为裳 | [@zhm114](https://github.com/zhm114) | Pending | 527628414 (at) qq.com | ✅ | 2024/3/2
 Victor | [@geevictor](https://github.com/geevictor) | Pending | 532794421 (at) qq.com | ✅ | 2024/3/3
-花开的声音 | ❌ | - | 3265354002 (at) qq.com | ✅ | 2024/3/9
+花开的声音 | [@wyd11223](https://github.com/wyd11223) | - | 3265354002 (at) qq.com | ✅ | 2024/3/9
 星际 | [@qianbo-mxc20](https://github.com/qianbo-mxc20) | Pending | bo.qian (at) live.com | ✅ | 2024/3/12
 福 | [@afu100860](https://github.com/afu100860) | Pending | lidaofu_zlx (at) 163.com | ✅ | 2024/3/14
 米高 | [@jason8605](https://github.com/jason8605) | Pending | 1251534576 (at) qq.com | ✅ | 2024/3/14
 Ted | [@weffer001](https://github.com/weffer001) | Pending | ccie123 (at) 139.com | ✅ | 2024/3/21
-团子 | ❌ | - | 982232488 (at) qq.com | ✅ | 2024/3/24
+团子 | [@tuanzi0411](https://github.com/tuanzi0411) | - | 982232488 (at) qq.com | ✅ | 2024/3/24
 杨敦鹏 | [@066y](https://github.com/066y) | - | 1223932404 (at) qq.com | ✅ | 2024/3/26
 xiangwang | [@xiangwang6300](https://github.com/xiangwang6300) | - | zhuhongyi55 (at) 126.com | ✅ | 2024/3/29
 邱泳渼 | [@qymei123](https://github.com/qymei123) | - | 2064404262 (at) qq.com | ✅ | 2024/3/31
