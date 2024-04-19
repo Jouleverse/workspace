@@ -48,6 +48,7 @@ xiangwang | [@xiangwang6300](https://github.com/xiangwang6300) | - | zhuhongyi55
 邱泳渼 | [@qymei123](https://github.com/qymei123) | - | 2064404262 (at) qq.com | ✅ | 2024/3/31
 子非鱼 | ❌ | - | 52240777 (at) qq.com | ✅ | 2024/3/31
 星语欣愿 | [@xingyu13146](https://github.com/xingyu13146) | - | lna02601 (at) gmail.com | ✅ | 2024/3/31
+jay.j | [@SpyForger](https://github.com/SpyForger) | - | bluyee (at) 163.com | ✅ | 2024/4/19
 
 ---
 
