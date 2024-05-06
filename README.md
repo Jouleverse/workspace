@@ -31,13 +31,18 @@
 目前active的工作包及其规范，请参见 [Work Package Specs](work-package-specs.mediawiki)
 
 历史工作量统计及激励发放数据表：
-* [2022.10-2023.8](data/powh-data-202210-to-202308.mediawiki)
-* [2023.9](data/powh-data-202309.mediawiki)
-* [2023.10](data/powh-data-202310.mediawiki)
-* [2023.11](data/powh-data-202311.mediawiki)
-* [2023.12](data/powh-data-202312.mediawiki)
-* [2024.01](data/powh-data-202401.mediawiki)
-* [2024.02](data/powh-data-202402.mediawiki)
+
+ **统计月份** | **统计人** | **执行人** | **执行日期**
+ -|-|-|-|-
+[2022.10-2023.8](data/powh-data-202210-to-202308.mediawiki) | 教链 | 教链 | 2023
+[2023.9](data/powh-data-202309.mediawiki) | 教链 | 教链 | 2023.12.5
+[2023.10](data/powh-data-202310.mediawiki) | Koant | 教链 | 2023.12.10
+[2023.11](data/powh-data-202311.mediawiki) | 岑云 | 教链 | 2024.1.19
+[2023.12](data/powh-data-202312.mediawiki) | Koant | 教链 | 2024.1.30
+[2024.01](data/powh-data-202401.mediawiki) | 教链 | 教链 | 2024.2.16
+[2024.02](data/powh-data-202402.mediawiki) | 星际 | 教链 | 2024.4.3
+2024.03 | 岑云 | - | -
+2024.04 | - | - | -
 
 # 预算机制
 
