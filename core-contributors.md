@@ -1,15 +1,14 @@
 # Core Contributors 核心贡献者
 
-此处列出核心贡献者的名单（为隐私保护起见，此处仅列出昵称和github id，接收激励的KYC信息暂由教链负责另处安全保管）。
+此处列出核心贡献者的名单（为隐私保护起见，此处仅列出昵称、github id、空投接收地址等公开信息，高级KYC信息暂由教链负责另处安全保管）。
 
-注意：请在每月PoWh工作量统计之前完成登记，否则将有可能无法被纳入统计。
+> 注意：请在每月PoWh工作量统计之前完成登记，否则将有可能无法被纳入统计。
 
-注1：登记日期以[正确填报高级KYC信息日期](https://docs.qq.com/form/page/DTHBITWl4dGdRQlVo)为准（审核后置，若信息有误审核不通过则需要重填重审）。
-
-注2：原则上，空投接收地址不接受中途更改，以避免空投发放出错等问题。
+* 注1：登记日期以[正确填报高级KYC信息日期](https://docs.qq.com/form/page/DTHBITWl4dGdRQlVo)为准（审核后置，若信息有误审核不通过则需要重填重审）。
+* 注2：原则上，空投接收地址不接受中途更改，以避免空投发放出错等问题。
 
 | **昵称** | **github link** |  **github组织** | **联络email** | **空投接收地址** | **JNS域名** |  **高级KYC** | **登记日期** |
-|-|-|-|-|-|-|
+|-|-|-|-|-|-|-|-|
 | Koant | [@koant-bit](https://github.com/koant-bit) | Yes | koant.j (at) jnsdao.com | 0x5BF50F2931688F886F46f88D5CEEDE530bB92076 | bit.j | ✅ | 2022/10/1 | 
 | 芳芳 | [@zhao20200902](https://github.com/zhao20200902) | Yes |zhao20200902 (at) 163.com | 0xB2b4596664EA23cC4a871887b9A5CCE16FE8FD1e | fang.j | ✅ | 2022/10/1 |
 | 岑云 | [@LU1986HZ](https://github.com/LU1986HZ) | Pending | yun.ceny (at) hotmail.com | 0xEDaD6273b53A38f827407A43AfFf71B1F8dd3a22 | 1024.j | ✅ | 2022/10/1 |
