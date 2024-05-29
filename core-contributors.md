@@ -8,7 +8,7 @@
 * 注2：原则上，空投接收地址不接受中途更改，以避免空投发放出错等问题。
 
 **昵称** | **高级KYC** | **github link** |  **github组织** | **空投接收地址** | **JNS域名** | **登记日期**
--|-|-|-|-|-|-|-|
+-|-|-|-|-|-|-
 Koant | ✅ | [@koant-bit](https://github.com/koant-bit) | Yes | 0x5BF50F2931688F886F46f88D5CEEDE530bB92076 | bit.j | 2022/10/1 | 
 芳芳 | ✅ | [@zhao20200902](https://github.com/zhao20200902) | Yes | 0xB2b4596664EA23cC4a871887b9A5CCE16FE8FD1e | fang.j | 2022/10/1
 岑云 | ✅ | [@LU1986HZ](https://github.com/LU1986HZ) | Pending | 0xEDaD6273b53A38f827407A43AfFf71B1F8dd3a22 | 1024.j | 2022/10/1
