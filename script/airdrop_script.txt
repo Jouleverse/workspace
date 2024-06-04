@@ -1,0 +1,220 @@
+# 核心贡献激励发放脚本
+
+2023.8.29 V1 @evan.j
+
+运行环境：浏览器debug console，Jouleverse区块链浏览器页面已打开，Metamask已连接到发出wJ的地址
+
+//第一段：输入空投数据。total 和 sum 是用于对账的。复制粘贴到浏览器debug console中运行。
+
+const a = incentive202307 = { 'total': 17, 'sum': 11374300, 'list': [
+    ['一痕', 'seed.j', '0x36B68b28E589e5eB41A6f22938054EA4bD82423D', 338400],
+    ['芳芳', 'fang.j', '0xB2b4596664EA23cC4a871887b9A5CCE16FE8FD1e', 413300],
+    ['楼兰渔夫', 'china.j', '0xc605e8c7E45410e598F835BE5E3e27a3Ed9c39Dd', 161700],
+    ['Koant', 'koant.j', '0x5BF50F2931688F886F46f88D5CEEDE530bB92076', 3545800],
+    ['Menger', 'free.j', '0x10B5786F94B46eACaDdB093C555FFf4bA567951f', 338400],
+    ['岑云', '1024.j', '0xEDaD6273b53A38f827407A43AfFf71B1F8dd3a22', 329400],
+    ['明海云', '123.j', '0xF66082F48cBc11ac83Cdde11644f4Db2f363205a', 176700],
+    ['li17.eth', 'li17.j', '0xCb7D6BBc8f6033b7acedB3F196535C5BB8A2623C', 350400],
+    ['Jacky', '', '0x332628d7509B6eDfB8A90918a9664De56675e9Cf', 338400],
+    ['教链', 'evan.j', '0xa2568Aa4a7Caca2E5E1B541C7Bfa048A43b2F9eB', 3683600],
+    ['如行', 'hao.j', '0xAD8eCe3F5Cb68CD9124e6B124B9985B41E7AdAf7', 71900],
+    ['OPEN', '666.j', '0x23297B0749e51283d2424f8b4Fe1d472514B656a', 371400],
+    ['张恩畅', 'dashu.j', '0x03098BFD3861d998f14c62659B9bb2E4ecd89CE6', 158700],
+    ['元宇星河刘子君', 'yuanyuxinghe.j', '0xd632abFF33E7dfcE2191713179eA63Be124EA0bb', 71900],
+    ['火星', 'mars.j', '0x77aafda98de6485419b3bc367216e6abb220efdc', 371400],
+    ['谢勇', 'dao.j', '0xb23823CBE3962aed787fAfbc2a5B907c0F4d1489', 371400],
+    ['Angel', 'angel.j', '0xd0d97851fb0c8B69edcAbe58857D7514bF490f79', 281500],
+] }
+
+
+const a = incentive202308 = { 'total': 19, 'sum': 11608700, 'list': [
+    ['教链', 'evan.j', '0xa2568Aa4a7Caca2E5E1B541C7Bfa048A43b2F9eB', 3144700],
+    ['一痕', 'seed.j', '0x36B68b28E589e5eB41A6f22938054EA4bD82423D', 442000],
+    ['Jacky', '', '0x332628d7509B6eDfB8A90918a9664De56675e9Cf', 430200],
+    ['芳芳', 'fang.j', '0xB2b4596664EA23cC4a871887b9A5CCE16FE8FD1e', 516300],
+    ['岑云', '1024.j', '0xEDaD6273b53A38f827407A43AfFf71B1F8dd3a22', 1048200],
+    ['明海云', '123.j', '0xF66082F48cBc11ac83Cdde11644f4Db2f363205a', 156500],
+    ['Koant', 'koant.j', '0x5BF50F2931688F886F46f88D5CEEDE530bB92076', 1846200],
+    ['楼兰渔夫', 'china.j', '0xc605e8c7E45410e598F835BE5E3e27a3Ed9c39Dd', 97800],
+    ['Angel', 'angel.j', '0xd0d97851fb0c8B69edcAbe58857D7514bF490f79', 324600],
+    ['张恩畅', 'dashu.j', '0x03098BFD3861d998f14c62659B9bb2E4ecd89CE6', 215100],
+    ['OPEN', '666.j', '0x23297B0749e51283d2424f8b4Fe1d472514B656a', 512400],
+    ['li17.eth', 'li17.j', '0xCb7D6BBc8f6033b7acedB3F196535C5BB8A2623C', 461500],
+    ['Menger', 'free.j', '0x10B5786F94B46eACaDdB093C555FFf4bA567951f', 602300],
+    ['如行', 'hao.j', '0xAD8eCe3F5Cb68CD9124e6B124B9985B41E7AdAf7', 82100],
+    ['谢勇', 'dao.j', '0xb23823CBE3962aed787fAfbc2a5B907c0F4d1489', 442000],
+    ['火星', 'mars.j', '0x77aafda98de6485419b3bc367216e6abb220efdc', 402900],
+    ['Leo', '', '0x3302e717Bf0c589b55B3066CD02d2EeadfFE11E3', 391100],
+    ['比尔盖', 'link.j', '0xbDE9837562Ffff60aDE0f075ef0f2d71aA09Fa88', 442000],
+    ['元宇星河刘子君', 'yuanyuxinghe.j', '0xd632abFF33E7dfcE2191713179eA63Be124EA0bb', 50800],
+] }
+
+const a = incentive202309 = { 'total': 16, 'sum': 11999800, 'list': [
+    ['教链', 'evan.j', '0xa2568Aa4a7Caca2E5E1B541C7Bfa048A43b2F9eB', 4334400],
+    ['一痕', 'seed.j', '0x36B68b28E589e5eB41A6f22938054EA4bD82423D', 441500],
+    ['Jacky', '', '0x332628d7509B6eDfB8A90918a9664De56675e9Cf', 80300],
+    ['芳芳', 'fang.j', '0xB2b4596664EA23cC4a871887b9A5CCE16FE8FD1e', 112400],
+    ['岑云', '1024.j', '0xEDaD6273b53A38f827407A43AfFf71B1F8dd3a22', 891000],
+    ['明海云', '123.j', '0xF66082F48cBc11ac83Cdde11644f4Db2f363205a', 80300],
+    ['Koant', 'bit.j', '0x5BF50F2931688F886F46f88D5CEEDE530bB92076', 1934400],
+    ['楼兰渔夫', 'china.j', '0xc605e8c7E45410e598F835BE5E3e27a3Ed9c39Dd', 8000],
+    ['Angel', 'angel.j', '0xd0d97851fb0c8B69edcAbe58857D7514bF490f79', 96300],
+    ['张恩畅', 'dashu.j', '0x03098BFD3861d998f14c62659B9bb2E4ecd89CE6', 8000],
+    ['OPEN', '666.j', '0x23297B0749e51283d2424f8b4Fe1d472514B656a', 401300],
+    ['li17.eth', 'li17.j', '0xCb7D6BBc8f6033b7acedB3F196535C5BB8A2623C', 401300],
+    ['Menger', 'free.j', '0x10B5786F94B46eACaDdB093C555FFf4bA567951f', 1043500],
+    ['谢勇', 'dao.j', '0xb23823CBE3962aed787fAfbc2a5B907c0F4d1489', 882900],
+    ['火星', 'mars.j', '0x77aafda98de6485419b3bc367216e6abb220efdc', 401300],
+    ['比尔盖', 'link.j', '0xbDE9837562Ffff60aDE0f075ef0f2d71aA09Fa88', 882900],
+] }
+
+const a = incentive202310 = { 'total': 15, 'sum': 11999900, 'list': [
+    ['教链', 'evan.j', '0xa2568Aa4a7Caca2E5E1B541C7Bfa048A43b2F9eB', 3688400],
+    ['一痕', 'seed.j', '0x36B68b28E589e5eB41A6f22938054EA4bD82423D', 73000],
+    ['Jacky', '', '0x332628d7509B6eDfB8A90918a9664De56675e9Cf', 73000],
+    ['芳芳', 'fang.j', '0xB2b4596664EA23cC4a871887b9A5CCE16FE8FD1e', 146100],
+    ['岑云', '1024.j', '0xEDaD6273b53A38f827407A43AfFf71B1F8dd3a22', 774200],
+    ['Koant', 'bit.j', '0x5BF50F2931688F886F46f88D5CEEDE530bB92076', 1957400],
+    ['Angel', 'angel.j', '0xd0d97851fb0c8B69edcAbe58857D7514bF490f79', 460100],
+    ['张恩畅', 'dashu.j', '0x03098BFD3861d998f14c62659B9bb2E4ecd89CE6', 80300],
+    ['OPEN', '666.j', '0x23297B0749e51283d2424f8b4Fe1d472514B656a', 365200],
+    ['li17.eth', 'li17.j', '0xCb7D6BBc8f6033b7acedB3F196535C5BB8A2623C', 365200],
+    ['Menger', 'free.j', '0x10B5786F94B46eACaDdB093C555FFf4bA567951f', 876400],
+    ['谢勇', 'dao.j', '0xb23823CBE3962aed787fAfbc2a5B907c0F4d1489', 1205100],
+    ['火星', 'mars.j', '0x77aafda98de6485419b3bc367216e6abb220efdc', 365200],
+    ['比尔盖', 'link.j', '0xbDE9837562Ffff60aDE0f075ef0f2d71aA09Fa88', 1205100],
+    ['严光红', 'ygh.j', '0x420671ac8E8674b1032aE6e7ee7E0325E139FfA3', 365200],
+] }
+
+const a = incentive202311 = { 'total': 16, 'sum': 12000000, 'list': [
+    ['教链', 'evan.j', '0xa2568Aa4a7Caca2E5E1B541C7Bfa048A43b2F9eB', 3334300],
+    ['一痕', 'seed.j', '0x36B68b28E589e5eB41A6f22938054EA4bD82423D', 94200],
+    ['Jacky', '', '0x332628d7509B6eDfB8A90918a9664De56675e9Cf', 94200],
+    ['芳芳', 'fang.j', '0xB2b4596664EA23cC4a871887b9A5CCE16FE8FD1e', 113000],
+    ['岑云', '1024.j', '0xEDaD6273b53A38f827407A43AfFf71B1F8dd3a22', 951300],
+    ['Koant', 'bit.j', '0x5BF50F2931688F886F46f88D5CEEDE530bB92076', 1902700],
+    ['楼兰渔夫', 'china.j', '0xc605e8c7E45410e598F835BE5E3e27a3Ed9c39Dd', 9400],
+    ['Angel', 'angel.j', '0xd0d97851fb0c8B69edcAbe58857D7514bF490f79', 593400],
+    ['张恩畅', 'dashu.j', '0x03098BFD3861d998f14c62659B9bb2E4ecd89CE6', 103600],
+    ['OPEN', '666.j', '0x23297B0749e51283d2424f8b4Fe1d472514B656a', 471000],
+    ['li17.eth', 'li17.j', '0xCb7D6BBc8f6033b7acedB3F196535C5BB8A2623C', 471000],
+    ['Menger', 'free.j', '0x10B5786F94B46eACaDdB093C555FFf4bA567951f', 753500],
+    ['谢勇', 'dao.j', '0xb23823CBE3962aed787fAfbc2a5B907c0F4d1489', 1083200],
+    ['火星', 'mars.j', '0x77aafda98de6485419b3bc367216e6abb220efdc', 471000],
+    ['比尔盖', 'link.j', '0xbDE9837562Ffff60aDE0f075ef0f2d71aA09Fa88', 1083200],
+    ['严光红', 'ygh.j', '0x420671ac8E8674b1032aE6e7ee7E0325E139FfA3', 471000],
+] }
+
+const a = incentive202312 = { 'total': 17, 'sum': 12000000, 'list': [
+    ['教链', 'evan.j', '0xa2568Aa4a7Caca2E5E1B541C7Bfa048A43b2F9eB', 3746400],
+    ['一痕', 'seed.j', '0x36B68b28E589e5eB41A6f22938054EA4bD82423D', 82700],
+    ['Jacky', '', '0x332628d7509B6eDfB8A90918a9664De56675e9Cf', 82700],
+    ['芳芳', 'fang.j', '0xB2b4596664EA23cC4a871887b9A5CCE16FE8FD1e', 198500],
+    ['岑云', '1024.j', '0xEDaD6273b53A38f827407A43AfFf71B1F8dd3a22', 785700],
+    ['明海云', '123.j', '0xF66082F48cBc11ac83Cdde11644f4Db2f363205a', 281200],
+    ['Koant', 'bit.j', '0x5BF50F2931688F886F46f88D5CEEDE530bB92076', 1728400],
+    ['楼兰渔夫', 'china.j', '0xc605e8c7E45410e598F835BE5E3e27a3Ed9c39Dd', 181900],
+    ['Angel', 'angel.j', '0xd0d97851fb0c8B69edcAbe58857D7514bF490f79', 595500],
+    ['张恩畅', 'dashu.j', '0x03098BFD3861d998f14c62659B9bb2E4ecd89CE6', 99200],
+    ['OPEN', '666.j', '0x23297B0749e51283d2424f8b4Fe1d472514B656a', 413500],
+    ['li17.eth', 'li17.j', '0xCb7D6BBc8f6033b7acedB3F196535C5BB8A2623C', 413500],
+    ['Menger', 'free.j', '0x10B5786F94B46eACaDdB093C555FFf4bA567951f', 496200],
+    ['谢勇', 'dao.j', '0xb23823CBE3962aed787fAfbc2a5B907c0F4d1489', 951100],
+    ['火星', 'mars.j', '0x77aafda98de6485419b3bc367216e6abb220efdc', 413500],
+    ['比尔盖', 'link.j', '0xbDE9837562Ffff60aDE0f075ef0f2d71aA09Fa88', 1033800],
+    ['严光红', 'ygh.j', '0x420671ac8E8674b1032aE6e7ee7E0325E139FfA3', 496200],
+] }
+
+const a = incentive202401 = { 'total': 28, 'sum': 12000000, 'list': [
+    ['yj', 'being.j', '0xA130954aEd1f6aF433844A1F41A871f96B1f1B2D', 689000],
+    ['教链', 'evan.j', '0xa2568Aa4a7Caca2E5E1B541C7Bfa048A43b2F9eB', 3755400],
+    ['一痕', 'seed.j', '0x36B68b28E589e5eB41A6f22938054EA4bD82423D', 29300],
+    ['Jacky', '', '0x332628d7509B6eDfB8A90918a9664De56675e9Cf', 29300],
+    ['芳芳', 'fang.j', '0xB2b4596664EA23cC4a871887b9A5CCE16FE8FD1e', 246300],
+    ['Louis A.', 'catdog.j', '0x12a8AB14fe18b464f2286470a85223efcec52ad9', 58600],
+    ['岑云', '1024.j', '0xEDaD6273b53A38f827407A43AfFf71B1F8dd3a22', 560000],
+    ['明海云', '123.j', '0xF66082F48cBc11ac83Cdde11644f4Db2f363205a', 404600],
+    ['Koant', 'bit.j', '0x5BF50F2931688F886F46f88D5CEEDE530bB92076', 941100],
+    ['楼兰渔夫', 'china.j', '0xc605e8c7E45410e598F835BE5E3e27a3Ed9c39Dd', 551200],
+    ['Angel', 'angel.j', '0xd0d97851fb0c8B69edcAbe58857D7514bF490f79', 410500],
+    ['张恩畅', 'dashu.j', '0x03098BFD3861d998f14c62659B9bb2E4ecd89CE6', 211100],
+    ['OPEN', '666.j', '0x23297B0749e51283d2424f8b4Fe1d472514B656a', 293200],
+    ['li17.eth', 'li17.j', '0xCb7D6BBc8f6033b7acedB3F196535C5BB8A2623C', 322500],
+    ['Menger', 'free.j', '0x10B5786F94B46eACaDdB093C555FFf4bA567951f', 263900],
+    ['谢勇', 'dao.j', '0xb23823CBE3962aed787fAfbc2a5B907c0F4d1489', 337200],
+    ['火星', 'mars.j', '0x77aafda98de6485419b3bc367216e6abb220efdc', 293200],
+    ['比尔盖', 'link.j', '0xbDE9837562Ffff60aDE0f075ef0f2d71aA09Fa88', 425100],
+    ['严光红', 'ygh.j', '0x420671ac8E8674b1032aE6e7ee7E0325E139FfA3', 322500],
+    ['Jeff', '1688.j', '0x5d1CA5f6506272A81BEdB830a47981ad73eE21BB', 454400],
+    ['老谢', 'dambo.j', '0x2bcA9C2901213448Fc6Fe17fadD2E72714150AdC', 175900],
+    ['gwendol', 'gwendol.j', '0x8c782F0Cb636587Cf05CeD8f77Fa6a28C67c4CA9', 228700],
+    ['狮子猫', 'sizimao.j', '0x8a14917Cd61bf71eae8E33e1E620c40471B62422', 175900],
+    ['cijin', 'news.j', '0xda02fb50000FE64C2ca5374E7b515611A5DBeC9d', 190600],
+    ['煜歌', 'sos.j', '0xe5762924C843269E6E3F39F621D6e7127f95eEA2', 161300],
+    ['王十二', 'wallet.j', '0xDe3b8005FE2D6Cca42827d1791dE2038a876EcA1', 146600],
+    ['kylin', '22222.j', '0x257A04a3735BAa01f51627B01Fe2f879eb71BC42', 161300],
+    ['琰熙', 'aibao.j', '0x8dB95e200c9a667Dc541C98f755CB5606d56F53c', 161300],
+] }
+
+// https://github.com/Jouleverse/workspace/blob/main/data/powh-data-202402.mediawiki commit:e23aa79
+const a = incentive202402 = { 'total': 30, 'sum': 12000000, 'list': [
+    ['yj', 'being.j', '0xA130954aEd1f6aF433844A1F41A871f96B1f1B2D', 382000],
+    ['教链', 'evan.j', '0xa2568Aa4a7Caca2E5E1B541C7Bfa048A43b2F9eB', 2395700],
+    ['一痕', 'seed.j', '0x36B68b28E589e5eB41A6f22938054EA4bD82423D', 95500],
+    ['Jacky', '', '0x332628d7509B6eDfB8A90918a9664De56675e9Cf', 57300],
+    ['芳芳', 'fang.j', '0xB2b4596664EA23cC4a871887b9A5CCE16FE8FD1e', 103200],
+    ['Louis A.', 'catdog.j', '0x12a8AB14fe18b464f2286470a85223efcec52ad9', 160500],
+    ['岑云', '1024.j', '0xEDaD6273b53A38f827407A43AfFf71B1F8dd3a22', 481400],
+    ['明海云', '123.j', '0xF66082F48cBc11ac83Cdde11644f4Db2f363205a', 454600],
+    ['Koant', 'bit.j', '0x5BF50F2931688F886F46f88D5CEEDE530bB92076', 962800],
+    ['楼兰渔夫', 'china.j', '0xc605e8c7E45410e598F835BE5E3e27a3Ed9c39Dd', 649500],
+    ['Angel', 'angel.j', '0xd0d97851fb0c8B69edcAbe58857D7514bF490f79', 271300],
+    ['张恩畅', 'dashu.j', '0x03098BFD3861d998f14c62659B9bb2E4ecd89CE6', 129900],
+    ['OPEN', '666.j', '0x23297B0749e51283d2424f8b4Fe1d472514B656a', 420200],
+    ['li17.eth', 'li17.j', '0xCb7D6BBc8f6033b7acedB3F196535C5BB8A2623C', 420200],
+    ['Menger', 'free.j', '0x10B5786F94B46eACaDdB093C555FFf4bA567951f', 305600],
+    ['谢勇', 'dao.j', '0xb23823CBE3962aed787fAfbc2a5B907c0F4d1489', 420200],
+    ['火星', 'mars.j', '0x77aafda98de6485419b3bc367216e6abb220efdc', 420200],
+    ['比尔盖', 'link.j', '0xbDE9837562Ffff60aDE0f075ef0f2d71aA09Fa88', 534900],
+    ['严光红', 'ygh.j', '0x420671ac8E8674b1032aE6e7ee7E0325E139FfA3', 420200],
+    ['Jeff', '1688.j', '0x5d1CA5f6506272A81BEdB830a47981ad73eE21BB', 611300],
+    ['老谢', 'dambo.j', '0x2bcA9C2901213448Fc6Fe17fadD2E72714150AdC', 267400],
+    ['gwendol', 'gwendol.j', '0x8c782F0Cb636587Cf05CeD8f77Fa6a28C67c4CA9', 240700],
+    ['狮子猫', 'sizimao.j', '0x8a14917Cd61bf71eae8E33e1E620c40471B62422', 229200],
+    ['cijin', 'news.j', '0xda02fb50000FE64C2ca5374E7b515611A5DBeC9d', 229200],
+    ['煜歌', 'sos.j', '0xe5762924C843269E6E3F39F621D6e7127f95eEA2', 248300],
+    ['王十二', 'wallet.j', '0xDe3b8005FE2D6Cca42827d1791dE2038a876EcA1', 229200],
+    ['kylin', '22222.j', '0x257A04a3735BAa01f51627B01Fe2f879eb71BC42', 191000],
+    ['琰熙', 'aibao.j', '0x8dB95e200c9a667Dc541C98f755CB5606d56F53c', 229200],
+	//new++
+    ['Victor', 'lulu.j', '0x881Bd71b402B1735550e2941a29Fc6D9Fe4a07F3', 229200],
+    ['得葱', 'dell.j', '0x4D0aC0725505Ac773AF111c6031D4B72dC8BF47e', 210100],
+] }
+
+//第二段：呼叫Metamask逐一发放空投。
+
+// check
+if (a.list.length != a.total) {
+    console.log('error! wrong list items')
+} else if ((b = a.list.reduce((sum, item) => sum + item[3], 0)) != a.sum) {
+    console.log('error! wrong sum ' + b + ' != ' + a.sum)
+} else {
+    console.log('data verified ok! do the work..')
+    const web3 = new Web3(window.ethereum)
+    const wj_contract = new web3.eth.Contract(wj_ABI, wj_contract_address)
+
+	const starting_point = 0;
+    for (var i = starting_point; i < a.list.length; i++) {
+        const addr = a.list[i][2]
+        const val = a.list[i][3]
+        console.log('depositing ' + val + ' WJ to ' + addr + '(' + a.list[i][1] + ', ' + a.list[i][0] + ')...')
+
+        const connectedAccount = window.ethereum.selectedAddress
+		if (connectedAccount) 
+			await wj_contract.methods.transfer(addr, web3.utils.toWei(val.toString())).send({from: connectedAccount})
+				.on('transactionHash', console.log)
+				.on('error', console.log)
+    }
+}
+
+
