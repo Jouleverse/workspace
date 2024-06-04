@@ -11,6 +11,7 @@
 -|-|-|-|-|-|-
 Koant | ✅ | [@koant-bit](https://github.com/koant-bit) | Yes | 0x5BF50F2931688F886F46f88D5CEEDE530bB92076 | bit.j | 2022/10/1 | 
 芳芳 | ✅ | [@zhao20200902](https://github.com/zhao20200902) | Yes | 0xB2b4596664EA23cC4a871887b9A5CCE16FE8FD1e | fang.j | 2022/10/1
+Dream (不活跃) | ✅ | ❌ | No | 0xBF2752178152c9909C6E0Ac5538f771d7b1f2BAA | beta.j | 2022/10/1
 岑云 | ✅ | [@LU1986HZ](https://github.com/LU1986HZ) | Pending | 0xEDaD6273b53A38f827407A43AfFf71B1F8dd3a22 | 1024.j | 2022/10/1
 楼兰渔夫 | ✅ | [@LouLanFisherman](https://github.com/LouLanFisherman) | Yes | 0xc605e8c7E45410e598F835BE5E3e27a3Ed9c39Dd | china.j | 2022/10/1
 Menger | ✅ | [@mengal](https://github.com/mengal) | Yes | 0x10B5786F94B46eACaDdB093C555FFf4bA567951f | menger.j | 2023/2/1
@@ -18,11 +19,17 @@ li17 | ✅ | [@lii1717](https://github.com/lii1717) | Pending | 0xCb7D6BBc8f6033
 明海云 | ✅ | [@240616-ming](https://github.com/240616-ming) | Yes | 0xF66082F48cBc11ac83Cdde11644f4Db2f363205a | 123.j | 2022/10/1
 Yihen | ✅ | [@Yihen-Liu](https://github.com/Yihen-Liu) | Yes | 0x36B68b28E589e5eB41A6f22938054EA4bD82423D | seed.j | 2022/10/1
 Jacky | ✅ | [@liujiaqiid](https://github.com/liujiaqiid) | Pending | 0x332628d7509B6eDfB8A90918a9664De56675e9Cf | - | 2022/10/1
+锴 (不活跃) | ✅ | ❌ | No | 0xEFfDa09cDB8794fFC998252b33e40F0C8ed094dB | 0xjustry.j | 2023/2/1
+摩卡 (不活跃) | ✅ | ❌ | No | 0x88A59D6914398FAEEAE2Fb9B50351f9373dEe1D6 | j.j | 2022/10/1
+如行 | ✅ | ❌ | No | 0xAD8eCe3F5Cb68CD9124e6B124B9985B41E7AdAf7 | hao.j | 2023/7/26
+元宇星河 (机构) | ✅ | ❌ | No | 0xd632abFF33E7dfcE2191713179eA63Be124EA0bb | yuanyuxinghe.j | 2023/7/26
+ucanfilm (机构) | ✅ | ❌ | No | -- | -- | 2023/7/26
 张恩畅 | ✅ | [@enchang1](https://github.com/enchang1) | Yes | 0x03098BFD3861d998f14c62659B9bb2E4ecd89CE6 | dashu.j | 2023/7/26
 Open | ✅ | [@open-666](https://github.com/open-666) | Pending | 0x23297B0749e51283d2424f8b4Fe1d472514B656a | 666.j | 2023/7/26
 火星 | ✅ | [@gjw00001](https://github.com/gjw00001) | Yes | 0x77aafda98de6485419b3bc367216e6abb220efdc | mars.j | 2023/7/26
 谢勇(稳清活) | ✅ | [@Timothyxie513](https://github.com/Timothyxie513) | Yes | 0xb23823CBE3962aed787fAfbc2a5B907c0F4d1489 | dao.j | 2023/7/30
 Angel | ✅ | [@Sunshinewla](https://github.com/Sunshinewla) | Yes | 0xd0d97851fb0c8B69edcAbe58857D7514bF490f79 | angel.j | 2023/8/9
+Leo (不活跃) | ✅ | ❌ | No | 0x3302e717Bf0c589b55B3066CD02d2EeadfFE11E3 | -- | 2023/8/29
 比尔盖 | ✅ | [@biergai](https://github.com/biergai) | Yes | 0xbDE9837562Ffff60aDE0f075ef0f2d71aA09Fa88 | link.j | 2023/10/13
 LouisAwesome | ✅ | [@wowodog126](https://github.com/wowodog126) | Pending | 0x12a8AB14fe18b464f2286470a85223efcec52ad9 | catdog.j |2024/1/20
 琰熙 | ✅ | [@Yanxi02](https://github.com/Yanxi02) | Pending | 0x8dB95e200c9a667Dc541C98f755CB5606d56F53c | aibao.j | 2024/1/21 | 
@@ -32,7 +39,7 @@ gwendol(c) | ✅ | - | - | 0x8c782F0Cb636587Cf05CeD8f77Fa6a28C67c4CA9 | gwendol.
 狮子猫 | ✅ | [@sizimao](https://github.com/sizimao) | Yes | 0x8a14917Cd61bf71eae8E33e1E620c40471B62422 | sizimao.j | 2024/1/30 | 
 老谢 | ✅ | [@Dambo36142](https://github.com/Dambo36142) | Pending | 0x2bcA9C2901213448Fc6Fe17fadD2E72714150AdC | dambo.j | 2024/1/30
 Jeff | ✅ | [@29n](https://github.com/29n) | Yes | 0x5d1CA5f6506272A81BEdB830a47981ad73eE21BB | 1688.j | 2024/1/31
-yj | ✅ | [@AqoursSunshine](https://github.com/AqoursSunshine) | Yes | 0xA130954aEd1f6aF433844A1F41A871f96B1f1B2D | being.j | 2024/2/2
+yj (不活跃) | ✅ | [@AqoursSunshine](https://github.com/AqoursSunshine) | Yes | 0xA130954aEd1f6aF433844A1F41A871f96B1f1B2D | being.j | 2024/2/2
 kylin | ✅ | [@kylin](https://github.com/kylin) | Pending | 0x257A04a3735BAa01f51627B01Fe2f879eb71BC42 | 22222.j | 2024/2/4
 王十二 | ✅ | [@amberwong0824](https://github.com/amberwong0824) | Yes | 0xDe3b8005FE2D6Cca42827d1791dE2038a876EcA1 | wallet.j | 2024/2/4
 煜歌 | ✅ | [@tuoling1314](https://github.com/tuoling1314) | Pending | 0xe5762924C843269E6E3F39F621D6e7127f95eEA2 | sos.j | 2024/2/5
