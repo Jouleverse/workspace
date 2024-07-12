@@ -63,6 +63,7 @@ xiangwang | ✅ | [@xiangwang6300](https://github.com/xiangwang6300) | - | 0xff2
 星语欣愿 | ✅ | [@xingyu13146](https://github.com/xingyu13146) | - | 0x38533B7Ed35859f3b48705AF2B5DF8DeD9AB6f25 | ryo3388.j | 2024/3/31
 jay.j | ✅ | [@SpyForger](https://github.com/SpyForger) | - | 0xb05e707879eA4ecD09392A7c78C05aA76f4c86E3 | jay.j | 2024/4/19
 相瑾 | ✅ | [@cxj09131](https://github.com/cxj09131) | - | 0x4E0DeA27A60937f7370A6d548E6aC48Ad50aFbD1 | cxj66.j | 2024/5/20
+盛美 | ✅ | [@uwangshang](https://github.com/uwangshang) | - | 0x983BA448066f7d055224a9641aD48698E3593265 | --- | 2024/6/23
 
 ---
 
