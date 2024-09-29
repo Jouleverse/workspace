@@ -46,6 +46,9 @@
 [2024.03](data/powh-data-202403.mediawiki) | 岑云| Koant | 2024.5.29
 [2024.04](data/powh-data-202404.mediawiki) | Koant | 教链 | 2024.6.5
 [2024.05](data/powh-data-202405.mediawiki) | 剪云为裳 | Koant | 2024.7.16
+[2024.06](data/powh-data-202406.mediawiki) | 福 | 谢勇 | 2024.9.2
+
+
 
 # 预算机制和空投执行指南
 
