@@ -326,6 +326,52 @@ const a = incentive202405 = { 'total': 41, 'sum': 12000000, 'list': [
     ['ucanfilm', '', '0xCBA123cE2D55fCBe5bdA1Fb1003D7192115023C5', 191600],
 ] }
 
+//executed by 谢勇
+const a = incentive202405 = { 'total': 42, 'sum': 12000000, 'list': [
+    ['教链', 'evan.j', '0xa2568Aa4a7Caca2E5E1B541C7Bfa048A43b2F9eB', 2065400],
+    ['Jacky', '', '0x332628d7509B6eDfB8A90918a9664De56675e9Cf', 68800],
+    ['芳芳', 'fang.j', '0xB2b4596664EA23cC4a871887b9A5CCE16FE8FD1e', 41300],
+    ['岑云', '1024.j', '0xEDaD6273b53A38f827407A43AfFf71B1F8dd3a22', 519800],
+    ['明海云', '123.j', '0xF66082F48cBc11ac83Cdde11644f4Db2f363205a', 395900],
+    ['Koant', 'bit.j', '0x5BF50F2931688F886F46f88D5CEEDE530bB92076', 568000],
+    ['楼兰渔夫', 'china.j', '0xc605e8c7E45410e598F835BE5E3e27a3Ed9c39Dd', 223800],
+    ['Angel', 'angel.j', '0xd0d97851fb0c8B69edcAbe58857D7514bF490f79', 213400],
+    ['OPEN', '666.j', '0x23297B0749e51283d2424f8b4Fe1d472514B656a', 344200],
+    ['li17.eth', 'li17.j', '0xCb7D6BBc8f6033b7acedB3F196535C5BB8A2623C', 378700],
+    ['Menger', 'free.j', '0x10B5786F94B46eACaDdB093C555FFf4bA567951f', 275400],
+    ['谢勇', 'dao.j', '0xb23823CBE3962aed787fAfbc2a5B907c0F4d1489', 395900],
+    ['火星', 'mars.j', '0x77aafda98de6485419b3bc367216e6abb220efdc', 344200],
+    ['比尔盖', 'link.j', '0xbDE9837562Ffff60aDE0f075ef0f2d71aA09Fa88', 413100],
+    ['严光红', 'ygh.j', '0x420671ac8E8674b1032aE6e7ee7E0325E139FfA3', 378700],
+    ['Jeff', '1688.j', '0x5d1CA5f6506272A81BEdB830a47981ad73eE21BB', 430300],
+    ['老谢', 'dambo.j', '0x2bcA9C2901213448Fc6Fe17fadD2E72714150AdC', 206500],
+    ['gwendol', 'gwendol.j', '0x8c782F0Cb636587Cf05CeD8f77Fa6a28C67c4CA9', 206500],
+    ['狮子猫', 'sizimao.j', '0x8a14917Cd61bf71eae8E33e1E620c40471B62422', 206500],
+    ['cijin', 'news.j', '0xda02fb50000FE64C2ca5374E7b515611A5DBeC9d', 172100],
+    ['煜歌', 'sos.j', '0xe5762924C843269E6E3F39F621D6e7127f95eEA2', 244400],
+    ['王十二', 'wallet.j', '0xDe3b8005FE2D6Cca42827d1791dE2038a876EcA1', 172100],
+    ['kylin', '22222.j', '0x257A04a3735BAa01f51627B01Fe2f879eb71BC42', 206500],
+    ['琰熙', 'aibao.j', '0x8dB95e200c9a667Dc541C98f755CB5606d56F53c', 172100],
+    ['Victor', 'lulu.j', '0x881Bd71b402B1735550e2941a29Fc6D9Fe4a07F3', 172100],
+    ['得葱', 'dell.j', '0x4D0aC0725505Ac773AF111c6031D4B72dC8BF47e', 172100],
+    ['布道外部山', 'firesea.j', '0xE3c3D42E6fDdb3aA42bE76b793F5cD0d747c7286', 172100],
+    ['剪云为裳', 'lilei855x.j', '0xE369810B1b07d0b82F702667429c3842905C14FF', 210000],
+    ['花开的声音', 'g.j', '0xDC936A871d411Ffa2122A585EAC678055cb8b954', 206500],
+    ['杨敦鹏', 'yang066.j', '0xf148F8761835be4876751b1415e738953dd7dB70', 206500],
+    ['米高', 'vibe.j', '0x97e67567a1454fcec8a7e95c970a8670da0233f3', 206500],
+    ['Ted', 'focus.j', '0xF3484B135069D0e0519c7A9763a2d2e9FF85f39c', 206500],
+    ['团子', 'wang0411.j', '0x4003B3cCFb2E80B9ce8924d4e792557D6c727418', 206500],
+    ['xiangwang', 'wangxiang6300.j', '0xff20b2b2220d620ee8efa62f91ad9f0d6edf34b6', 206500],
+    ['邱泳渼', 'miumiu.j', '0x42e993ea40793434c617e0dee83021137d2fcf8d', 172100],
+    ['福', 'as.j', '0x6373fFce58CBAa7Ed1f3d1721965A86b97a25B82',172700],
+    ['星语欣愿', 'ryo3388.j', '0x38533B7Ed35859f3b48705AF2B5DF8DeD9AB6f25', 206500],
+    ['jay.j', 'jay.j', '0xb05e707879eA4ecD09392A7c78C05aA76f4c86E3', 206500],
+    ['相瑾', 'cxj66.j', '0x4E0DeA27A60937f7370A6d548E6aC48Ad50aFbD1', 206500],
+    ['ucanfilm', '', '0xCBA123cE2D55fCBe5bdA1Fb1003D7192115023C5', 206500],
+    ['盛美', '344.j', '0x983BA448066f7d055224a9641aD48698E3593265', 172100],
+    ['张恩畅', 'dashu.j', '0x03098BFD3861d998f14c62659B9bb2E4ecd89CE6', 48200],
+] }
+
 //第二段：呼叫Metamask逐一发放空投。
 
 // check
