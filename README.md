@@ -47,9 +47,11 @@
 [2024.04](data/powh-data-202404.mediawiki) | Koant | 教链 | 2024.6.5
 [2024.05](data/powh-data-202405.mediawiki) | 剪云为裳 | Koant | 2024.7.16
 [2024.06](data/powh-data-202406.mediawiki) | 福 | 谢勇 | 2024.9.2
-[2024.07](data/powh-data-202407.mediawiki) | 煜歌 | Jeff | -
-[2024.08] | 教链 | - | -
+[2024.07](data/powh-data-202407.mediawiki) | 煜歌 | Jeff | 2024.10.17
+[2024.08](data/powh-data-202408.mediawiki) | 教链 | Koant | -
 [2024.09] | 星际 | - | -
+[2024.10] | - | - | -
+[2024.11] | - | - | -
 
 # 预算机制和空投执行指南
 
