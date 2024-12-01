@@ -48,7 +48,7 @@
 [2024.05](data/powh-data-202405.mediawiki) | 剪云为裳 | Koant | 2024.7.16
 [2024.06](data/powh-data-202406.mediawiki) | 福 | 谢勇 | 2024.9.2
 [2024.07](data/powh-data-202407.mediawiki) | 煜歌 | Jeff | 2024.10.17
-[2024.08](data/powh-data-202408.mediawiki) | 教链 | Koant | -
+[2024.08](data/powh-data-202408.mediawiki) | 教链 | Koant | 2024.12.1
 [2024.09] | 星际 | - | -
 [2024.10] | Koant | - | -
 [2024.11] | 明海云 | - | -
