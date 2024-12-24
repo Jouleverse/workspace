@@ -2,6 +2,16 @@
 
 <img width="200px" src="core-contributor.svg" alt="core"> <img width="200px" src="core-contributor-inactive.svg" alt="core">
 
+## 办事机构
+
+core成员内自然演化形成的办事机构如下：
+
+**机构昵称** | **主要职责** | **办事地点** | **chair(群主)** | **co-chair(副群主)**
+书记处 | 1. CGC会议的召集、召开和记录（每周）；2. 招募并启动工作量统计（每月） | 微信群 | 剪云为裳 | 福, Koant |
+节点办 | 1. 为新节点提供技术支持；2. 审计新节点并帮助入网 | 微信群 | 老谢 | Jeff, Menger, Koant
+
+## 名单和链地址
+
 此处列出核心贡献者的名单（为隐私保护起见，此处仅列出昵称、github id、空投接收地址等公开信息，高级KYC信息暂由教链负责另处安全保管）。
 
 > 注意：请在每月PoWh工作量统计之前完成登记，否则将有可能无法被纳入统计。
