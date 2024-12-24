@@ -1,5 +1,7 @@
 # Core Contributors 核心贡献者
 
+<img width="200px" src="core-contributor.svg" alt="core">
+
 此处列出核心贡献者的名单（为隐私保护起见，此处仅列出昵称、github id、空投接收地址等公开信息，高级KYC信息暂由教链负责另处安全保管）。
 
 > 注意：请在每月PoWh工作量统计之前完成登记，否则将有可能无法被纳入统计。
