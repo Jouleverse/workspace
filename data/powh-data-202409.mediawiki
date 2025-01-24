@@ -2,7 +2,7 @@
 
 {|
 | 统计月份
-| 2024年8月
+| 2024年9月
 |-
 | 统计规范([[../work-package-specs.mediawiki | Work Package Specs]])
 | rev4
@@ -17,10 +17,10 @@
 | Koant
 |-
 | 定稿日期
-| 2024.11.6, 2024.11.26 fix
+| 2025.xx.xx, 2025.xx.xx fix
 |-
 | 执行日期
-| 2024.12.1
+| 2025.xx.xx
 |-
 | 执行人
 | Koant
@@ -32,20 +32,19 @@
 {|
 | 贡献者
 | [[https://github.com/jouleverse/workspace/issues/1|WP-1]] 多签人 || [[https://github.com/jouleverse/workspace/issues/2|WP-2]] 节点
-| [[https://github.com/jouleverse/workspace/issues/3|WP-3]] PoWh || [[https://github.com/jouleverse/workspace/issues/4|WP-4]] 社群
-| [[https://github.com/jouleverse/workspace/issues/5|WP-5]] JNSDAO || [[https://github.com/jouleverse/workspace/issues/6|WP-6]] CGC 
-| [[https://github.com/jouleverse/workspace/issues/7|WP-7]] 链 || [[https://github.com/jouleverse/workspace/issues/10|WP-10]] JTI开发
-| [[https://github.com/jouleverse/workspace/issues/13|WP-13]] 网站
+| [[https://github.com/jouleverse/workspace/issues/4|WP-4]] 社群 || [[https://github.com/jouleverse/workspace/issues/5|WP-5]] JNSDAO
+| [[https://github.com/jouleverse/workspace/issues/6|WP-6]] CGC || [[https://github.com/jouleverse/workspace/issues/7|WP-7]] 链
+| [[https://github.com/jouleverse/workspace/issues/10|WP-10]] JTI开发
 | 合计
 |-
 | 教链
-| 1.5 || 15 || 1.5 || 0.2 || - || 1
-| - || 1 || 3
-| 23.2
+| 1.5 || 15 || 0.1 || - || 1 || -
+| 8.5
+| 26.1
 |-
 | Jacky
 | 1.5 || 0.5 || - || - || - || -
-| - || - || -
+| -
 | 2
 |-
 | 芳芳
