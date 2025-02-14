@@ -5,7 +5,7 @@
 | 2024年10月
 |-
 | 统计规范([[../work-package-specs.mediawiki | Work Package Specs]])
-| rev4
+| rev5
 |-
 | 统计人(兼总负责)
 | Koant
