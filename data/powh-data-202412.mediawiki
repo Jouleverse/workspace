@@ -3,16 +3,16 @@
 
 {|
 | 统计月份
-| 2024年10月
+| 2024年12月
 |-
 | 统计规范([[../work-package-specs.mediawiki | Work Package Specs]])
 | rev5
 |-
 | 统计人(兼总负责)
-| Koant
+| 剪云为裳
 |-
 | 录入github
-| Koant
+| 剪云为裳
 |-
 | 检查及合并
 | 待定
@@ -29,7 +29,7 @@
 
 == 数据表 ==
 
-统计人：Koant
+统计人：剪云为裳
 {|
 | 贡献者
 | [[https://github.com/jouleverse/workspace/issues/1|WP-1]] 多签人 || [[https://github.com/jouleverse/workspace/issues/2|WP-2]] 节点
@@ -39,7 +39,7 @@
 | 合计
 |-
 | 教链
-| 1.5 || 15 || - || 0.1 || - || 1
+| 1.5 || 15 || 3.5 || - || - || 1
 | 1.5 
 | 19.1
 |-
