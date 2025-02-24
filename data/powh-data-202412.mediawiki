@@ -591,7 +591,7 @@
 
 == 参考数据 ==
 
-=== CGC 10月出席情况 ===
+=== CGC 12月出席情况 ===
 
 仅统计[[../core-contributors.md|已登记有效且活跃(e.g.节点还在运行)的core contributors]]
 
@@ -750,7 +750,7 @@
 |}
 
 * 具体数据见[[https://github.com/Jouleverse/workspace/issues/4|issue#4]]
-* JTI链上活跃只计10月前完成JTI认证的
+* JTI链上活跃只计12月前完成JTI认证的
 
 === 节点在线审计 ===
 
