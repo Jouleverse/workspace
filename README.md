@@ -34,25 +34,25 @@
 
 历史工作量统计及激励发放数据表：
 
- **统计月份** | **统计人** | **执行人** | **执行日期**
+ **统计月份** | **统计人** | **审计人** | **执行人** | **执行日期**
  -|-|-|-
-[2022.10-2023.8](data/powh-data-202210-to-202308.mediawiki) | 教链 | 教链 | 2023
-[2023.9](data/powh-data-202309.mediawiki) | 教链 | 教链 | 2023.12.5
-[2023.10](data/powh-data-202310.mediawiki) | Koant | 教链 | 2023.12.10
-[2023.11](data/powh-data-202311.mediawiki) | 岑云 | 教链 | 2024.1.19
-[2023.12](data/powh-data-202312.mediawiki) | Koant | 教链 | 2024.1.30
-[2024.01](data/powh-data-202401.mediawiki) | 教链 | 教链 | 2024.2.16
-[2024.02](data/powh-data-202402.mediawiki) | 星际 | 教链 | 2024.4.3
-[2024.03](data/powh-data-202403.mediawiki) | 岑云| Koant | 2024.5.29
-[2024.04](data/powh-data-202404.mediawiki) | Koant | 教链 | 2024.6.5
-[2024.05](data/powh-data-202405.mediawiki) | 剪云为裳 | Koant | 2024.7.16
-[2024.06](data/powh-data-202406.mediawiki) | 福 | 谢勇 | 2024.9.2
-[2024.07](data/powh-data-202407.mediawiki) | 煜歌 | Jeff | 2024.10.17
-[2024.08](data/powh-data-202408.mediawiki) | 教链 | Koant | 2024.12.1
-[2024.09](data/powh-data-202408.mediawiki) | 星际 | - | -
-[2024.10] | Koant | - | -
-[2024.11] | 明海云 | - | -
-[2024.12] | 剪云为裳 | - | -
+[2022.10-2023.8](data/powh-data-202210-to-202308.mediawiki) | 教链 | | 教链 | 2023
+[2023.9](data/powh-data-202309.mediawiki) | 教链 | | 教链 | 2023.12.5
+[2023.10](data/powh-data-202310.mediawiki) | Koant | | 教链 | 2023.12.10
+[2023.11](data/powh-data-202311.mediawiki) | 岑云 | | 教链 | 2024.1.19
+[2023.12](data/powh-data-202312.mediawiki) | Koant | | 教链 | 2024.1.30
+[2024.01](data/powh-data-202401.mediawiki) | 教链 | | 教链 | 2024.2.16
+[2024.02](data/powh-data-202402.mediawiki) | 星际 | | 教链 | 2024.4.3
+[2024.03](data/powh-data-202403.mediawiki) | 岑云| | Koant | 2024.5.29
+[2024.04](data/powh-data-202404.mediawiki) | Koant | | 教链 | 2024.6.5
+[2024.05](data/powh-data-202405.mediawiki) | 剪云为裳 | | Koant | 2024.7.16
+[2024.06](data/powh-data-202406.mediawiki) | 福 | | 谢勇 | 2024.9.2
+[2024.07](data/powh-data-202407.mediawiki) | 煜歌 | | Jeff | 2024.10.17
+[2024.08](data/powh-data-202408.mediawiki) | 教链 | | Koant | 2024.12.1
+[2024.09](data/powh-data-202408.mediawiki) | 星际 | | - | -
+[2024.10] | Koant | | - | -
+[2024.11] | 明海云 | | - | -
+[2024.12] | 剪云为裳 | | - | -
 
 # 预算机制和空投执行指南
 
@@ -91,12 +91,18 @@
 
 # PoWh委员会
 
-TODO: 需要改组，拆分为“标准组”（负责吸收标准优化意见，编辑文档，提交CGC审议通过）、“统计组”（负责统计工作量）、“执行组”（负责执行发放空投）。
-
 | *届* | *任期开始* | *任期结束* | *成员* |
 |-|-|-|-|
 | 1 | 2023 | - | 1. 教链 2. Koant 3. 岑云 |
 | 2 | - | - | 标准组：教链, Koant, 岑云 <br> 统计组：剪云为裳，星际，岑云，Koant，教链 <br> 执行组：Koant，教链 |
+| 3 | 2025.3 | - | 审计组：Koant, 此今, 教链 <br> 执行组：Koant，Jeff，谢勇，教链 |
+
+说明：
+- 明确powh repo（即本workspace repo )的最高权限由maintainers执掌。采取core民主产生。目前的maintainers有三位：Koant，此今，教链
+- 【审计组】（由本repo的maintainers担任）负责review（审查）所有的PR贡献内容（主要是每月统计数据），无误后merge（合并），提交给执行组执行WJ发放
+- 【执行组】（由创世多签钱包的多签人担任）负责从core timelock里申请预算，执行WJ发放工作，更新预算使用和发放情况到github相应页面进行存档公示
+- 不再设置专门的【统计组】，开放参与，轮值
+- 原【标准组】撤销，相关工作（负责吸收标准优化意见，编辑文档，提交CGC审议通过）由maintainers担当起来
 
 委员会的工作职责：
 1. 激励机制的梳理和审查、优化，持续剔除低价值工作，突出高价值工作，并确保分配机制与价值创造成正比例
