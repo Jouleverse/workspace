@@ -79,7 +79,7 @@ core成员内自然演化形成的办事机构如下：（更新日期：2024.12
 52 | 盛美 | ✅ | [@uwangshang](https://github.com/uwangshang) | 0x983BA448066f7d055224a9641aD48698E3593265 | --- | 2024/6/23
 53 | 微尘 | ✅ | [@fangsheng-sudo](https://github.com/fangsheng-sudo) | 0x8b4846d72d1530df755D9B5146A3e627a0A7147F | fangsheng.j | 2024/7/19
 54 | Simon | ✅ | [@brone2018](https://github.com/brone2018) | 0x48F59dA8533aaC49b18843C5374D5FEE007c32A7 | 2100.j | 2024/9/19
-55 | 蓝色经典 | ✅ | 暂无 | 0xD7be2e48f4c4E22653B97EC4638B4D4C72A35711 | 暂无 | 2025/1/27
+55 | 蓝色经典 | ✅ | 暂无 | 0xD7be2e48f4c4E22653B97EC4638B4D4C72A35711 | lilei885x.j | 2025/1/27
 56 | 佘小强 | ✅ | [@Sj554455](https://github.com/Sj554455) | 0x1de9230b1B09CcFAbD49ECee3BD5E337c11A365A | 9999.j | 2025/1/27
 57 | TIGER | ✅ | [@TigerGaoJiaLi](https://github.com/TigerGaoJiaLi) | 0xcb42ec0698a6fa1a36f07b3e13f4f03ac2cdccfc | btcbbb.j | 2025/1/27
 58 | sing2011 | ✅ | [@sing201100](https://github.com/sing201100) | 0x0ee1dD80454633ea9B5E947C5d0331324Dd9FA0f | btcc.j | 2025/1/27
