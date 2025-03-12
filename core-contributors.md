@@ -96,14 +96,20 @@ core成员内自然演化形成的办事机构如下：（更新日期：2024.12
 4. 对于向某一repo活跃贡献代码或内容的核心贡献者，达到一定贡献度和活跃水平后，赋予写权限（Write）。非core-contibutors不可以采用赋予Write权限的方式来贡献！
 5. Maintain权限和Admin权限尚未确定。未来需要逐步考虑，以达到更高程度的去中心化。
 
-目前的写权限赋予情况：
-| **repo** | **type** | **public/private** | **about** | **Writers** |
+---
+目前jouelverse github代码库相关超级权限赋予情况：
+
+1. 一般成员（读权限）：Jouleverse team member。所有core成员不再默认邀请加入。有需要负责github相关管理工作的，按需加入。
+2. 顶级权限：owner。Owner拥有对整个Jouleverse org的编辑、删除权限。并默认拥有所有repo的Admin权限。【目前Jouleverse github owner有两位：Koant，教链，（）】该权限拥有者应当对Jouleverse愿景认可，有大的贡献，长期投入承诺，以及社区信任。
+3. 写权限/维护权限：maintainer。每个repo可以设置不同的maintainer（目标是每个 repo 都能选拔出3位maintainers共同维护和领导该“项目代码库”。下面是当前权限列表：
+
+| **repo** | **type** | **public/private** | **about** | **maintainers** |
 |-|-|-|-|-|
-| [ecofund1](https://github.com/Jouleverse/ecofund1) | docs | public | the first ecofund exercise | 教链, LouisAwesome(invite expired), 楼兰渔夫 |
-| [explorer](https://github.com/Jouleverse/explorer) | code | public | a serverless block explorer | 教链, yj, Jeff |
-| [redpacket](https://github.com/Jouleverse/redpacket) | code | public | contract source code for a red packet implementation | 教链, Jeff |
-| [audit](https://github.com/Jouleverse/audit) | code | public | audit script and data | Jeff, 教链 |
+| [ecofund1](https://github.com/Jouleverse/ecofund1) | docs | public | the first ecofund exercise | 楼兰渔夫, 明海云, 【】 |
+| [explorer](https://github.com/Jouleverse/explorer) | code | public | a serverless block explorer | 教链, Jeff, 【】 |
+| [redpacket](https://github.com/Jouleverse/redpacket) | code | public | contract source code for a red packet implementation | 教链, Jeff, 【】 |
+| [audit](https://github.com/Jouleverse/audit) | code | public | audit script and data | Jeff, 教链, 【】 |
 | [jouleverse](https://github.com/Jouleverse/jouleverse) | code | private | chain node source code (will open later) | 一痕, 教链, Jacky |
-| [go-relay](https://github.com/Jouleverse/go-relay) | code | private | go implementation of relay server | 一痕, 教链 |
-| [open-meetings](https://github.com/Jouleverse/open-meetings) | docs | public | CGC meeting minutes | 教链, 比尔盖, Koant, 福 |
-| [workspace](https://github.com/Jouleverse/workspace) | docs | public | PoWh committee and data | 教链, Koant, 岑云(Invite expired) |
+| [go-relay](https://github.com/Jouleverse/go-relay) | code | private | go implementation of relay server | 一痕, 教链, 【】 |
+| [open-meetings](https://github.com/Jouleverse/open-meetings) | docs | public | CGC meeting minutes | 比尔盖, Koant, 福 |
+| [workspace](https://github.com/Jouleverse/workspace) | docs | public | PoWh committee and data | Koant, 此今, 教链 |

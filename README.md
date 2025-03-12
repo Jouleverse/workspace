@@ -50,7 +50,7 @@
 [2024.07](data/powh-data-202407.mediawiki) | 煜歌 | | Jeff | 2024.10.17
 [2024.08](data/powh-data-202408.mediawiki) | 教链 | | Koant | 2024.12.1
 [2024.09](data/powh-data-202408.mediawiki) | 星际 | | - | -
-[2024.10] | Koant | | - | -
+[2024.10](data/powh-data-202410.mediawiki) | Koant | | cijin | 2025.3.12
 [2024.11] | 明海云 | | - | -
 [2024.12] | 剪云为裳 | | - | -
 
