@@ -49,10 +49,10 @@
 [2024.06](data/powh-data-202406.mediawiki) | 福 | | 谢勇 | 2024.9.2
 [2024.07](data/powh-data-202407.mediawiki) | 煜歌 | | Jeff | 2024.10.17
 [2024.08](data/powh-data-202408.mediawiki) | 教链 | | Koant | 2024.12.1
-[2024.09](data/powh-data-202408.mediawiki) | 星际 | | Koant | 2024.12.1
-[2024.10](data/powh-data-202410.mediawiki) | Koant | | - | -
-[2024.11] | 明海云 | | - | -
-[2024.12] | 剪云为裳 | | - | -
+[2024.09](data/powh-data-202409.mediawiki) | 星际 | Koant | - | 2024.12.1
+[2024.10](data/powh-data-202410.mediawiki) | Koant | cijin | - | -
+[2024.11](data/powh-data-202411.mediawiki) | 明海云 | Koant | - | -
+[2024.12](data/powh-data-202412.mediawiki) | 剪云为裳 | Koant | - | -
 [2025.01] | 微尘 | | - | -
 [2025.02] | cijin | | - | -
 [2025.03] | 剪云为裳 | | - | -
