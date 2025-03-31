@@ -22,6 +22,7 @@ core成员内自然演化形成的办事机构如下：（更新日期：2024.12
 
 ⚠️ = 暂时不再活跃
 
+下表中的id是链上core NFT的id编号。
 **id** | **昵称** | **高级KYC** | **github link** | **空投接收地址** | **JNS域名** | **登记日期**
 -|-|-|-|-|-|-
 0 | Koant | ✅ | [@koant-bit](https://github.com/koant-bit) | 0x5BF50F2931688F886F46f88D5CEEDE530bB92076 | bit.j | 2022/10/1 | 
@@ -86,6 +87,8 @@ core成员内自然演化形成的办事机构如下：（更新日期：2024.12
 59 | 潇先生 | ✅ | [@blizzardlx](https://github.com/blizzardlx) | 0x58cce35cb451b99b2718bb141c055a97753b1f92 | btcddd.j | 2025/1/27
 60 | 蓝叶子 | ✅ | [@sheeplinjie](https://github.com/sheeplinjie) | 0x16fefde0a9d46ad28d69872a9768a525afbd21d7 | 558.j | 2025/1/27
 61 | 彩彩 | ✅ | [@caicai6677](https://github.com/caicai6677) | 0x7abd815A0fB007817fAD87B2C081c75B0115DcF0 | 166.j | 2025/1/27
+62 | 富轩 | ✅ | [@fuxuan1314](https://github.com/fuxuan1314) | 0x6e5c342cC288b542b2115693c7107174f097B5b1 | hksy.j | 2025/3/31
+
 
 ---
 
