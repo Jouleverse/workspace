@@ -53,7 +53,7 @@
 [2024.10](data/powh-data-202410.mediawiki) | Koant | cijin | - | -
 [2024.11](data/powh-data-202411.mediawiki) | 明海云 | Koant | - | -
 [2024.12](data/powh-data-202412.mediawiki) | 剪云为裳 | Koant | - | -
-[2025.01] | 微尘 | | - | -
+[2025.01] | cijin | | - | -
 [2025.02] | cijin | | - | -
 [2025.03] | 剪云为裳 | | - | -
 
