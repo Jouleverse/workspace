@@ -509,3 +509,120 @@ const a = incentive202408 = { 'total': 41, 'sum': 12000000, 'list': [
     ['盛美', '344.j', '0x983BA448066f7d055224a9641aD48698E3593265', 229200],
     ['微尘', '', '0x8b4846d72d1530df755D9B5146A3e627a0A7147F', 194800],
 ] }
+
+//第二段：呼叫Metamask逐一发放空投。
+
+// check
+if (a.list.length != a.total) {
+    console.log('error! wrong list items')
+} else if ((b = a.list.reduce((sum, item) => sum + item[3], 0)) != a.sum) {
+    console.log('error! wrong sum ' + b + ' != ' + a.sum)
+} else {
+    console.log('data verified ok! do the work..')
+    const web3 = new Web3(window.ethereum)
+    const wj_contract = new web3.eth.Contract(wj_ABI, wj_contract_address)
+
+	const starting_point = 0;
+    for (var i = starting_point; i < a.list.length; i++) {
+        const addr = a.list[i][2]
+        const val = a.list[i][3]
+        console.log('depositing ' + val + ' WJ to ' + addr + '(' + a.list[i][1] + ', ' + a.list[i][0] + ')...')
+
+        const connectedAccount = window.ethereum.selectedAddress
+		if (connectedAccount) 
+			await wj_contract.methods.transfer(addr, web3.utils.toWei(val.toString())).send({from: connectedAccount})
+				.on('transactionHash', console.log)
+				.on('error', console.log)
+    }
+}
+
+//executed by Koant
+const a = incentive20240809101112 = { 'total': 51, 'sum': 48000000, 'list': [
+    ['教链', 'evan.j', '0xa2568Aa4a7Caca2E5E1B541C7Bfa048A43b2F9eB', 3332900],
+    ['Jacky', '', '0x332628d7509B6eDfB8A90918a9664De56675e9Cf', 287300],
+    ['芳芳', 'fang.j', '0xB2b4596664EA23cC4a871887b9A5CCE16FE8FD1e', 89800],
+    ['岑云', '1024.j', '0xEDaD6273b53A38f827407A43AfFf71B1F8dd3a22', 588900],
+    ['明海云', '123.j', '0xF66082F48cBc11ac83Cdde11644f4Db2f363205a', 1789000],
+
+    ['Koant', 'bit.j', '0x5BF50F2931688F886F46f88D5CEEDE530bB92076', 2381100],
+    ['楼兰渔夫', 'china.j', '0xc605e8c7E45410e598F835BE5E3e27a3Ed9c39Dd', 932800],
+    ['张恩畅', 'dashu.j', '0x03098BFD3861d998f14c62659B9bb2E4ecd89CE6', 721700],
+    ['Angel', 'angel.j', '0xd0d97851fb0c8B69edcAbe58857D7514bF490f79', 824200],
+    ['OPEN', '666.j', '0x23297B0749e51283d2424f8b4Fe1d472514B656a', 1078300],
+
+    ['li17.eth', 'li17.j', '0xCb7D6BBc8f6033b7acedB3F196535C5BB8A2623C', 1099900],
+    ['Menger', 'free.j', '0x10B5786F94B46eACaDdB093C555FFf4bA567951f', 788700],
+    ['谢勇', 'dao.j', '0xb23823CBE3962aed787fAfbc2a5B907c0F4d1489', 1872300],
+    ['火星', 'mars.j', '0x77aafda98de6485419b3bc367216e6abb220efdc', 1478800],
+    ['比尔盖', 'link.j', '0xbDE9837562Ffff60aDE0f075ef0f2d71aA09Fa88', 1170100],
+
+    ['严光红', 'ygh.j', '0x420671ac8E8674b1032aE6e7ee7E0325E139FfA3', 1545500],
+    ['Jeff', '1688.j', '0x5d1CA5f6506272A81BEdB830a47981ad73eE21BB', 2023200],
+    ['老谢', 'dambo.j', '0x2bcA9C2901213448Fc6Fe17fadD2E72714150AdC', 791900],
+    ['gwendol', 'gwendol.j', '0x8c782F0Cb636587Cf05CeD8f77Fa6a28C67c4CA9', 826800],
+    ['狮子猫', 'sizimao.j', '0x8a14917Cd61bf71eae8E33e1E620c40471B62422', 824200],
+
+    ['cijin', 'news.j', '0xda02fb50000FE64C2ca5374E7b515611A5DBeC9d', 750800],
+    ['煜歌', 'sos.j', '0xe5762924C843269E6E3F39F621D6e7127f95eEA2', 1549800],
+    ['王十二', 'wallet.j', '0xDe3b8005FE2D6Cca42827d1791dE2038a876EcA1', 560400],
+    ['kylin', '22222.j', '0x257A04a3735BAa01f51627B01Fe2f879eb71BC42', 1163200],
+    ['琰熙', 'aibao.j', '0x8dB95e200c9a667Dc541C98f755CB5606d56F53c', 541000],
+
+    ['得葱', 'dell.j', '0x4D0aC0725505Ac773AF111c6031D4B72dC8BF47e', 819400],
+    ['布道外部山', 'firesea.j', '0xE3c3D42E6fDdb3aA42bE76b793F5cD0d747c7286', 824400],
+    ['剪云为裳', 'lilei855x.j', '0xE369810B1b07d0b82F702667429c3842905C14FF', 1972600],
+    ['花开的声音', 'g.j', '0xDC936A871d411Ffa2122A585EAC678055cb8b954', 792100],
+
+    ['杨敦鹏', 'yang066.j', '0xf148F8761835be4876751b1415e738953dd7dB70', 862300],
+    ['米高', 'vibe.j', '0x97e67567a1454fcec8a7e95c970a8670da0233f3', 824200],
+    ['Ted', 'focus.j', '0xF3484B135069D0e0519c7A9763a2d2e9FF85f39c', 830000],
+    ['团子', 'wang0411.j', '0x4003B3cCFb2E80B9ce8924d4e792557D6c727418', 786300],
+    ['xiangwang', 'wangxiang6300.j', '0xff20b2b2220d620ee8efa62f91ad9f0d6edf34b6', 718500],
+
+    ['邱泳渼', 'miumiu.j', '0x42e993ea40793434c617e0dee83021137d2fcf8d', 338800],
+    ['福', 'as.j', '0x6373fFce58CBAa7Ed1f3d1721965A86b97a25B82', 455100],
+    ['星语欣愿', 'ryo3388.j', '0x38533B7Ed35859f3b48705AF2B5DF8DeD9AB6f25', 824200],
+    ['jay.j', 'jay.j', '0xb05e707879eA4ecD09392A7c78C05aA76f4c86E3', 228500],
+    ['相瑾', 'cxj66.j', '0x4E0DeA27A60937f7370A6d548E6aC48Ad50aFbD1', 792100],
+
+    ['ucanfilm', '', '0xCBA123cE2D55fCBe5bdA1Fb1003D7192115023C5', 826800],
+    ['盛美', '344.j', '0x983BA448066f7d055224a9641aD48698E3593265', 830000],
+    ['微尘', '', '0x8b4846d72d1530df755D9B5146A3e627a0A7147F', 1273900],
+
+    ['蓝叶子', '558.j', '0x16fefde0a9d46ad28d69872a9768a525afbd21d7', 529200],
+    ['sing2011', 'btcc.j', '0x0ee1dD80454633ea9B5E947C5d0331324Dd9FA0f', 794500],
+    ['TIGER', 'btcbbb.j', '0xcb42ec0698a6fa1a36f07b3e13f4f03ac2cdccfc', 824400],
+    ['潇先生', 'btcddd.j', '0x58cce35cb451b99b2718bb141c055a97753b1f92', 786300],
+    ['彩彩', '166.j', '0x7abd815A0fB007817fAD87B2C081c75B0115DcF0', 567300],
+
+    ['Simon', '2100.j', '0x48F59dA8533aaC49b18843C5374D5FEE007c32A7', 560400],
+    ['余小强', '9999.j', '0x1de9230b1B09CcFAbD49ECee3BD5E337c11A365A', 177500],
+    ['富轩', 'hksy.j', '0x6e5c342cC288b542b2115693c7107174f097B5b1', 374300],
+    ['尧垚', '2612.j', '0xC32e275CaFC27aa765bF285b0b24dDbBb556595B', 374300],
+] }
+
+//第二段：呼叫Metamask逐一发放空投。
+
+// check
+if (a.list.length != a.total) {
+    console.log('error! wrong list items')
+} else if ((b = a.list.reduce((sum, item) => sum + item[3], 0)) != a.sum) {
+    console.log('error! wrong sum ' + b + ' != ' + a.sum)
+} else {
+    console.log('data verified ok! do the work..')
+    const web3 = new Web3(window.ethereum)
+    const wj_contract = new web3.eth.Contract(wj_ABI, wj_contract_address)
+
+	const starting_point = 0;
+    for (var i = starting_point; i < a.list.length; i++) {
+        const addr = a.list[i][2]
+        const val = a.list[i][3]
+        console.log('depositing ' + val + ' WJ to ' + addr + '(' + a.list[i][1] + ', ' + a.list[i][0] + ')...')
+
+        const connectedAccount = window.ethereum.selectedAddress
+		if (connectedAccount) 
+			await wj_contract.methods.transfer(addr, web3.utils.toWei(val.toString())).send({from: connectedAccount})
+				.on('transactionHash', console.log)
+				.on('error', console.log)
+    }
+}
