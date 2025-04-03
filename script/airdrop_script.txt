@@ -537,7 +537,7 @@ if (a.list.length != a.total) {
 }
 
 //executed by Koant
-const a = incentive20240809101112 = { 'total': 51, 'sum': 48000000, 'list': [
+const a = incentive202409to12 = { 'total': 51, 'sum': 48000000, 'list': [
     ['教链', 'evan.j', '0xa2568Aa4a7Caca2E5E1B541C7Bfa048A43b2F9eB', 3332900],
     ['Jacky', '', '0x332628d7509B6eDfB8A90918a9664De56675e9Cf', 287300],
     ['芳芳', 'fang.j', '0xB2b4596664EA23cC4a871887b9A5CCE16FE8FD1e', 89800],
