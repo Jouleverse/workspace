@@ -33,8 +33,8 @@
 {|
 | 贡献者
 | [[https://github.com/jouleverse/workspace/issues/1|WP-1]] 多签人 || [[https://github.com/jouleverse/workspace/issues/2|WP-2]] 节点
-| [[https://github.com/jouleverse/workspace/issues/3|WP-3]] PoWh || || [[https://github.com/jouleverse/workspace/issues/5|WP-5]] CGC  || [[https://github.com/jouleverse/workspace/issues/6|WP-6]] CGC 
-| [[https://github.com/jouleverse/workspace/issues/8|WP-8]] 区块链浏览器
+| [[https://github.com/jouleverse/workspace/issues/3|WP-3]] PoWh || || [[https://github.com/jouleverse/workspace/issues/5|WP-5]] JNDAO [[https://github.com/jouleverse/workspace/issues/6|WP-6]] CGC 
+| [[https://github.com/jouleverse/workspace/issues/7|WP-7]] 链(&节点审计) || [[https://github.com/jouleverse/workspace/issues/8|WP-8]] 区块链浏览器|| [[https://github.com/Jouleverse/workspace/issues/13|WP-13]] 白皮书和网站|| [[https://github.com/Jouleverse/workspace/issues/15|WP-15]] 核心治理工具集开发
 |合计
 |-
 | 教链
