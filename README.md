@@ -60,8 +60,10 @@
 [2025.05](data/powh-data-202505.mediawiki) | 微尘 | Koant | Koant | 2025.09.29
 [2025.06](data/powh-data-202506.mediawiki) | 微尘 | Koant | Koant | 2025.09.29
 [2025.07](data/powh-data-202507.mediawiki) | 微尘 | Koant | - | -
-[2025.06]() | 微尘 | Koant | - | -
-[2025.06]() | 微尘 | Koant | - | -
+[2025.08]() | 微尘 | Koant | - | -
+[2025.09]() | 微尘 | Koant | - | -
+[2025.10]() | 微尘 | Koant | - | -
+
 # 预算机制和空投执行指南
 
 1. 自2024.5 PoWh起，采用Timelock合约控制创世金库中20%的core部分，并约束预算释放，每月1200万J，合约算法写死，不可修改、调整。
