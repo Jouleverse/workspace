@@ -60,7 +60,7 @@
 [2025.05](data/powh-data-202505.mediawiki) | 微尘 | Koant | Koant | 2025.09.29
 [2025.06](data/powh-data-202506.mediawiki) | 微尘 | Koant | Koant | 2025.09.29
 [2025.07](data/powh-data-202507.mediawiki) | 微尘 | Koant | - | -
-[2025.08]() | 微尘 | Koant | - | -
+[2025.08](data/powh-data-202508.mediawiki) | 微尘 | Koant | - | -
 [2025.09]() | 微尘 | Koant | - | -
 [2025.10]() | 微尘 | Koant | - | -
 
