@@ -2,7 +2,7 @@
 
 <img width="200px" src="core-contributor.svg" alt="core"> <img width="200px" src="core-contributor-inactive.svg" alt="core">
 
-## 办事机构
+<!-- ## 办事机构
 
 core成员内自然演化形成的办事机构如下：（更新日期：2024.12.24）
 
@@ -10,6 +10,8 @@ core成员内自然演化形成的办事机构如下：（更新日期：2024.12
 -|-|-|-
 书记处 | 1. CGC会议的召集、召开和记录（每周）；2. 招募并启动工作量统计（每月） | 微信群 | 剪云为裳(群主), 福, Koant 
 节点办 | 1. 为新节点提供技术支持；2. 审计新节点并帮助入网 | 微信群 | 老谢(群主), Jeff, Menger, Koant
+
+-->
 
 ## 名单和链地址
 
@@ -90,6 +92,8 @@ J-61 | 彩彩 | ✅ | [@caicai6677](https://github.com/caicai6677) | 0x7abd815A0
 J-62 | 富轩 | ✅ | [@fuxuan1314](https://github.com/fuxuan1314) | 0x6e5c342cC288b542b2115693c7107174f097B5b1 | hksy.j | 2025/3/31
 J-63 | 尧垚 | ✅ | [@Xx118795](https://github.com/Xx118795) | 0xC32e275CaFC27aa765bF285b0b24dDbBb556595B | 2612.j | 2025/4/2
 J-64 | 元神道（机构）（联络人：老道） | ✅ | [@huikygit](https://github.com/huikygit) | 0xDA739b1023051A6546C1f0212E88A93ec6988aDA | 暂无 | 2025/7/18
+J-65 | 伟龙 | ✅ | [@edwardlong9996](https://github.com/edwardlong9996) | 0xf0aca1882d388b98549cb4167dfb6d8c5b40f656 | 暂无 | 2025/12/10
+
 
 ---
 
