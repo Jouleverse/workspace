@@ -94,6 +94,7 @@ J-63 | 尧垚 | ✅ | [@Xx118795](https://github.com/Xx118795) | 0xC32e275CaFC27
 <del>J-64</del>(key lost. revoked.) | 元神道（机构）（联络人：老道） | ✅ | [@huikygit](https://github.com/huikygit) | 0xDA739b1023051A6546C1f0212E88A93ec6988aDA | 暂无 | 2025/7/18
 J-65 | 伟龙 | ✅ | [@edwardlong9996](https://github.com/edwardlong9996) | 0xf0aca1882d388b98549cb4167dfb6d8c5b40f656 | 暂无 | 2025/12/10
 J-66 | 元神道（机构）（联络人：老道） | ✅ | [@huikygit](https://github.com/huikygit) | 0x43Ab403A1b0bC16355212c91017C8D32b867bce6 | 暂无 | 2026/1/8 renew (since 2025/7/18) 
+J-67 | Bataroc | ✅ | [@Bataroc](https://github.com/Bataroc) | 0x68a0b0b1dcf796c993c29c9c6988a3216003c53a | 暂无 | 2026/1/8 
 
 ---
 
