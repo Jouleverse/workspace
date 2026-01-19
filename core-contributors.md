@@ -22,79 +22,78 @@ core成员内自然演化形成的办事机构如下：（更新日期：2024.12
 * 注1：登记日期以[正确填报高级KYC信息日期](https://docs.qq.com/form/page/DTHBITWl4dGdRQlVo)为准（审核后置，若信息有误审核不通过则需要重填重审）。
 * 注2：原则上，空投接收地址不接受中途更改，以避免空投发放出错等问题。
 
-⚠️ = 暂时不再活跃
+下表中的id是链上core NFT的id编号，即Core ID，添加🆔标识及J前缀以方便检索。
 
-下表中的id是链上core NFT的id编号（添加J-前缀方便检索）。
-**core ID** | **昵称** | **高级KYC** | **github link** | **空投接收地址** | **JNS域名** | **登记日期**
+**Core ID** | **昵称** | **高级KYC** | **github link** | **空投接收地址** | **JNS域名** | **登记日期**
 -|-|-|-|-|-|-
-J-0 | Koant | ✅ | [@koant-bit](https://github.com/koant-bit) | 0x5BF50F2931688F886F46f88D5CEEDE530bB92076 | bit.j | 2022/10/1 | 
-J-1 | 芳芳 | ✅ | [@zhao20200902](https://github.com/zhao20200902) | 0xB2b4596664EA23cC4a871887b9A5CCE16FE8FD1e | fang.j | 2022/10/1
-J-2 | Dream (⚠️) | ✅ | - | 0xBF2752178152c9909C6E0Ac5538f771d7b1f2BAA | beta.j | 2022/10/1
-J-3 | 岑云 | ✅ | [@LU1986HZ](https://github.com/LU1986HZ) | 0xEDaD6273b53A38f827407A43AfFf71B1F8dd3a22 | 1024.j | 2022/10/1
-J-4 | 楼兰渔夫 | ✅ | [@LouLanFisherman](https://github.com/LouLanFisherman) | 0xc605e8c7E45410e598F835BE5E3e27a3Ed9c39Dd | china.j | 2022/10/1
-J-5 | Menger | ✅ | [@mengal](https://github.com/mengal) | 0x10B5786F94B46eACaDdB093C555FFf4bA567951f | menger.j | 2023/2/1
-J-6 | li17 | ✅ | [@lii1717](https://github.com/lii1717) | 0xCb7D6BBc8f6033b7acedB3F196535C5BB8A2623C | li17.j | 2023/2/1
-J-7 | 明海云 | ✅ | [@240616-ming](https://github.com/240616-ming) | 0xF66082F48cBc11ac83Cdde11644f4Db2f363205a | 123.j | 2022/10/1
-J-8 | Yihen (⚠️) | ✅ | [@Yihen-Liu](https://github.com/Yihen-Liu) | 0x36B68b28E589e5eB41A6f22938054EA4bD82423D | seed.j | 2022/10/1
-J-9 | Jacky | ✅ | [@liujiaqiid](https://github.com/liujiaqiid) | 0x332628d7509B6eDfB8A90918a9664De56675e9Cf | - | 2022/10/1
-J-10 | 锴 (⚠️) | ✅ | - | 0xEFfDa09cDB8794fFC998252b33e40F0C8ed094dB | 0xjustry.j | 2023/2/1
-J-11 | 摩卡 (⚠️) | ✅ | - | 0x88A59D6914398FAEEAE2Fb9B50351f9373dEe1D6 | j.j | 2022/10/1
-J-12 | 如行 | ✅ | - | 0xAD8eCe3F5Cb68CD9124e6B124B9985B41E7AdAf7 | hao.j | 2023/7/26
-J-13 | 元宇星河 (机构) (联络人：刘子君)(⚠️) | ✅ | - | 0xd632abFF33E7dfcE2191713179eA63Be124EA0bb | yuanyuxinghe.j | 2023/7/26
-J-14 | ucanfilm (机构) (联络人：凌杏水) | ✅ | [@lingxingshui123](https://github.com/lingxingshui123) | 0xCBA123cE2D55fCBe5bdA1Fb1003D7192115023C5 | -- | 2023/7/26
-J-15 | 张恩畅 | ✅ | [@enchang1](https://github.com/enchang1) | 0x03098BFD3861d998f14c62659B9bb2E4ecd89CE6 | dashu.j | 2023/7/26
-J-16 | Open | ✅ | [@open-666](https://github.com/open-666) | 0x23297B0749e51283d2424f8b4Fe1d472514B656a | 666.j | 2023/7/26
-J-17 | 火星 | ✅ | [@gjw00001](https://github.com/gjw00001) | 0x77aafda98de6485419b3bc367216e6abb220efdc | mars.j | 2023/7/26
-J-18 | 谢勇(稳清活) | ✅ | [@Timothyxie513](https://github.com/Timothyxie513) | 0xb23823CBE3962aed787fAfbc2a5B907c0F4d1489 | dao.j | 2023/7/30
-J-19 | Angel | ✅ | [@Sunshinewla](https://github.com/Sunshinewla) | 0xd0d97851fb0c8B69edcAbe58857D7514bF490f79 | angel.j | 2023/8/9
-J-20 | Leo (⚠️) | ✅ | - | 0x3302e717Bf0c589b55B3066CD02d2EeadfFE11E3 | -- | 2023/8/29
-J-21 | 比尔盖 | ✅ | [@biergai](https://github.com/biergai) | 0xbDE9837562Ffff60aDE0f075ef0f2d71aA09Fa88 | link.j | 2023/10/13
-J-22 | LouisAwesome | ✅ | [@wowodog126](https://github.com/wowodog126) | 0x12a8AB14fe18b464f2286470a85223efcec52ad9 | catdog.j |2024/1/20
-J-23 | 琰熙 | ✅ | [@Yanxi02](https://github.com/Yanxi02) | 0x8dB95e200c9a667Dc541C98f755CB5606d56F53c | aibao.j | 2024/1/21 | 
-J-24 | gwendol(c) | ✅ | - | 0x8c782F0Cb636587Cf05CeD8f77Fa6a28C67c4CA9 | gwendol.j | 2024/1/23
-J-25 | 教链(evan) | ✅ | [@hmisty](https://github.com/hmisty) | 0xa2568Aa4a7Caca2E5E1B541C7Bfa048A43b2F9eB | evan.j | 2022/10/1
-J-26 | 严光红 | ✅ | [@YGH200](https://github.com/240616-ming) | 0x420671ac8E8674b1032aE6e7ee7E0325E139FfA3 | ygh.j | 2024/1/30
-J-27 | 狮子猫 | ✅ | [@sizimao](https://github.com/sizimao) | 0x8a14917Cd61bf71eae8E33e1E620c40471B62422 | sizimao.j | 2024/1/30 | 
-J-28 | 老谢 | ✅ | [@Dambo36142](https://github.com/Dambo36142) | 0x2bcA9C2901213448Fc6Fe17fadD2E72714150AdC | dambo.j | 2024/1/30
-J-29 | Jeff | ✅ | [@29n](https://github.com/29n) | 0x5d1CA5f6506272A81BEdB830a47981ad73eE21BB | 1688.j | 2024/1/31
-J-30 | yj (⚠️) | ✅ | [@AqoursSunshine](https://github.com/AqoursSunshine) | 0xA130954aEd1f6aF433844A1F41A871f96B1f1B2D | being.j | 2024/2/2
-J-31 | kylin | ✅ | [@kylin](https://github.com/kylin) | 0x257A04a3735BAa01f51627B01Fe2f879eb71BC42 | 22222.j | 2024/2/4
-J-32 | 王十二 | ✅ | [@amberwong0824](https://github.com/amberwong0824) | 0xDe3b8005FE2D6Cca42827d1791dE2038a876EcA1 | wallet.j | 2024/2/4
-J-33 | 煜歌 | ✅ | [@tuoling1314](https://github.com/tuoling1314) | 0xe5762924C843269E6E3F39F621D6e7127f95eEA2 | sos.j | 2024/2/5
-J-34 | cijin | ✅ | [@Astudysunny](https://github.com/Astudysunny) | 0xda02fb50000FE64C2ca5374E7b515611A5DBeC9d | news.j | 2024/2/7
-J-35 | 布道外部山 | ✅ | [@king-68](https://github.com/king-68) | 0xE3c3D42E6fDdb3aA42bE76b793F5cD0d747c7286 | firesea.j | 2024/2/18
-J-36 | 得葱 | ✅ | [@decong2077](https://github.com/decong2077) | 0x4D0aC0725505Ac773AF111c6031D4B72dC8BF47e | dell.j | 2024/2/18
-J-37 | 剪云为裳 | ✅ | [@zhm114](https://github.com/zhm114) | 0xE369810B1b07d0b82F702667429c3842905C14FF | lilei855x.j | 2024/3/2
-J-38 | Victor | ✅ | [@geevictor](https://github.com/geevictor) | 0x881Bd71b402B1735550e2941a29Fc6D9Fe4a07F3 | lulu.j | 2024/3/3
-J-39 | 花开的声音 | ✅ | [@wyd11223](https://github.com/wyd11223) | 0xDC936A871d411Ffa2122A585EAC678055cb8b954 | g.j | 2024/3/9
-J-40 | 星际 | ✅ | [@qianbo-mxc20](https://github.com/qianbo-mxc20) | 0xD31afC823CCAdb16599A4BaeF6fd5898c738A785 | xingji.j | 2024/3/12
-J-41 | 福 | ✅ | [@afu100860](https://github.com/afu100860) | 0x6373fFce58CBAa7Ed1f3d1721965A86b97a25B82 | as.j | 2024/3/14
-J-42 | 米高 | ✅ | [@jason8605](https://github.com/jason8605) | 0x97e67567a1454fcec8a7e95c970a8670da0233f3 | vibe.j | 2024/3/14
-J-43 | Ted | ✅ | [@weffer001](https://github.com/weffer001) | 0xF3484B135069D0e0519c7A9763a2d2e9FF85f39c | focus.j | 2024/3/21
-J-44 | 团子 | ✅ | [@tuanzi0411](https://github.com/tuanzi0411) | 0x4003B3cCFb2E80B9ce8924d4e792557D6c727418 | wang0411.j | 2024/3/24
-J-45 | 杨敦鹏 | ✅ | [@066y](https://github.com/066y) | 0xf148F8761835be4876751b1415e738953dd7dB70 | yang066.j | 2024/3/26
-J-46 | xiangwang | ✅ | [@xiangwang6300](https://github.com/xiangwang6300) | 0xff20b2b2220d620ee8efa62f91ad9f0d6edf34b6 | wangxiang6300.j | 2024/3/29
-J-47 | 邱泳渼 | ✅ | [@qymei123](https://github.com/qymei123) | 0x42e993ea40793434c617e0dee83021137d2fcf8d | miumiu.j | 2024/3/31
-J-48 | 子非鱼 | ✅ | [@Exiqan](https://github.com/Exiqan)❌ | 0x3563586c376eA25cCA7aD86C73F1E4F6143a748a | cx.j | 2024/3/31
-J-49 | 星语欣愿 | ✅ | [@xingyu13146](https://github.com/xingyu13146) | 0x38533B7Ed35859f3b48705AF2B5DF8DeD9AB6f25 | ryo3388.j | 2024/3/31
-J-50 | jay.j | ✅ | [@SpyForger](https://github.com/SpyForger) | 0xb05e707879eA4ecD09392A7c78C05aA76f4c86E3 | jay.j | 2024/4/19
-J-51 | 相瑾 | ✅ | [@cxj09131](https://github.com/cxj09131) | 0x4E0DeA27A60937f7370A6d548E6aC48Ad50aFbD1 | cxj66.j | 2024/5/20
-J-52 | 盛美 | ✅ | [@uwangshang](https://github.com/uwangshang) | 0x983BA448066f7d055224a9641aD48698E3593265 | --- | 2024/6/23
-J-53 | 微尘 | ✅ | [@fangsheng-sudo](https://github.com/fangsheng-sudo) | 0x8b4846d72d1530df755D9B5146A3e627a0A7147F | fangsheng.j | 2024/7/19
-J-54 | Simon | ✅ | [@brone2018](https://github.com/brone2018) | 0x48F59dA8533aaC49b18843C5374D5FEE007c32A7 | 2100.j | 2024/9/19
-J-55 | 蓝色经典 | ✅ | 暂无 | 0xD7be2e48f4c4E22653B97EC4638B4D4C72A35711 | lilei885x.j | 2025/1/27
-J-56 | 佘小强 | ✅ | [@Sj554455](https://github.com/Sj554455) | 0x1de9230b1B09CcFAbD49ECee3BD5E337c11A365A | 9999.j | 2025/1/27
-J-57 | TIGER | ✅ | [@TigerGaoJiaLi](https://github.com/TigerGaoJiaLi) | 0xcb42ec0698a6fa1a36f07b3e13f4f03ac2cdccfc | btcbbb.j | 2025/1/27
-J-58 | sing2011 | ✅ | [@sing201100](https://github.com/sing201100) | 0x0ee1dD80454633ea9B5E947C5d0331324Dd9FA0f | btcc.j | 2025/1/27
-J-59 | 潇先生 | ✅ | [@blizzardlx](https://github.com/blizzardlx) | 0x58cce35cb451b99b2718bb141c055a97753b1f92 | btcddd.j | 2025/1/27
-J-60 | 蓝叶子 | ✅ | [@sheeplinjie](https://github.com/sheeplinjie) | 0x16fefde0a9d46ad28d69872a9768a525afbd21d7 | 558.j | 2025/1/27
-J-61 | 彩彩 | ✅ | [@caicai6677](https://github.com/caicai6677) | 0x7abd815A0fB007817fAD87B2C081c75B0115DcF0 | 166.j | 2025/1/27
-J-62 | 富轩 | ✅ | [@fuxuan1314](https://github.com/fuxuan1314) | 0x6e5c342cC288b542b2115693c7107174f097B5b1 | hksy.j | 2025/3/31
-J-63 | 尧垚 | ✅ | [@Xx118795](https://github.com/Xx118795) | 0xC32e275CaFC27aa765bF285b0b24dDbBb556595B | 2612.j | 2025/4/2
-<del>J-64</del>(key lost. revoked.) | 元神道（机构）（联络人：老道） | ✅ | [@huikygit](https://github.com/huikygit) | 0xDA739b1023051A6546C1f0212E88A93ec6988aDA | 暂无 | 2025/7/18
-J-65 | 伟龙 | ✅ | [@edwardlong9996](https://github.com/edwardlong9996) | 0xf0aca1882d388b98549cb4167dfb6d8c5b40f656 | 暂无 | 2025/12/10
-J-66 | 元神道（机构）（联络人：老道） | ✅ | [@huikygit](https://github.com/huikygit) | 0x43Ab403A1b0bC16355212c91017C8D32b867bce6 | 暂无 | 2026/1/8 renew (since 2025/7/18) 
-J-67 | Bataroc | ✅ | [@Bataroc](https://github.com/Bataroc) | 0x68a0b0b1dcf796c993c29c9c6988a3216003c53a | 暂无 | 2026/1/8 
+🆔J0 | Koant | ✅ | [@koant-bit](https://github.com/koant-bit) | 0x5BF50F2931688F886F46f88D5CEEDE530bB92076 | bit.j | 2022/10/1 | 
+🆔J1 | 芳芳 | ✅ | [@zhao20200902](https://github.com/zhao20200902) | 0xB2b4596664EA23cC4a871887b9A5CCE16FE8FD1e | fang.j | 2022/10/1
+🆔J2 | Dream | ✅ | - | 0xBF2752178152c9909C6E0Ac5538f771d7b1f2BAA | beta.j | 2022/10/1
+🆔J3 | 岑云 | ✅ | [@LU1986HZ](https://github.com/LU1986HZ) | 0xEDaD6273b53A38f827407A43AfFf71B1F8dd3a22 | 1024.j | 2022/10/1
+🆔J4 | 楼兰渔夫 | ✅ | [@LouLanFisherman](https://github.com/LouLanFisherman) | 0xc605e8c7E45410e598F835BE5E3e27a3Ed9c39Dd | china.j | 2022/10/1
+🆔J5 | Menger | ✅ | [@mengal](https://github.com/mengal) | 0x10B5786F94B46eACaDdB093C555FFf4bA567951f | menger.j | 2023/2/1
+🆔J6 | li17 | ✅ | [@lii1717](https://github.com/lii1717) | 0xCb7D6BBc8f6033b7acedB3F196535C5BB8A2623C | li17.j | 2023/2/1
+🆔J7 | 明海云 | ✅ | [@240616-ming](https://github.com/240616-ming) | 0xF66082F48cBc11ac83Cdde11644f4Db2f363205a | 123.j | 2022/10/1
+🆔J8 | Yihen | ✅ | [@Yihen-Liu](https://github.com/Yihen-Liu) | 0x36B68b28E589e5eB41A6f22938054EA4bD82423D | seed.j | 2022/10/1
+🆔J9 | Jacky | ✅ | [@liujiaqiid](https://github.com/liujiaqiid) | 0x332628d7509B6eDfB8A90918a9664De56675e9Cf | - | 2022/10/1
+🆔J10 | 锴 | ✅ | - | 0xEFfDa09cDB8794fFC998252b33e40F0C8ed094dB | 0xjustry.j | 2023/2/1
+🆔J11 | 摩卡 | ✅ | - | 0x88A59D6914398FAEEAE2Fb9B50351f9373dEe1D6 | j.j | 2022/10/1
+🆔J12 | 如行 | ✅ | - | 0xAD8eCe3F5Cb68CD9124e6B124B9985B41E7AdAf7 | hao.j | 2023/7/26
+🆔J13 | 元宇星河 (机构) (联络人：刘子君) | ✅ | - | 0xd632abFF33E7dfcE2191713179eA63Be124EA0bb | yuanyuxinghe.j | 2023/7/26
+🆔J14 | ucanfilm (机构) (联络人：凌杏水) | ✅ | [@lingxingshui123](https://github.com/lingxingshui123) | 0xCBA123cE2D55fCBe5bdA1Fb1003D7192115023C5 | -- | 2023/7/26
+🆔J15 | 张恩畅 | ✅ | [@enchang1](https://github.com/enchang1) | 0x03098BFD3861d998f14c62659B9bb2E4ecd89CE6 | dashu.j | 2023/7/26
+🆔J16 | Open | ✅ | [@open-666](https://github.com/open-666) | 0x23297B0749e51283d2424f8b4Fe1d472514B656a | 666.j | 2023/7/26
+🆔J17 | 火星 | ✅ | [@gjw00001](https://github.com/gjw00001) | 0x77aafda98de6485419b3bc367216e6abb220efdc | mars.j | 2023/7/26
+🆔J18 | 谢勇(稳清活) | ✅ | [@Timothyxie513](https://github.com/Timothyxie513) | 0xb23823CBE3962aed787fAfbc2a5B907c0F4d1489 | dao.j | 2023/7/30
+🆔J19 | Angel | ✅ | [@Sunshinewla](https://github.com/Sunshinewla) | 0xd0d97851fb0c8B69edcAbe58857D7514bF490f79 | angel.j | 2023/8/9
+🆔J20 | Leo | ✅ | - | 0x3302e717Bf0c589b55B3066CD02d2EeadfFE11E3 | -- | 2023/8/29
+🆔J21 | 比尔盖 | ✅ | [@biergai](https://github.com/biergai) | 0xbDE9837562Ffff60aDE0f075ef0f2d71aA09Fa88 | link.j | 2023/10/13
+🆔J22 | LouisAwesome | ✅ | [@wowodog126](https://github.com/wowodog126) | 0x12a8AB14fe18b464f2286470a85223efcec52ad9 | catdog.j |2024/1/20
+🆔J23 | 琰熙 | ✅ | [@Yanxi02](https://github.com/Yanxi02) | 0x8dB95e200c9a667Dc541C98f755CB5606d56F53c | aibao.j | 2024/1/21 | 
+🆔J24 | gwendol(c) | ✅ | - | 0x8c782F0Cb636587Cf05CeD8f77Fa6a28C67c4CA9 | gwendol.j | 2024/1/23
+🆔J25 | 教链(evan) | ✅ | [@hmisty](https://github.com/hmisty) | 0xa2568Aa4a7Caca2E5E1B541C7Bfa048A43b2F9eB | evan.j | 2022/10/1
+🆔J26 | 严光红 | ✅ | [@YGH200](https://github.com/240616-ming) | 0x420671ac8E8674b1032aE6e7ee7E0325E139FfA3 | ygh.j | 2024/1/30
+🆔J27 | 狮子猫 | ✅ | [@sizimao](https://github.com/sizimao) | 0x8a14917Cd61bf71eae8E33e1E620c40471B62422 | sizimao.j | 2024/1/30 | 
+🆔J28 | 老谢 | ✅ | [@Dambo36142](https://github.com/Dambo36142) | 0x2bcA9C2901213448Fc6Fe17fadD2E72714150AdC | dambo.j | 2024/1/30
+🆔J29 | Jeff | ✅ | [@29n](https://github.com/29n) | 0x5d1CA5f6506272A81BEdB830a47981ad73eE21BB | 1688.j | 2024/1/31
+🆔J30 | yj | ✅ | [@AqoursSunshine](https://github.com/AqoursSunshine) | 0xA130954aEd1f6aF433844A1F41A871f96B1f1B2D | being.j | 2024/2/2
+🆔J31 | kylin | ✅ | [@kylin](https://github.com/kylin) | 0x257A04a3735BAa01f51627B01Fe2f879eb71BC42 | 22222.j | 2024/2/4
+🆔J32 | 王十二 | ✅ | [@amberwong0824](https://github.com/amberwong0824) | 0xDe3b8005FE2D6Cca42827d1791dE2038a876EcA1 | wallet.j | 2024/2/4
+🆔J33 | 煜歌 | ✅ | [@tuoling1314](https://github.com/tuoling1314) | 0xe5762924C843269E6E3F39F621D6e7127f95eEA2 | sos.j | 2024/2/5
+🆔J34 | cijin | ✅ | [@Astudysunny](https://github.com/Astudysunny) | 0xda02fb50000FE64C2ca5374E7b515611A5DBeC9d | news.j | 2024/2/7
+🆔J35 | 布道外部山 | ✅ | [@king-68](https://github.com/king-68) | 0xE3c3D42E6fDdb3aA42bE76b793F5cD0d747c7286 | firesea.j | 2024/2/18
+🆔J36 | 得葱 | ✅ | [@decong2077](https://github.com/decong2077) | 0x4D0aC0725505Ac773AF111c6031D4B72dC8BF47e | dell.j | 2024/2/18
+🆔J37 | 剪云为裳 | ✅ | [@zhm114](https://github.com/zhm114) | 0xE369810B1b07d0b82F702667429c3842905C14FF | lilei855x.j | 2024/3/2
+🆔J38 | Victor | ✅ | [@geevictor](https://github.com/geevictor) | 0x881Bd71b402B1735550e2941a29Fc6D9Fe4a07F3 | lulu.j | 2024/3/3
+🆔J39 | 花开的声音 | ✅ | [@wyd11223](https://github.com/wyd11223) | 0xDC936A871d411Ffa2122A585EAC678055cb8b954 | g.j | 2024/3/9
+🆔J40 | 星际 | ✅ | [@qianbo-mxc20](https://github.com/qianbo-mxc20) | 0xD31afC823CCAdb16599A4BaeF6fd5898c738A785 | xingji.j | 2024/3/12
+🆔J41 | 福 | ✅ | [@afu100860](https://github.com/afu100860) | 0x6373fFce58CBAa7Ed1f3d1721965A86b97a25B82 | as.j | 2024/3/14
+🆔J42 | 米高 | ✅ | [@jason8605](https://github.com/jason8605) | 0x97e67567a1454fcec8a7e95c970a8670da0233f3 | vibe.j | 2024/3/14
+🆔J43 | Ted | ✅ | [@weffer001](https://github.com/weffer001) | 0xF3484B135069D0e0519c7A9763a2d2e9FF85f39c | focus.j | 2024/3/21
+🆔J44 | 团子 | ✅ | [@tuanzi0411](https://github.com/tuanzi0411) | 0x4003B3cCFb2E80B9ce8924d4e792557D6c727418 | wang0411.j | 2024/3/24
+🆔J45 | 杨敦鹏 | ✅ | [@066y](https://github.com/066y) | 0xf148F8761835be4876751b1415e738953dd7dB70 | yang066.j | 2024/3/26
+🆔J46 | xiangwang | ✅ | [@xiangwang6300](https://github.com/xiangwang6300) | 0xff20b2b2220d620ee8efa62f91ad9f0d6edf34b6 | wangxiang6300.j | 2024/3/29
+🆔J47 | 邱泳渼 | ✅ | [@qymei123](https://github.com/qymei123) | 0x42e993ea40793434c617e0dee83021137d2fcf8d | miumiu.j | 2024/3/31
+🆔J48 | 子非鱼 | ✅ | [@Exiqan](https://github.com/Exiqan)❌ | 0x3563586c376eA25cCA7aD86C73F1E4F6143a748a | cx.j | 2024/3/31
+🆔J49 | 星语欣愿 | ✅ | [@xingyu13146](https://github.com/xingyu13146) | 0x38533B7Ed35859f3b48705AF2B5DF8DeD9AB6f25 | ryo3388.j | 2024/3/31
+🆔J50 | jay.j | ✅ | [@SpyForger](https://github.com/SpyForger) | 0xb05e707879eA4ecD09392A7c78C05aA76f4c86E3 | jay.j | 2024/4/19
+🆔J51 | 相瑾 | ✅ | [@cxj09131](https://github.com/cxj09131) | 0x4E0DeA27A60937f7370A6d548E6aC48Ad50aFbD1 | cxj66.j | 2024/5/20
+🆔J52 | 盛美 | ✅ | [@uwangshang](https://github.com/uwangshang) | 0x983BA448066f7d055224a9641aD48698E3593265 | --- | 2024/6/23
+🆔J53 | 微尘 | ✅ | [@fangsheng-sudo](https://github.com/fangsheng-sudo) | 0x8b4846d72d1530df755D9B5146A3e627a0A7147F | fangsheng.j | 2024/7/19
+🆔J54 | Simon | ✅ | [@brone2018](https://github.com/brone2018) | 0x48F59dA8533aaC49b18843C5374D5FEE007c32A7 | 2100.j | 2024/9/19
+🆔J55 | 蓝色经典 | ✅ | 暂无 | 0xD7be2e48f4c4E22653B97EC4638B4D4C72A35711 | lilei885x.j | 2025/1/27
+🆔J56 | 佘小强 | ✅ | [@Sj554455](https://github.com/Sj554455) | 0x1de9230b1B09CcFAbD49ECee3BD5E337c11A365A | 9999.j | 2025/1/27
+🆔J57 | TIGER | ✅ | [@TigerGaoJiaLi](https://github.com/TigerGaoJiaLi) | 0xcb42ec0698a6fa1a36f07b3e13f4f03ac2cdccfc | btcbbb.j | 2025/1/27
+🆔J58 | sing2011 | ✅ | [@sing201100](https://github.com/sing201100) | 0x0ee1dD80454633ea9B5E947C5d0331324Dd9FA0f | btcc.j | 2025/1/27
+🆔J59 | 潇先生 | ✅ | [@blizzardlx](https://github.com/blizzardlx) | 0x58cce35cb451b99b2718bb141c055a97753b1f92 | btcddd.j | 2025/1/27
+🆔J60 | 蓝叶子 | ✅ | [@sheeplinjie](https://github.com/sheeplinjie) | 0x16fefde0a9d46ad28d69872a9768a525afbd21d7 | 558.j | 2025/1/27
+🆔J61 | 彩彩 | ✅ | [@caicai6677](https://github.com/caicai6677) | 0x7abd815A0fB007817fAD87B2C081c75B0115DcF0 | 166.j | 2025/1/27
+🆔J62 | 富轩 | ✅ | [@fuxuan1314](https://github.com/fuxuan1314) | 0x6e5c342cC288b542b2115693c7107174f097B5b1 | hksy.j | 2025/3/31
+🆔J63 | 尧垚 | ✅ | [@Xx118795](https://github.com/Xx118795) | 0xC32e275CaFC27aa765bF285b0b24dDbBb556595B | 2612.j | 2025/4/2
+<del>🆔J64</del>(key lost. revoked.) | 元神道（机构）（联络人：老道） | ✅ | [@huikygit](https://github.com/huikygit) | 0xDA739b1023051A6546C1f0212E88A93ec6988aDA | 暂无 | 2025/7/18
+🆔J65 | 伟龙 | ✅ | [@edwardlong9996](https://github.com/edwardlong9996) | 0xf0aca1882d388b98549cb4167dfb6d8c5b40f656 | 暂无 | 2025/12/10
+🆔J66 | 元神道（机构）（联络人：老道） | ✅ | [@huikygit](https://github.com/huikygit) | 0x43Ab403A1b0bC16355212c91017C8D32b867bce6 | 暂无 | 2026/1/8 renew (since 2025/7/18) 
+🆔J67 | Bataroc | ✅ | [@Bataroc](https://github.com/Bataroc) | 0x68a0b0b1dcf796c993c29c9c6988a3216003c53a | 暂无 | 2026/1/8 
 
 ---
 
