@@ -776,3 +776,29 @@ const a = incentive202507to11 = { 'total': 47, 'sum': 60000000, 'list': [
     ['如行', 'hao.j', '0xAD8eCe3F5Cb68CD9124e6B124B9985B41E7AdAf7', 195700],
     ['创世金库', '', '0x3B717119878E2db1AA7df46F5AdcF9766A01706F', 8300],
 ] }
+
+//第二段：呼叫Metamask逐一发放空投。
+
+// check
+if (a.list.length != a.total) {
+    console.log('error! wrong list items')
+} else if ((b = a.list.reduce((sum, item) => sum + item[3], 0)) != a.sum) {
+    console.log('error! wrong sum ' + b + ' != ' + a.sum)
+} else {
+    console.log('data verified ok! do the work..')
+    const web3 = new Web3(window.ethereum)
+    const wj_contract = new web3.eth.Contract(wj_ABI, wj_contract_address)
+
+	const starting_point = 0;
+    for (var i = starting_point; i < a.list.length; i++) {
+        const addr = a.list[i][2]
+        const val = a.list[i][3]
+        console.log('depositing ' + val + ' WJ to ' + addr + '(' + a.list[i][1] + ', ' + a.list[i][0] + ')...')
+
+        const connectedAccount = window.ethereum.selectedAddress
+		if (connectedAccount) 
+			await wj_contract.methods.transfer(addr, web3.utils.toWei(val.toString())).send({from: connectedAccount})
+				.on('transactionHash', console.log)
+				.on('error', console.log)
+    }
+}
