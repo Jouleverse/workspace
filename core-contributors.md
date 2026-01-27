@@ -121,5 +121,6 @@ TODO: 注意core id换新会有一个悖论：powh统计工作量是记在旧cor
 | [audit](https://github.com/Jouleverse/audit) | code | public | audit script and data | Jeff, 教链, 【】 |
 | [jouleverse](https://github.com/Jouleverse/jouleverse) | code | private | chain node source code (will open later) | 一痕, 教链, Jacky |
 | [go-relay](https://github.com/Jouleverse/go-relay) | code | private | go implementation of relay server | 一痕, 教链, 【】 |
-| [open-meetings](https://github.com/Jouleverse/open-meetings) | docs | public | CGC meeting minutes | 比尔盖, Koant, 福 |
-| [workspace](https://github.com/Jouleverse/workspace) | docs | public | PoWh committee and data | Koant, 此今, 教链 |
+| [open-meetings](https://github.com/Jouleverse/open-meetings) | docs | public | CGC meeting minutes | 楼兰渔夫，如行，Koant |
+| [workspace](https://github.com/Jouleverse/workspace) | docs | public | PoWh committee and data | 微尘，Koant, 此今, 教链 |
+| [wiki](https://github.com/Jouleverse/wiki) | docs | public | Editorial work | 如行，Koant，教链 |
