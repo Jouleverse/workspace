@@ -110,7 +110,7 @@ TODO: 注意core id换新会有一个悖论：powh统计工作量是记在旧cor
 目前jouelverse github代码库相关超级权限赋予情况：
 
 1. 一般成员（读权限）：Jouleverse team member。所有core成员不再默认邀请加入。有需要负责github相关管理工作的，按需加入。
-2. 顶级权限：owner。Owner拥有对整个Jouleverse org的编辑、删除权限。并默认拥有所有repo的Admin权限。【目前Jouleverse github owner有两位：Koant，教链，（）】该权限拥有者应当对Jouleverse愿景认可，有大的贡献，长期投入承诺，以及社区信任。
+2. 顶级权限：owner。Owner拥有对整个Jouleverse org的编辑、删除权限。并默认拥有所有repo的Admin权限。【目前Jouleverse github owner有三位：Koant，教链，Jeff】该权限拥有者应当对Jouleverse愿景认可，有大的贡献，长期投入承诺，以及社区信任。
 3. 写权限/维护权限：maintainer。每个repo可以设置不同的maintainer（目标是每个 repo 都能选拔出3位maintainers共同维护和领导该“项目代码库”。下面是当前权限列表：
 
 | **repo** | **type** | **public/private** | **about** | **maintainers** |
