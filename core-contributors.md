@@ -1,7 +1,11 @@
 # Core Contributors 核心贡献者
 
+## Core ID徽章样式
+
+1.0版：
 <img width="200px" src="core-contributor.svg" alt="core"> <img width="200px" src="core-contributor-inactive.svg" alt="core-inactive">
 
+2.0版：
 <img width="200px" src="core-v2-badge.svg" alt="core-v2"> <img width="200px" src="core-v2-badge-inactive.svg" alt="core-v2-inactive">
 
 <!-- ## 办事机构
