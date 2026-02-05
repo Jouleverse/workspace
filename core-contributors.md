@@ -2,6 +2,8 @@
 
 <img width="200px" src="core-contributor.svg" alt="core"> <img width="200px" src="core-contributor-inactive.svg" alt="core">
 
+<img width="200px" src="core-v2-badge.svg" alt="core-v2">
+
 <!-- ## 办事机构
 
 core成员内自然演化形成的办事机构如下：（更新日期：2024.12.24）
