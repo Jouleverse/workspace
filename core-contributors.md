@@ -102,6 +102,8 @@ core成员内自然演化形成的办事机构如下：（更新日期：2024.12
 🆔J65 | 伟龙 | ✅ | [@edwardlong9996](https://github.com/edwardlong9996) | J3浩斤挥频尺畜述纺想揉漫常寒饭罗TNCQX | 暂无 | 2025/12/10
 🆔J66 | 元神道（机构）（联络人：老道） | ✅ | [@huikygit](https://github.com/huikygit) | J3亚夜天消巡喝超收桥使世硫耗孟贸N0FSS | 暂无 | 2026/1/8 renew (since 2025/7/18)
 🆔J67 | Bataroc | ✅ | [@Bataroc](https://github.com/Bataroc) | J3宁下元拨苗鲜杂独寸修万李一煮忧KG34L | 暂无 | 2026/1/8
+🆔J68 | Jasper | ✅ | [@Jasper](https://github.com/xiaopiao009) | j3csc8th9v839wkqxf4v3xzr2fvkjwadmnzejznd | 暂无 | 2026/6/15
+
 
 TODO: 注意core id换新会有一个悖论：powh统计工作量是记在旧core id头上的，但是空投却需要执行给新core id。
 
