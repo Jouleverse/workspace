@@ -18,7 +18,7 @@
 | J-53
 |-
 | 定稿日期
-| 2026年7月
+| 2026年7月04日
 |-
 | 执行日期
 | 
@@ -31,7 +31,7 @@
 
 统计人：J-67
 {|
-| Core Id || 链上签到|| [[https://github.com/jouleverse/workspace/issues/1|WP-1]] 多签人 || 主网记账 || 主网见证 ||[[https://github.com/jouleverse/workspace/issues/2|WP-2]] 节点有效汇总  || [[https://github.com/Jouleverse/workspace/tree/main/data|wp-3]] powh || [[https://github.com/ /workspace/issues/6|WP-6]] CGC || [[ https://github.com/Jouleverse/workspace/issues/7|wp-7]] 节点审计  || [[https://github.com/Jouleverse/workspace/issues/8|wp-8]] 区块链浏览器 || [[https://github.com/Jouleverse/workspace/issues/13|wp-13]] 白皮书和网站 || [[https://github.com/Jouleverse/workspace/issues/15|wp-15]]核心治理工具集开发||工作量小时数合计||激励额度(万wj)
+| Core Id(按多签、记账、见证、无节点贡献者排列 || 链上签到填1,未签到填0|| [[https://github.com/jouleverse/workspace/issues/1|WP-1]] 多签人(小时) || 主网记账(个) || 主网见证(个) ||[[https://github.com/jouleverse/workspace/issues/2|WP-2]] 节点有效汇总(小时)  || [[https://github.com/Jouleverse/workspace/tree/main/data|wp-3]] powh(小时) || [[https://github.com/ /workspace/issues/6|WP-6]] CGC(小时) || [[ https://github.com/Jouleverse/workspace/issues/7|wp-7]] 节点审计(小时)  || [[https://github.com/Jouleverse/workspace/issues/8|wp-8]] 区块链浏览器(小时) || [[https://github.com/Jouleverse/workspace/issues/13|wp-13]] 白皮书和网站(小时) || [[https://github.com/Jouleverse/workspace/issues/15|wp-15]]核心治理工具集开发(小时)||工作量(小时)合计||激励额度(万wj)
 |-
 | J-0 || 1 || 1.5|| 1 || 1 || 10 || - || 5 || - || - || 3  || - || 19.5
 | 99.57
