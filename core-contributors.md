@@ -98,7 +98,7 @@ core成员内自然演化形成的办事机构如下：（更新日期：2024.12
 🆔J61 | 彩彩 | ✅ | [@caicai6677](https://github.com/caicai6677) | j3027czks0kqrczlads7evpqw8tvq3th8sjylqud | 166.j | 2025/1/27
 🆔J62 | 富轩 | ✅ | [@fuxuan1314](https://github.com/fuxuan1314) | j3dewrgtxz3z659vs326fuwyr3wncf0dd3nl42zv | hksy.j | 2025/3/31
 🆔J63 | 尧垚 | ✅ | [@Xx118795](https://github.com/Xx118795) | j3cvhzwh90cfa2wedl9pdskfxahw64vk2mp4kga7 | 2612.j | 2025/4/2
-<del>🆔J64</del>(key lost. revoked.) | 元神道（机构）（联络人：老道） | ✅ | [@huikygit](https://github.com/huikygit) | J3薯洪舰案钢周流严即绿完险伯减矛TQCMP | 暂无 | 2025/7/18
+<del>🆔J64</del>(key lost. revoked.) | 元神道（机构）（联络人：老道） | ✅ | [@huikygit](https://github.com/huikygit) | j3mfeekyprq5dx23kp7qsjaz9f8mrf3zk6ptqcmp | 暂无 | 2025/7/18
 🆔J65 | 伟龙 | ✅ | [@edwardlong9996](https://github.com/edwardlong9996) | j37zk2rzpd8z9es4yukst8m7md33d5pajk2tncqx | 暂无 | 2025/12/10
 🆔J66 | 元神道（机构）（联络人：老道） | ✅ | [@huikygit](https://github.com/huikygit) | j3gw45qwsmp0qkx4fp9jgszlydx2ux008xgn0fss | 暂无 | 2026/1/8 renew (since 2025/7/18)
 🆔J67 | Bataroc | ✅ | [@Bataroc](https://github.com/Bataroc) | j3dzstpvwu77tvny7znjwxnz9ry9sq83f6wkg34l | 暂无 | 2026/1/8
