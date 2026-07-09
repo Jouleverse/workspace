@@ -32,7 +32,7 @@ core成员内自然演化形成的办事机构如下：（更新日期：2024.12
 
 下表中的id是链上core NFT的id编号，即Core ID，添加🆔标识及J前缀以方便检索。
 
-**Core ID** | **昵称** | **高级KYC** | **github link** | **空投接收地址** | **JNS域名** | **登记日期**
+**Core ID** | **昵称** | **高级KYC** | **github link** | **空投接收地址(b32格式)** | **JNS域名** | **登记日期**
 -|-|-|-|-|-|-
 🆔J0 | Koant | ✅ | [@koant-bit](https://github.com/koant-bit) | j3t06s72f3dz8csm6xlzx4emk72v9mjgrk6p0qxd | bit.j | 2022/10/1 |
 🆔J1 | 芳芳 | ✅ | [@zhao20200902](https://github.com/zhao20200902) | j3k269jenyag3ucj58rzrmnfwvu9h73lg7thfmcr | fang.j | 2022/10/1
