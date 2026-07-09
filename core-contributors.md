@@ -34,74 +34,74 @@ core成员内自然演化形成的办事机构如下：（更新日期：2024.12
 
 **Core ID** | **昵称** | **高级KYC** | **github link** | **空投接收地址** | **JNS域名** | **登记日期**
 -|-|-|-|-|-|-
-🆔J0 | Koant | ✅ | [@koant-bit](https://github.com/koant-bit) | J3哪弯赏医堆伴桂惜楚晋稀陷碧午浇P0QXD | bit.j | 2022/10/1 |
-🆔J1 | 芳芳 | ✅ | [@zhao20200902](https://github.com/zhao20200902) | J3梅援友恨擦枯报茎雪棋座槽曰盖苗HFMCR | fang.j | 2022/10/1
-🆔J2 | Dream | ✅ | - | J3填片摆来况涂架抚暖寸勘专炭凝瑞AXXVV | beta.j | 2022/10/1
-🆔J3 | 岑云 | ✅ | [@LU1986HZ](https://github.com/LU1986HZ) | J3赴沉贺握甘伊闪义亚竟俗误磨闪楼3JTV2 | 1024.j | 2022/10/1
-🆔J4 | 楼兰渔夫 | ✅ | [@LouLanFisherman](https://github.com/LouLanFisherman) | J3踏观断侦含雷误后贴慌吨左剪她危GKU3P | china.j | 2022/10/1
-🆔J5 | Menger | ✅ | [@mengal](https://github.com/mengal) | J3各穷接走鱼础虎乙住描矮净载玩幅28DF7 | menger.j | 2023/2/1
-🆔J6 | li17 | ✅ | [@lii1717](https://github.com/lii1717) | J3彼肚姿西到钙抱赤慰励掩虎猪儿缴QQYKK | li17.j | 2023/2/1
-🆔J7 | 明海云 | ✅ | [@240616-ming](https://github.com/240616-ming) | J3涤对铺活瓶旦社柯正海眉演构午假LS3NS | 123.j | 2022/10/1
-🆔J8 | Yihen | ✅ | [@Yihen-Liu](https://github.com/Yihen-Liu) | J3准埔爬浙滚惠方吐至递令判绒门罩F4SFM | seed.j | 2022/10/1
-🆔J9 | Jacky | ✅ | [@liujiaqiid](https://github.com/liujiaqiid) | J3备际何郭颗尼叹即常击园祝谓摘参ZZAGJ | - | 2022/10/1
-🆔J10 | 锴 | ✅ | - | J3贤邮白奔宗竟转发才荡就次邮板缩Z8KTK | 0xjustry.j | 2023/2/1
-🆔J11 | 摩卡 | ✅ | - | J3尺温移真姑骂缘游脉斜章切价秋盐RDAFW | j.j | 2022/10/1
-🆔J12 | 如行 | ✅ | - | J3牙灯壁兼鲁喜兵筛又察植矛御星框23UGY | hao.j | 2023/7/26
-🆔J13 | 元宇星河 (机构) (联络人：刘子君) | ✅ | - | J3鸿锅矮粒录焰卖段商冠姑灵什抗债6RNRU | yuanyuxinghe.j | 2023/7/26
-🆔J14 | ucanfilm (机构) (联络人：凌杏水) | ✅ | [@lingxingshui123](https://github.com/lingxingshui123) | J3鸭电乔靠味吧翻围跨国停思月明展AEH0V | -- | 2023/7/26
-🆔J15 | 张恩畅 | ✅ | [@enchang1](https://github.com/enchang1) | J3生修艇垂论秩迷愈肥鞋饰恨峡画抵DU32X | dashu.j | 2023/7/26
-🆔J16 | Open | ✅ | [@open-666](https://github.com/open-666) | J3志余虾败换防充某潮努孙狱问梅腰ZS85Y | 666.j | 2023/7/26
-🆔J17 | 火星 | ✅ | [@gjw00001](https://github.com/gjw00001) | J3季绝握统获报歌哥称炮碍客热凯诗RAWG6 | mars.j | 2023/7/26
-🆔J18 | 谢勇(稳清活) | ✅ | [@Timothyxie513](https://github.com/Timothyxie513) | J3幕瓶耀竞纸措纬佳矩尽坑捅悟旗安KK9PL | dao.j | 2023/7/30
-🆔J19 | Angel | ✅ | [@Sunshinewla](https://github.com/Sunshinewla) | J3串趋结仇侦挑铅胜丝话若走驾雪冶XWQMA | angel.j | 2023/8/9
-🆔J20 | Leo | ✅ | - | J3技题簧菌秧吃突毫脚彻似劝歇家捕9VD79 | -- | 2023/8/29
-🆔J21 | 比尔盖 | ✅ | [@biergai](https://github.com/biergai) | J3抬曲悄簧歇饱稀几陆绍役酷钻辖百PACLS | link.j | 2023/10/13
-🆔J22 | LouisAwesome | ✅ | [@wowodog126](https://github.com/wowodog126) | J3比施迷蔡潮矿侦去操势堆谐烷救械QT3NV | catdog.j |2024/1/20
-🆔J23 | 琰熙 | ✅ | [@Yanxi02](https://github.com/Yanxi02) | J3购秒抽品徒病月江释描许喂患露徽FPPST | aibao.j | 2024/1/21 |
-🆔J24 | gwendol(c) | ✅ | - | J3朱臂邓脸肥液臂稻释扰耳留粒采柴488PU | gwendol.j | 2024/1/23
-🆔J25 | 教链(evan) | ✅ | [@hmisty](https://github.com/hmisty) | J3莫埔窗助忆题绍兰组霉寨解育召贮E8XJM | evan.j | 2022/10/1
-🆔J26 | 严光红 | ✅ | [@YGH200](https://github.com/240616-ming) | J3举青假手谓丝把察锦娘欧余道矮痛73LNA | ygh.j | 2024/1/30
-🆔J27 | 狮子猫 | ✅ | [@sizimao](https://github.com/sizimao) | J3野汇吧竹储殊肃呆纬儿儿家少看追3JGAK | sizimao.j | 2024/1/30 |
-🆔J28 | 老谢 | ✅ | [@Dambo36142](https://github.com/Dambo36142) | J3节控起要第极缴蔡幅倍赫觉望毒胞MGAXR | dambo.j | 2024/1/30
-🆔J29 | Jeff | ✅ | [@29n](https://github.com/29n) | J3迅棚险逃白宣践奔布济损母病重烷D263X | 1688.j | 2024/1/31
-🆔J30 | yj | ✅ | [@AqoursSunshine](https://github.com/AqoursSunshine) | J3郭旋副咬瞧零译泛必它组诬炭奋寄R9FHZ | being.j | 2024/2/2
-🆔J31 | kylin | ✅ | [@kylin](https://github.com/kylin) | J3权奥万绅博和逼橡姓卿荒丛奔孤两GVPVU | 22222.j | 2024/2/4
-🆔J32 | 王十二 | ✅ | [@amberwong0824](https://github.com/amberwong0824) | J3孤扶大堵埋孩二升展暴抽套繁呀退QUL20 | wallet.j | 2024/2/4
-🆔J33 | 煜歌 | ✅ | [@tuoling1314](https://github.com/tuoling1314) | J3膨挖兵揭矿飞魏轰腊政赫什粪霍雄Z8MN9 | sos.j | 2024/2/5
-🆔J34 | cijin | ✅ | [@Astudysunny](https://github.com/Astudysunny) | J3厅果硝的溜美励忘画刷否世刻窝陆RFWLD | news.j | 2024/2/7
-🆔J35 | 布道外部山 | ✅ | [@king-68](https://github.com/king-68) | J3恒决制抛佛炒加疆稀尾居边左型级3PMEF | firesea.j | 2024/2/18
-🆔J36 | 得葱 | ✅ | [@decong2077](https://github.com/decong2077) | J3笔优见姐混识昆领踏总尽寺侦裕湘DPTYH | dell.j | 2024/2/18
-🆔J37 | 剪云为裳 | ✅ | [@zhm114](https://github.com/zhm114) | J3偷曲李消鼓既趣年谓建些遇子小皱VWHAH | lilei855x.j | 2024/3/2
-🆔J38 | Victor | ✅ | [@geevictor](https://github.com/geevictor) | J3抽屈洛泽链彪环迷营建缴懂狱分冠UUQQW | lulu.j | 2024/3/3
-🆔J39 | 花开的声音 | ✅ | [@wyd11223](https://github.com/wyd11223) | J3亏脉轨片明莱刀微摆顶勇现悉央帝F0X29 | g.j | 2024/3/9
-🆔J40 | 星际 | ✅ | [@qianbo-mxc20](https://github.com/qianbo-mxc20) | J3鸟估南川贮脂欢判埃珍顶非裂限料P0JED | xingji.j | 2024/3/12
-🆔J41 | 福 | ✅ | [@afu100860](https://github.com/afu100860) | J3刘冰乔扫博死左杨宪貌句饮杨石小8MALU | as.j | 2024/3/14
-🆔J42 | 米高 | ✅ | [@jason8605](https://github.com/jason8605) | J3筒省苦势控晋口敲烈遵港厉登特胁Q6RNN | vibe.j | 2024/3/14
-🆔J43 | Ted | ✅ | [@weffer001](https://github.com/weffer001) | J3盈英燥逃闪扬均殊睛手跃穗砍戈诗4HGR0 | focus.j | 2024/3/21
-🆔J44 | 团子 | ✅ | [@tuanzi0411](https://github.com/tuanzi0411) | J3推论躺窝丧烧置交碗满锅撑竞易货ADA20 | wang0411.j | 2024/3/24
-🆔J45 | 杨敦鹏 | ✅ | [@066y](https://github.com/066y) | J3览左论众哪思剪岛条罚浸类叔赴蜡QZV97 | yang066.j | 2024/3/26
-🆔J46 | xiangwang | ✅ | [@xiangwang6300](https://github.com/xiangwang6300) | J3妨下绳注鸿所泡悟织谢粒资烦扎宇YPEX2 | wangxiang6300.j | 2024/3/29
-🆔J47 | 邱泳渼 | ✅ | [@qymei123](https://github.com/qymei123) | J3台城捐遍吹老革哀妙批进切钾锭划Q32C2 | miumiu.j | 2024/3/31
-🆔J48 | 子非鱼 | ✅ | [@Exiqan](https://github.com/Exiqan)❌ | J3历资流皇羽界声短脸旅永郎亚派真DQN3F | cx.j | 2024/3/31
-🆔J49 | 星语欣愿 | ✅ | [@xingyu13146](https://github.com/xingyu13146) | J3毛伙抛泪泥戈辅脏罚母纯郑彪稀婚RY09X | ryo3388.j | 2024/3/31
-🆔J50 | jay.j | ✅ | [@SpyForger](https://github.com/SpyForger) | J3饱乔几丛绕械什共途踏通跟悟轮骨RECLP | jay.j | 2024/4/19
-🆔J51 | 相瑾 | ✅ | [@cxj09131](https://github.com/cxj09131) | J3职评吨曲园搅仔吃超居默很坏录费2C9JH | cxj66.j | 2024/5/20
-🆔J52 | 盛美 | ✅ | [@uwangshang](https://github.com/uwangshang) | J3插框看性滨麦轻驻训狗造连市腐闭D4CDD | --- | 2024/6/23
-🆔J53 | 微尘 | ✅ | [@fangsheng-sudo](https://github.com/fangsheng-sudo) | J3潮球戴刑射践患苯未团宿检小猪阁ASA74 | fangsheng.j | 2024/7/19
-🆔J54 | Simon | ✅ | [@brone2018](https://github.com/brone2018) | J3食剩句徒循联瓷着迷牵绝扶经式腿P922G | 2100.j | 2024/9/19
-🆔J55 | 蓝色经典 | ✅ | 暂无 | J3勾贪徐酶觉气虽影浅将沈姑斗缘止YWNL7 | lilei885x.j | 2025/1/27
-🆔J56 | 佘小强 | ✅ | [@Sj554455](https://github.com/Sj554455) | J3指充槽消洪盘掷听帐屈伟肉反路迫SX3WZ | 9999.j | 2025/1/27
-🆔J57 | TIGER | ✅ | [@TigerGaoJiaLi](https://github.com/TigerGaoJiaLi) | J3役程上际践应钙事严尾包屋集尸胺C6YHS | btcbbb.j | 2025/1/27
-🆔J58 | sing2011 | ✅ | [@sing201100](https://github.com/sing201100) | J3日日模偏吗颇星拒税丧辈获撞莱细RNFA6 | btcc.j | 2025/1/27
-🆔J59 | 潇先生 | ✅ | [@blizzardlx](https://github.com/blizzardlx) | J3诉刚饮宁图峡寸程条嘛房叫令壁害DW0YF | btcddd.j | 2025/1/27
-🆔J60 | 蓝叶子 | ✅ | [@sheeplinjie](https://github.com/sheeplinjie) | J3提俩额令固读克容八讯达范屏冬停430XS | 558.j | 2025/1/27
-🆔J61 | 彩彩 | ✅ | [@caicai6677](https://github.com/caicai6677) | J3杆吾倒战在伐逻丽奶对亮梦数铃巩YLQUD | 166.j | 2025/1/27
-🆔J62 | 富轩 | ✅ | [@fuxuan1314](https://github.com/fuxuan1314) | J3怕厉都氯潮峰涂华败快将酚如番呆L42ZV | hksy.j | 2025/3/31
-🆔J63 | 尧垚 | ✅ | [@Xx118795](https://github.com/Xx118795) | J3邓氢饮久带令盛络短仍维跳找今缩4KGA7 | 2612.j | 2025/4/2
+🆔J0 | Koant | ✅ | [@koant-bit](https://github.com/koant-bit) | j3t06s72f3dz8csm6xlzx4emk72v9mjgrk6p0qxd | bit.j | 2022/10/1 |
+🆔J1 | 芳芳 | ✅ | [@zhao20200902](https://github.com/zhao20200902) | j3k269jenyag3ucj58rzrmnfwvu9h73lg7thfmcr | fang.j | 2022/10/1
+🆔J2 | Dream | ✅ | - | j3hun4y9up2tyep8rwptz48rmhr4a372a2jaxxvv | beta.j | 2022/10/1
+🆔J3 | 岑云 | ✅ | [@LU1986HZ](https://github.com/LU1986HZ) | j3akkkyua48gu0sf6q0fp6llm3k8ud6w3zv3jtv2 | 1024.j | 2022/10/1
+🆔J4 | 楼兰渔夫 | ✅ | [@LouLanFisherman](https://github.com/LouLanFisherman) | j3ccz733ly2sgwtx8cxkl9u03850kecwwa2gku3p | china.j | 2022/10/1
+🆔J5 | Menger | ✅ | [@mengal](https://github.com/mengal) | j3zz6hsmu5k3h2etwmpy792hllfwjk09gla28df7 | menger.j | 2023/2/1
+🆔J6 | li17 | ✅ | [@lii1717](https://github.com/lii1717) | j3ed7kh0y0vqem0t8dk0cev56utwu2yc3udqqykk | li17.j | 2023/2/1
+🆔J7 | 明海云 | ✅ | [@240616-ming](https://github.com/240616-ming) | j37esg9ayvhsg6eq7dmcgkgn6dktekxgz6els3ns | 123.j | 2022/10/1
+🆔J8 | Yihen | ✅ | [@Yihen-Liu](https://github.com/Yihen-Liu) | j3x6mgk28938j7ksdx7g5nsp2w5j7cys3aef4sfm | seed.j | 2022/10/1
+🆔J9 | Jacky | ✅ | [@liujiaqiid](https://github.com/liujiaqiid) | j3xvnz346sndhdlw9fpyv2jejdu4n8t6w0gzzagj | - | 2022/10/1
+🆔J10 | 锴 | ✅ | - | j3al76p8xms720ljvcy54n8eq0pj8dp9xmpz8ktk | 0xjustry.j | 2023/2/1
+🆔J11 | 摩卡 | ✅ | - | j33zje66g58x86a6hzlwd4qdgljdeaacwktrdafw | j.j | 2022/10/1
+🆔J12 | 如行 | ✅ | - | j34k8vu06uk6xdjyjwdvfyhxv9ks084khhf23ugy | hao.j | 2023/7/26
+🆔J13 | 元宇星河 (机构) (联络人：刘子君) | ✅ | - | j36ce2hlenul0uugv3wychn6nrhcfyag9ms6rnru | yuanyuxinghe.j | 2023/7/26
+🆔J14 | ucanfilm (机构) (联络人：凌杏水) | ✅ | [@lingxingshui123](https://github.com/lingxingshui123) | j3ewsj8n3d2h7tuk76r7csq0t3jgg4qg79uaeh0v | -- | 2023/7/26
+🆔J15 | 张恩畅 | ✅ | [@enchang1](https://github.com/enchang1) | j3qvychlfcv8ve3u2vvfjehxajunkd388xedu32x | dashu.j | 2023/7/26
+🆔J16 | Open | ✅ | [@open-666](https://github.com/open-666) | j3yv5hkp6fu5fg85jzf795lcw5wfg5ket2mzs85y | 666.j | 2023/7/26
+🆔J17 | 火星 | ✅ | [@gjw00001](https://github.com/gjw00001) | j3w740m2vduey9gxdnhsm8y9hx4wezpm7ucrawg6 | mars.j | 2023/7/26
+🆔J18 | 谢勇(稳清活) | ✅ | [@Timothyxie513](https://github.com/Timothyxie513) | j3kguz8jlrjc4w67rl477z5kus0s8569yf7kk9pl | dao.j | 2023/7/30
+🆔J19 | Angel | ✅ | [@Sunshinewla](https://github.com/Sunshinewla) | j36rvhs50mpj9knmw2hevg2lt4zjl5jrmesxwqma | angel.j | 2023/8/9
+🆔J20 | Leo | ✅ | - | j3xvpww9alp3vfk4dnqekdqtfwat0luy0r49vd79 | -- | 2023/8/29
+🆔J21 | 比尔盖 | ✅ | [@biergai](https://github.com/biergai) | j3hh5cxatzlllkpt0q7p677redwx4qn75gwpacls | link.j | 2023/10/13
+🆔J22 | LouisAwesome | ✅ | [@wowodog126](https://github.com/wowodog126) | j3z252k987rz6xfu3gv3c2s53ral8v22ke5qt3nv | catdog.j |2024/1/20
+🆔J23 | 琰熙 | ✅ | [@Yanxi02](https://github.com/Yanxi02) | j33ku4ugqvnfn8m32pex8h2h94vpk4dafuxfppst | aibao.j | 2024/1/21 |
+🆔J24 | gwendol(c) | ✅ | - | j333uz7r9kxev8euzuak8h07n29rr8cn9f3488pu | gwendol.j | 2024/1/23
+🆔J25 | 教链(evan) | ✅ | [@hmisty](https://github.com/hmisty) | j35ftg4f98et9zuhsm2sw8h7sy3fpm970tde8xjm | evan.j | 2022/10/1
+🆔J26 | 严光红 | ✅ | [@YGH200](https://github.com/240616-ming) | j3ggr8rtywse6tzqe2umn7ulsryhsnnlarf73lna | ygh.j | 2024/1/30
+🆔J27 | 狮子猫 | ✅ | [@sizimao](https://github.com/sizimao) | j33g2fzlxkr0m3at5wx0s7vgxyq3cmvfpzx3jgak | sizimao.j | 2024/1/30 |
+🆔J28 | 老谢 | ✅ | [@Dambo36142](https://github.com/Dambo36142) | j3909fc2gpyy6y3lr0u9l6m5h8yu2p2zkuamgaxr | dambo.j | 2024/1/30
+🆔J29 | Jeff | ✅ | [@29n](https://github.com/29n) | j3t5w2tajsvfe2sxldhqc2g7vp44e7ugdmzd263x | 1688.j | 2024/1/31
+🆔J30 | yj | ✅ | [@AqoursSunshine](https://github.com/AqoursSunshine) | j35ycf2jhdra40gvuyfg05r2r3l9437xedrr9fhz | being.j | 2024/2/2
+🆔J31 | kylin | ✅ | [@kylin](https://github.com/kylin) | j3y4aqfgmntw4qragky7cplchc084hr0zz6gvpvu | 22222.j | 2024/2/4
+🆔J32 | 王十二 | ✅ | [@amberwong0824](https://github.com/amberwong0824) | j3mcacqp0794kv5s5z05terh3q8z58dm9pdqul20 | wallet.j | 2024/2/4
+🆔J33 | 煜歌 | ✅ | [@tuoling1314](https://github.com/tuoling1314) | j3u4mzjfxggvnfum3l88mzr4h8zfletm4zgz8mn9 | sos.j | 2024/2/5
+🆔J34 | cijin | ✅ | [@Astudysunny](https://github.com/Astudysunny) | j3mgp0k5qqplnyct99xa88k52kzxjahmya0rfwld | news.j | 2024/2/7
+🆔J35 | 布道外部山 | ✅ | [@king-68](https://github.com/king-68) | j3u0pagtn0mke65s47w6me8awdp468cu5x63pmef | firesea.j | 2024/2/18
+🆔J36 | 得葱 | ✅ | [@decong2077](https://github.com/decong2077) | j3f59vquj4qkk8wwh3z8rqx82twtwghar7pdptyh | dell.j | 2024/2/18
+🆔J37 | 剪云为裳 | ✅ | [@zhm114](https://github.com/zhm114) | j3ud5czzcmqlgtstmsyen598pcg2g9c98lyvwhah | lilei855x.j | 2024/3/2
+🆔J38 | Victor | ✅ | [@geevictor](https://github.com/geevictor) | j33qdawx6q9vtn24gw99q6987xm8ly5pln6uuqqw | lulu.j | 2024/3/3
+🆔J39 | 花开的声音 | ✅ | [@wyd11223](https://github.com/wyd11223) | j3mjfk4pcagy0l5gfz5kz743ncq4wt3w25hf0x29 | g.j | 2024/3/9
+🆔J40 | 星际 | ✅ | [@qianbo-mxc20](https://github.com/qianbo-mxc20) | j36vd0eq3uetd3vkv6fwh0dl2cnrrn3fu9lp0jed | xingji.j | 2024/3/12
+🆔J41 | 福 | ✅ | [@afu100860](https://github.com/afu100860) | j3vdellnjcew48a50n69epjedgdwt6ykuzn8malu | as.j | 2024/3/14
+🆔J42 | 米高 | ✅ | [@jason8605](https://github.com/jason8605) | j3jln82eapg48uaj98a9wfwz5xwrdqyvlnuq6rnn | vibe.j | 2024/3/14
+🆔J43 | Ted | ✅ | [@weffer001](https://github.com/weffer001) | j37dyyky6sd8gwq5vu02tk8gkja8lctuuuc4hgr0 | focus.j | 2024/3/21
+🆔J44 | 团子 | ✅ | [@tuanzi0411](https://github.com/tuanzi0411) | j3gqpm8n8m96qtnn5fyn2w0yj404k8yaqczada20 | wang0411.j | 2024/3/24
+🆔J45 | 杨敦鹏 | ✅ | [@066y](https://github.com/066y) | j379y0sascxklysan4rv2pteecj57a0kms0qzv97 | yang066.j | 2024/3/26
+🆔J46 | xiangwang | ✅ | [@xiangwang6300](https://github.com/xiangwang6300) | j3lust9v3zp43qa6805chertvlp4hd7d9k8ypex2 | wangxiang6300.j | 2024/3/29
+🆔J47 | 邱泳渼 | ✅ | [@qymei123](https://github.com/qymei123) | j3gt5e86jq0y6rf3shur0wsvppzd7jlnuduq32c2 | miumiu.j | 2024/3/31
+🆔J48 | 子非鱼 | ✅ | [@Exiqan](https://github.com/Exiqan)❌ | j3x434smphd639ejn6mpk88u0y7c2r5ay2rdqn3f | cx.j | 2024/3/31
+🆔J49 | 星语欣愿 | ✅ | [@xingyu13146](https://github.com/xingyu13146) | j38pfnklkntpvl8dy8qkhjkh0cmmv6kme9ary09x | ryo3388.j | 2024/3/31
+🆔J50 | jay.j | ✅ | [@SpyForger](https://github.com/SpyForger) | j3kp08q7reaf8v6zfe9f783sz65ah5ephrnreclp | jay.j | 2024/4/19
+🆔J51 | 相瑾 | ✅ | [@cxj09131](https://github.com/cxj09131) | j3fcx75faxpymlwdc2d42gu6ky3t2s4773m2c9jh | cxj66.j | 2024/5/20
+🆔J52 | 盛美 | ✅ | [@uwangshang](https://github.com/uwangshang) | j3nqa6gjqxda7s253y49jp44yxnr34jvn99d4cdd | --- | 2024/6/23
+🆔J53 | 微尘 | ✅ | [@fangsheng-sudo](https://github.com/fangsheng-sudo) | j33dyyd4edz5cd7a2andg5dglxy7s2w9rl8asa74 | fangsheng.j | 2024/7/19
+🆔J54 | Simon | ✅ | [@brone2018](https://github.com/brone2018) | j3fr6em2zn82kynvvgg0znwn2lacq8cv486p922g | 2100.j | 2024/9/19
+🆔J55 | 蓝色经典 | ✅ | 暂无 | j367lzuj85cn3zv5ae0mzx8z6df3e2x4c30ywnl7 | lilei885x.j | 2025/1/27
+🆔J56 | 佘小强 | ✅ | [@Sj554455](https://github.com/Sj554455) | j3rh5jxzcmp8x0402fanhrh40rxlq35dj60sx3wz | 9999.j | 2025/1/27
+🆔J57 | TIGER | ✅ | [@TigerGaoJiaLi](https://github.com/TigerGaoJiaLi) | j3edpwcp5c5map5dhs0vlp8a8s8tpvmn8urc6yhs | btcbbb.j | 2025/1/27
+🆔J58 | sing2011 | ✅ | [@sing201100](https://github.com/sing201100) | j3pmsamqz9gce74x67j3796qe3xfxan7s02rnfa6 | btcc.j | 2025/1/27
+🆔J59 | 潇先生 | ✅ | [@blizzardlx](https://github.com/blizzardlx) | j3trxwxh952xuekfcchv2pcp26ja6nk8ujzdw0yf | btcddd.j | 2025/1/27
+🆔J60 | 蓝叶子 | ✅ | [@sheeplinjie](https://github.com/sheeplinjie) | j3zml0mc9f634d9rtfsu4fw699ykhm6gwhr430xs | 558.j | 2025/1/27
+🆔J61 | 彩彩 | ✅ | [@caicai6677](https://github.com/caicai6677) | j3027czks0kqrczlads7evpqw8tvq3th8sjylqud | 166.j | 2025/1/27
+🆔J62 | 富轩 | ✅ | [@fuxuan1314](https://github.com/fuxuan1314) | j3dewrgtxz3z659vs326fuwyr3wncf0dd3nl42zv | hksy.j | 2025/3/31
+🆔J63 | 尧垚 | ✅ | [@Xx118795](https://github.com/Xx118795) | j3cvhzwh90cfa2wedl9pdskfxahw64vk2mp4kga7 | 2612.j | 2025/4/2
 <del>🆔J64</del>(key lost. revoked.) | 元神道（机构）（联络人：老道） | ✅ | [@huikygit](https://github.com/huikygit) | J3薯洪舰案钢周流严即绿完险伯减矛TQCMP | 暂无 | 2025/7/18
-🆔J65 | 伟龙 | ✅ | [@edwardlong9996](https://github.com/edwardlong9996) | J3浩斤挥频尺畜述纺想揉漫常寒饭罗TNCQX | 暂无 | 2025/12/10
-🆔J66 | 元神道（机构）（联络人：老道） | ✅ | [@huikygit](https://github.com/huikygit) | J3亚夜天消巡喝超收桥使世硫耗孟贸N0FSS | 暂无 | 2026/1/8 renew (since 2025/7/18)
-🆔J67 | Bataroc | ✅ | [@Bataroc](https://github.com/Bataroc) | J3宁下元拨苗鲜杂独寸修万李一煮忧KG34L | 暂无 | 2026/1/8
+🆔J65 | 伟龙 | ✅ | [@edwardlong9996](https://github.com/edwardlong9996) | j37zk2rzpd8z9es4yukst8m7md33d5pajk2tncqx | 暂无 | 2025/12/10
+🆔J66 | 元神道（机构）（联络人：老道） | ✅ | [@huikygit](https://github.com/huikygit) | j3gw45qwsmp0qkx4fp9jgszlydx2ux008xgn0fss | 暂无 | 2026/1/8 renew (since 2025/7/18)
+🆔J67 | Bataroc | ✅ | [@Bataroc](https://github.com/Bataroc) | j3dzstpvwu77tvny7znjwxnz9ry9sq83f6wkg34l | 暂无 | 2026/1/8
 🆔J68 | Jasper | ✅ | [@Jasper](https://github.com/xiaopiao009) | j3csc8th9v839wkqxf4v3xzr2fvkjwadmnzejznd | 暂无 | 2026/6/15
 🆔J69 | 刘桂洪 | ✅ | - | j36csksz7ux0wz3xcqlhpe597053j6crjsfe7m50 | - | 2026/7/9
 
