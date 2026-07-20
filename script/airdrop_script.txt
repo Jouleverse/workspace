@@ -1,8 +1,23 @@
 # 核心贡献激励发放脚本
+#
+# 2023.8.29 V1 @evan.j
+# 2026.7.19 更新：新增 b32 地址格式支持，需搭配 script/jvaddress.js 使用
+#
+# 运行环境：浏览器debug console，Jouleverse区块链浏览器页面已打开，Metamask已连接到发出wJ的地址
+#
+# 地址格式说明：
+#   空投列表的第三个字段（地址）支持两种格式：
+#   1. hex格式: 0x...（传统格式）
+#   2. b32格式: j3...（Jouleverse Bech32m编码，推荐）
+#
+#   使用 b32 格式时，需要先加载 jvaddress.js：
+#   - 在浏览器控制台先运行：
+#     var script = document.createElement('script');
+#     script.src = 'https://jscan.jnsdao.com/scripts/crypto/jvaddress.js';
+#     document.head.appendChild(script);
+#   - 或本地节点运行：Node 环境下 require('./jvaddress.js')
+#   
 
-2023.8.29 V1 @evan.j
-
-运行环境：浏览器debug console，Jouleverse区块链浏览器页面已打开，Metamask已连接到发出wJ的地址
 
 //第一段：输入空投数据。total 和 sum 是用于对账的。复制粘贴到浏览器debug console中运行。
 
@@ -443,11 +458,26 @@ if (a.list.length != a.total) {
     const web3 = new Web3(window.ethereum)
     const wj_contract = new web3.eth.Contract(wj_ABI, wj_contract_address)
 
+    // 地址转换辅助函数：自动将 b32 (j3...) 转换为 hex (0x...)
+    function toHexAddress(addr) {
+        if (typeof addr === 'string' && addr.startsWith('j3')) {
+            if (typeof decodeJVA === 'function') {
+                const result = decodeJVA(addr);
+                if (result.success) return result.hexAddress;
+                console.warn('b32地址解码失败:', addr, result.error);
+            } else {
+                console.warn('jvaddress.js 未加载，b32地址无法解码。请先加载 jvaddress.js');
+            }
+        }
+        return addr; // 已经是 hex 格式或无法转换，原样返回
+    }
+
 	const starting_point = 0;
     for (var i = starting_point; i < a.list.length; i++) {
-        const addr = a.list[i][2]
+        const rawAddr = a.list[i][2]
+        const addr = toHexAddress(rawAddr)
         const val = a.list[i][3]
-        console.log('depositing ' + val + ' WJ to ' + addr + '(' + a.list[i][1] + ', ' + a.list[i][0] + ')...')
+        console.log('depositing ' + val + ' WJ to ' + rawAddr + '(' + a.list[i][1] + ', ' + a.list[i][0] + ')...')
 
         const connectedAccount = window.ethereum.selectedAddress
 		if (connectedAccount) 
@@ -522,11 +552,26 @@ if (a.list.length != a.total) {
     const web3 = new Web3(window.ethereum)
     const wj_contract = new web3.eth.Contract(wj_ABI, wj_contract_address)
 
+    // 地址转换辅助函数：自动将 b32 (j3...) 转换为 hex (0x...)
+    function toHexAddress(addr) {
+        if (typeof addr === 'string' && addr.startsWith('j3')) {
+            if (typeof decodeJVA === 'function') {
+                const result = decodeJVA(addr);
+                if (result.success) return result.hexAddress;
+                console.warn('b32地址解码失败:', addr, result.error);
+            } else {
+                console.warn('jvaddress.js 未加载，b32地址无法解码。请先加载 jvaddress.js');
+            }
+        }
+        return addr; // 已经是 hex 格式或无法转换，原样返回
+    }
+
 	const starting_point = 0;
     for (var i = starting_point; i < a.list.length; i++) {
-        const addr = a.list[i][2]
+        const rawAddr = a.list[i][2]
+        const addr = toHexAddress(rawAddr)
         const val = a.list[i][3]
-        console.log('depositing ' + val + ' WJ to ' + addr + '(' + a.list[i][1] + ', ' + a.list[i][0] + ')...')
+        console.log('depositing ' + val + ' WJ to ' + rawAddr + '(' + a.list[i][1] + ', ' + a.list[i][0] + ')...')
 
         const connectedAccount = window.ethereum.selectedAddress
 		if (connectedAccount) 
@@ -613,11 +658,26 @@ if (a.list.length != a.total) {
     const web3 = new Web3(window.ethereum)
     const wj_contract = new web3.eth.Contract(wj_ABI, wj_contract_address)
 
+    // 地址转换辅助函数：自动将 b32 (j3...) 转换为 hex (0x...)
+    function toHexAddress(addr) {
+        if (typeof addr === 'string' && addr.startsWith('j3')) {
+            if (typeof decodeJVA === 'function') {
+                const result = decodeJVA(addr);
+                if (result.success) return result.hexAddress;
+                console.warn('b32地址解码失败:', addr, result.error);
+            } else {
+                console.warn('jvaddress.js 未加载，b32地址无法解码。请先加载 jvaddress.js');
+            }
+        }
+        return addr; // 已经是 hex 格式或无法转换，原样返回
+    }
+
 	const starting_point = 0;
     for (var i = starting_point; i < a.list.length; i++) {
-        const addr = a.list[i][2]
+        const rawAddr = a.list[i][2]
+        const addr = toHexAddress(rawAddr)
         const val = a.list[i][3]
-        console.log('depositing ' + val + ' WJ to ' + addr + '(' + a.list[i][1] + ', ' + a.list[i][0] + ')...')
+        console.log('depositing ' + val + ' WJ to ' + rawAddr + '(' + a.list[i][1] + ', ' + a.list[i][0] + ')...')
 
         const connectedAccount = window.ethereum.selectedAddress
 		if (connectedAccount) 
@@ -703,11 +763,26 @@ if (a.list.length != a.total) {
     const web3 = new Web3(window.ethereum)
     const wj_contract = new web3.eth.Contract(wj_ABI, wj_contract_address)
 
+    // 地址转换辅助函数：自动将 b32 (j3...) 转换为 hex (0x...)
+    function toHexAddress(addr) {
+        if (typeof addr === 'string' && addr.startsWith('j3')) {
+            if (typeof decodeJVA === 'function') {
+                const result = decodeJVA(addr);
+                if (result.success) return result.hexAddress;
+                console.warn('b32地址解码失败:', addr, result.error);
+            } else {
+                console.warn('jvaddress.js 未加载，b32地址无法解码。请先加载 jvaddress.js');
+            }
+        }
+        return addr; // 已经是 hex 格式或无法转换，原样返回
+    }
+
 	const starting_point = 0;
     for (var i = starting_point; i < a.list.length; i++) {
-        const addr = a.list[i][2]
+        const rawAddr = a.list[i][2]
+        const addr = toHexAddress(rawAddr)
         const val = a.list[i][3]
-        console.log('depositing ' + val + ' WJ to ' + addr + '(' + a.list[i][1] + ', ' + a.list[i][0] + ')...')
+        console.log('depositing ' + val + ' WJ to ' + rawAddr + '(' + a.list[i][1] + ', ' + a.list[i][0] + ')...')
 
         const connectedAccount = window.ethereum.selectedAddress
 		if (connectedAccount) 
@@ -789,11 +864,26 @@ if (a.list.length != a.total) {
     const web3 = new Web3(window.ethereum)
     const wj_contract = new web3.eth.Contract(wj_ABI, wj_contract_address)
 
+    // 地址转换辅助函数：自动将 b32 (j3...) 转换为 hex (0x...)
+    function toHexAddress(addr) {
+        if (typeof addr === 'string' && addr.startsWith('j3')) {
+            if (typeof decodeJVA === 'function') {
+                const result = decodeJVA(addr);
+                if (result.success) return result.hexAddress;
+                console.warn('b32地址解码失败:', addr, result.error);
+            } else {
+                console.warn('jvaddress.js 未加载，b32地址无法解码。请先加载 jvaddress.js');
+            }
+        }
+        return addr; // 已经是 hex 格式或无法转换，原样返回
+    }
+
 	const starting_point = 0;
     for (var i = starting_point; i < a.list.length; i++) {
-        const addr = a.list[i][2]
+        const rawAddr = a.list[i][2]
+        const addr = toHexAddress(rawAddr)
         const val = a.list[i][3]
-        console.log('depositing ' + val + ' WJ to ' + addr + '(' + a.list[i][1] + ', ' + a.list[i][0] + ')...')
+        console.log('depositing ' + val + ' WJ to ' + rawAddr + '(' + a.list[i][1] + ', ' + a.list[i][0] + ')...')
 
         const connectedAccount = window.ethereum.selectedAddress
 		if (connectedAccount) 
