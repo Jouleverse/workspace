@@ -29,7 +29,7 @@
 
 == 2026年5月统计数据表 ==
 
-统计人：J-67
+统计人：J-53
 {|
 | Core Id(按多签、记账、见证、无节点贡献者排列) || 链上签到(签1,未签0)|| [[https://github.com/jouleverse/workspace/issues/1|WP-1]] 多签人(小时) || 主网记账(个) || 主网见证(个) ||[[https://github.com/jouleverse/workspace/issues/2|WP-2]] 节点有效汇总(小时)  || [[https://github.com/Jouleverse/workspace/tree/main/data|wp-3]] powh(小时) || [[https://github.com/Jouleverse/workspace/issues/6|WP-6]] CGC(小时) || [[https://github.com/Jouleverse/workspace/issues/7|wp-7]] 节点审计(小时)  || [[https://github.com/Jouleverse/workspace/issues/8|wp-8]] 区块链浏览器(小时) || [[https://github.com/Jouleverse/workspace/issues/13|wp-13]] 白皮书和网站(小时) || [[https://github.com/Jouleverse/workspace/issues/15|wp-15]]核心治理工具集开发(小时)||工作量(小时)合计||激励额度(万wj)
 |-
@@ -133,7 +133,7 @@
 | 42.1
 |-
 | 创世金库 || - || - || - || - || - || - || - || - || - || - || - || -
-| 0.119999999999891
+| 0.12
 |-
 | 合计
 | - || 7.5 || 16 || 26 || 172.5 || 0 || 10.5 || 1 || 0 || 8 || 0 || 199.5 || 1200 
