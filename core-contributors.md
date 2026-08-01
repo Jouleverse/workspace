@@ -103,7 +103,7 @@ core成员内自然演化形成的办事机构如下：（更新日期：2024.12
 🆔J66 | 元神道（机构）（联络人：老道） | ✅ | [@huikygit](https://github.com/huikygit) | j3gw45qwsmp0qkx4fp9jgszlydx2ux008xgn0fss | 暂无 | 2026/1/8 renew (since 2025/7/18)
 🆔J67 | Bataroc | ✅ | [@Bataroc](https://github.com/Bataroc) | j3dzstpvwu77tvny7znjwxnz9ry9sq83f6wkg34l | 暂无 | 2026/1/8
 🆔J68 | Jasper | ✅ | [@Jasper](https://github.com/xiaopiao009) | j3csc8th9v839wkqxf4v3xzr2fvkjwadmnzejznd | 暂无 | 2026/6/15
-🆔J69 | 刘桂洪 | ✅ | - | j36csksz7ux0wz3xcqlhpe597053j6crjsfe7m50 | - | 2026/7/9
+🆔J69 | 刘桂洪 | ✅ | [@lmhlmh888888-coder](https://github.com/lmhlmh888888-coder) | j36csksz7ux0wz3xcqlhpe597053j6crjsfe7m50 | - | 2026/7/9
 
 
 TODO: 注意core id换新会有一个悖论：powh统计工作量是记在旧core id头上的，但是空投却需要执行给新core id。
