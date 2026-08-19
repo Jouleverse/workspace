@@ -894,13 +894,13 @@ if (a.list.length != a.total) {
 }
 
 
-# PoWh 核心贡献激励发放脚本（2025-12 至 2026-06）
-# 数据来源：powh-data-202512 至 powh-data-202606.mediawiki
-# 地址来源：core-contributors.md（b32）；J-64 已合并至 J-66
-# 金额单位：WJ；所有地址统一使用 b32 格式
+// PoWh 核心贡献激励发放脚本（2025-12 至 2026-06）
+// 数据来源：powh-data-202512 至 powh-data-202606.mediawiki
+// 地址来源：core-contributors.md（b32）；J-64 已合并至 J-66
+// 金额单位：WJ；所有地址统一使用 b32 格式
 // 创世金库已统一为 b32：j38dchzxv83ckmr2na73h44h8ewe4qzur0sggtuj
 
-const a = incentive202512_202606 = { 'total': 44, 'sum': 84000000, 'list': [
+const a = { 'total': 44, 'sum': 84000000, 'list': [
     ['Koant', 'bit.j', 'j3t06s72f3dz8csm6xlzx4emk72v9mjgrk6p0qxd', 4855000], // J-0，485.5 万 WJ
     ['芳芳', 'fang.j', 'j3k269jenyag3ucj58rzrmnfwvu9h73lg7thfmcr', 82000], // J-1，8.2 万 WJ
     ['楼兰渔夫', 'china.j', 'j3ccz733ly2sgwtx8cxkl9u03850kecwwa2gku3p', 4109700], // J-4，410.97 万 WJ
@@ -950,33 +950,84 @@ const a = incentive202512_202606 = { 'total': 44, 'sum': 84000000, 'list': [
 // 校验与执行逻辑参考 script/airdrop_script.txt：需先加载 jvaddress.js。
 // b32 地址由 toHexAddress/decodeJVA 转为 0x，再调用 wj_contract.methods.transfer。
 
-if (a.list.length != a.total) {
-    console.log('error! wrong list items')
-} else if ((b = a.list.reduce((sum, item) => sum + item[3], 0)) != a.sum) {
-    console.log('error! wrong sum ' + b + ' != ' + a.sum)
-} else {
-    console.log('data verified ok! do the work..')
-    const web3 = new Web3(window.ethereum)
-    const wj_contract = new web3.eth.Contract(wj_ABI, wj_contract_address)
-    function toHexAddress(addr) {
-        if (typeof addr === 'string' && addr.startsWith('j3')) {
-            if (typeof decodeJVA === 'function') {
-                const result = decodeJVA(addr)
-                if (result.success) return result.hexAddress
-                console.warn('b32地址解码失败:', addr, result.error)
-            } else {
-                console.warn('jvaddress.js 未加载')
-            }
-        }
-        return addr
+if (a.list.length !== a.total) {
+    throw new Error('error! wrong list items: ' + a.list.length + ' != ' + a.total)
+}
+
+const b = a.list.reduce((sum, item) => sum + item[3], 0)
+if (b !== a.sum) {
+    throw new Error('error! wrong sum ' + b + ' != ' + a.sum)
+}
+
+console.log('data verified ok!')
+
+const EXPECTED_CHAIN_ID = 3666
+const EXPECTED_WJ_CONTRACT = '0x7fba9BB966189Db8C4fE33B7bf67Bfa24203c6AD'
+
+const web3 = new Web3(window.ethereum)
+const currentChainId = await web3.eth.getChainId()
+if (Number(currentChainId) !== EXPECTED_CHAIN_ID) {
+    throw new Error('网络错误：需要 Jouleverse chainId ' + EXPECTED_CHAIN_ID + '，当前为 ' + currentChainId + '。请切换网络后重新运行脚本')
+}
+
+if (typeof wj_contract_address !== 'string' || wj_contract_address.toLowerCase() !== EXPECTED_WJ_CONTRACT.toLowerCase()) {
+    throw new Error('WJ 合约地址不匹配：期望 ' + EXPECTED_WJ_CONTRACT + '，当前为 ' + wj_contract_address)
+}
+
+const wj_contract = new web3.eth.Contract(wj_ABI, wj_contract_address)
+const connectedAccount = window.ethereum.selectedAddress
+
+if (!connectedAccount) {
+    throw new Error('请先连接执行钱包，再运行脚本')
+}
+
+function toHexAddress(addr) {
+    if (typeof addr !== 'string' || !addr.startsWith('j3')) {
+        throw new Error('无效的 b32 地址: ' + addr)
     }
-    const starting_point = 0
-    for (var i = starting_point; i < a.list.length; i++) {
-        const rawAddr = a.list[i][2]
-        const addr = toHexAddress(rawAddr)
-        const val = a.list[i][3]
-        console.log('depositing ' + val + ' WJ to ' + rawAddr + ' (' + a.list[i][0] + ')...')
-        const connectedAccount = window.ethereum.selectedAddress
-        if (connectedAccount) await wj_contract.methods.transfer(addr, web3.utils.toWei(val.toString())).send({from: connectedAccount}).on('transactionHash', console.log).on('error', console.log)
+    if (typeof decodeJVA !== 'function') {
+        throw new Error('jvaddress.js 未加载，无法解码 b32 地址')
+    }
+
+    const result = decodeJVA(addr)
+    if (!result || !result.success || !result.hexAddress) {
+        throw new Error('b32 地址解码失败: ' + addr + (result && result.error ? ' (' + result.error + ')' : ''))
+    }
+    return result.hexAddress
+}
+
+// 先一次性解码全部地址。任何一个地址失败时，在发生转账前直接中止。
+const decoded = a.list.map(function(item) {
+    return {
+        name: item[0],
+        rawAddr: item[2],
+        addr: toHexAddress(item[2]),
+        amount: item[3]
+    }
+})
+
+const starting_point = 0
+if (!Number.isInteger(starting_point) || starting_point < 0 || starting_point >= decoded.length) {
+    throw new Error('starting_point 超出范围: ' + starting_point)
+}
+
+console.log('准备从第 ' + (starting_point + 1) + ' 条开始，共 ' + decoded.length + ' 条')
+console.log('执行钱包: ' + connectedAccount)
+
+for (var i = starting_point; i < decoded.length; i++) {
+    const item = decoded[i]
+    const amount = web3.utils.toWei(item.amount.toString(), 'ether')
+    console.log('depositing ' + item.amount + ' WJ to ' + item.rawAddr + ' (' + item.name + ')...')
+
+    try {
+        const receipt = await wj_contract.methods
+            .transfer(item.addr, amount)
+            .send({from: connectedAccount})
+        console.log('success: ' + item.name + ', tx=' + receipt.transactionHash)
+    } catch (error) {
+        console.error('交易失败，已停止后续发放:', item.name, item.rawAddr, error)
+        throw error
     }
 }
+
+console.log('全部发放完成，共处理 ' + (decoded.length - starting_point) + ' 条')
