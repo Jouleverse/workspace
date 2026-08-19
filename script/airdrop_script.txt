@@ -892,3 +892,142 @@ if (a.list.length != a.total) {
 				.on('error', console.log)
     }
 }
+
+
+// PoWh 核心贡献激励发放脚本（2025-12 至 2026-06）
+// 数据来源：powh-data-202512 至 powh-data-202606.mediawiki
+// 地址来源：core-contributors.md（b32）；J-64 已合并至 J-66
+// 金额单位：WJ；所有地址统一使用 b32 格式
+// 创世金库已统一为 b32：j38dchzxv83ckmr2na73h44h8ewe4qzur0sggtuj
+
+const a = { 'total': 44, 'sum': 84000000, 'list': [
+    ['Koant', 'bit.j', 'j3t06s72f3dz8csm6xlzx4emk72v9mjgrk6p0qxd', 4855000], // J-0，485.5 万 WJ
+    ['芳芳', 'fang.j', 'j3k269jenyag3ucj58rzrmnfwvu9h73lg7thfmcr', 82000], // J-1，8.2 万 WJ
+    ['楼兰渔夫', 'china.j', 'j3ccz733ly2sgwtx8cxkl9u03850kecwwa2gku3p', 4109700], // J-4，410.97 万 WJ
+    ['Menger', 'menger.j', 'j3zz6hsmu5k3h2etwmpy792hllfwjk09gla28df7', 731600], // J-5，73.16 万 WJ
+    ['li17', 'li17.j', 'j3ed7kh0y0vqem0t8dk0cev56utwu2yc3udqqykk', 2709300], // J-6，270.93 万 WJ
+    ['明海云', '123.j', 'j37esg9ayvhsg6eq7dmcgkgn6dktekxgz6els3ns', 3347900], // J-7，334.79 万 WJ
+    ['Jacky', '', 'j3xvnz346sndhdlw9fpyv2jejdu4n8t6w0gzzagj', 1003900], // J-9，100.39 万 WJ
+    ['如行', 'hao.j', 'j34k8vu06uk6xdjyjwdvfyhxv9ks084khhf23ugy', 2073400], // J-12，207.34 万 WJ
+    ['ucanfilm (机构) (联络人：凌杏水)', '', 'j3ewsj8n3d2h7tuk76r7csq0t3jgg4qg79uaeh0v', 567100], // J-14，56.71 万 WJ
+    ['火星', 'mars.j', 'j3w740m2vduey9gxdnhsm8y9hx4wezpm7ucrawg6', 3347900], // J-17，334.79 万 WJ
+    ['谢勇(稳清活)', 'dao.j', 'j3kguz8jlrjc4w67rl477z5kus0s8569yf7kk9pl', 3850300], // J-18，385.03 万 WJ
+    ['gwendol(c)', 'gwendol.j', 'j333uz7r9kxev8euzuak8h07n29rr8cn9f3488pu', 1037800], // J-24，103.78 万 WJ
+    ['教链(evan)', 'evan.j', 'j35ftg4f98et9zuhsm2sw8h7sy3fpm970tde8xjm', 9566300], // J-25，956.63 万 WJ
+    ['严光红', 'ygh.j', 'j3ggr8rtywse6tzqe2umn7ulsryhsnnlarf73lna', 2456500], // J-26，245.65 万 WJ
+    ['狮子猫', 'sizimao.j', 'j33g2fzlxkr0m3at5wx0s7vgxyq3cmvfpzx3jgak', 1673900], // J-27，167.39 万 WJ
+    ['老谢', 'dambo.j', 'j3909fc2gpyy6y3lr0u9l6m5h8yu2p2zkuamgaxr', 166600], // J-28，16.66 万 WJ
+    ['Jeff', '1688.j', 'j3t5w2tajsvfe2sxldhqc2g7vp44e7ugdmzd263x', 3512600], // J-29，351.26 万 WJ
+    ['kylin', '22222.j', 'j3y4aqfgmntw4qragky7cplchc084hr0zz6gvpvu', 3347900], // J-31，334.79 万 WJ
+    ['煜歌', 'sos.j', 'j3u4mzjfxggvnfum3l88mzr4h8zfletm4zgz8mn9', 1956700], // J-33，195.67 万 WJ
+    ['cijin', 'news.j', 'j3mgp0k5qqplnyct99xa88k52kzxjahmya0rfwld', 2319600], // J-34，231.96 万 WJ
+    ['剪云为裳', 'lilei855x.j', 'j3ud5czzcmqlgtstmsyen598pcg2g9c98lyvwhah', 1458800], // J-37，145.88 万 WJ
+    ['花开的声音', 'g.j', 'j3mjfk4pcagy0l5gfz5kz743ncq4wt3w25hf0x29', 782500], // J-39，78.25 万 WJ
+    ['米高', 'vibe.j', 'j3jln82eapg48uaj98a9wfwz5xwrdqyvlnuq6rnn', 1673900], // J-42，167.39 万 WJ
+    ['Ted', 'focus.j', 'j37dyyky6sd8gwq5vu02tk8gkja8lctuuuc4hgr0', 1673900], // J-43，167.39 万 WJ
+    ['团子', 'wang0411.j', 'j3gqpm8n8m96qtnn5fyn2w0yj404k8yaqczada20', 587100], // J-44，58.71 万 WJ
+    ['杨敦鹏', 'yang066.j', 'j379y0sascxklysan4rv2pteecj57a0kms0qzv97', 587100], // J-45，58.71 万 WJ
+    ['xiangwang', 'wangxiang6300.j', 'j3lust9v3zp43qa6805chertvlp4hd7d9k8ypex2', 0], // J-46，0 万 WJ
+    ['邱泳渼', 'miumiu.j', 'j3gt5e86jq0y6rf3shur0wsvppzd7jlnuduq32c2', 587100], // J-47，58.71 万 WJ
+    ['星语欣愿', 'ryo3388.j', 'j38pfnklkntpvl8dy8qkhjkh0cmmv6kme9ary09x', 782500], // J-49，78.25 万 WJ
+    ['相瑾', 'cxj66.j', 'j3fcx75faxpymlwdc2d42gu6ky3t2s4773m2c9jh', 577400], // J-51，57.74 万 WJ
+    ['盛美', '', 'j3nqa6gjqxda7s253y49jp44yxnr34jvn99d4cdd', 1673900], // J-52，167.39 万 WJ
+    ['微尘', 'fangsheng.j', 'j33dyyd4edz5cd7a2andg5dglxy7s2w9rl8asa74', 5042100], // J-53，504.21 万 WJ
+    ['Simon', '2100.j', 'j3fr6em2zn82kynvvgg0znwn2lacq8cv486p922g', 1673900], // J-54，167.39 万 WJ
+    ['蓝色经典', 'lilei885x.j', 'j367lzuj85cn3zv5ae0mzx8z6df3e2x4c30ywnl7', 205100], // J-55，20.51 万 WJ
+    ['TIGER', 'btcbbb.j', 'j3edpwcp5c5map5dhs0vlp8a8s8tpvmn8urc6yhs', 1673900], // J-57，167.39 万 WJ
+    ['sing2011', 'btcc.j', 'j3pmsamqz9gce74x67j3796qe3xfxan7s02rnfa6', 1673900], // J-58，167.39 万 WJ
+    ['潇先生', 'btcddd.j', 'j3trxwxh952xuekfcchv2pcp26ja6nk8ujzdw0yf', 1673900], // J-59，167.39 万 WJ
+    ['蓝叶子', '558.j', 'j3zml0mc9f634d9rtfsu4fw699ykhm6gwhr430xs', 1673900], // J-60，167.39 万 WJ
+    ['彩彩', '166.j', 'j3027czks0kqrczlads7evpqw8tvq3th8sjylqud', 1673900], // J-61，167.39 万 WJ
+    ['尧垚', '2612.j', 'j3cvhzwh90cfa2wedl9pdskfxahw64vk2mp4kga7', 782500], // J-63，78.25 万 WJ
+    ['伟龙', '', 'j37zk2rzpd8z9es4yukst8m7md33d5pajk2tncqx', 1337800], // J-65，133.78 万 WJ
+    ['元神道（机构）（联络人：老道）', '', 'j3gw45qwsmp0qkx4fp9jgszlydx2ux008xgn0fss', 1793900], // J-66，179.39 万 WJ
+    ['Bataroc', '', 'j3dzstpvwu77tvny7znjwxnz9ry9sq83f6wkg34l', 1685600], // J-67，168.56 万 WJ
+    ['创世金库', '', 'j38dchzxv83ckmr2na73h44h8ewe4qzur0sggtuj', 9400], // TREASURY，0.94 万 WJ
+] }
+
+// 校验与执行逻辑参考 script/airdrop_script.txt：需先加载 jvaddress.js。
+// b32 地址由 toHexAddress/decodeJVA 转为 0x，再调用 wj_contract.methods.transfer。
+
+if (a.list.length !== a.total) {
+    throw new Error('error! wrong list items: ' + a.list.length + ' != ' + a.total)
+}
+
+const b = a.list.reduce((sum, item) => sum + item[3], 0)
+if (b !== a.sum) {
+    throw new Error('error! wrong sum ' + b + ' != ' + a.sum)
+}
+
+console.log('data verified ok!')
+
+const EXPECTED_CHAIN_ID = 3666
+const EXPECTED_WJ_CONTRACT = '0x7fba9BB966189Db8C4fE33B7bf67Bfa24203c6AD'
+
+const web3 = new Web3(window.ethereum)
+const currentChainId = await web3.eth.getChainId()
+if (Number(currentChainId) !== EXPECTED_CHAIN_ID) {
+    throw new Error('网络错误：需要 Jouleverse chainId ' + EXPECTED_CHAIN_ID + '，当前为 ' + currentChainId + '。请切换网络后重新运行脚本')
+}
+
+if (typeof wj_contract_address !== 'string' || wj_contract_address.toLowerCase() !== EXPECTED_WJ_CONTRACT.toLowerCase()) {
+    throw new Error('WJ 合约地址不匹配：期望 ' + EXPECTED_WJ_CONTRACT + '，当前为 ' + wj_contract_address)
+}
+
+const wj_contract = new web3.eth.Contract(wj_ABI, wj_contract_address)
+const connectedAccount = window.ethereum.selectedAddress
+
+if (!connectedAccount) {
+    throw new Error('请先连接执行钱包，再运行脚本')
+}
+
+function toHexAddress(addr) {
+    if (typeof addr !== 'string' || !addr.startsWith('j3')) {
+        throw new Error('无效的 b32 地址: ' + addr)
+    }
+    if (typeof decodeJVA !== 'function') {
+        throw new Error('jvaddress.js 未加载，无法解码 b32 地址')
+    }
+
+    const result = decodeJVA(addr)
+    if (!result || !result.success || !result.hexAddress) {
+        throw new Error('b32 地址解码失败: ' + addr + (result && result.error ? ' (' + result.error + ')' : ''))
+    }
+    return result.hexAddress
+}
+
+// 先一次性解码全部地址。任何一个地址失败时，在发生转账前直接中止。
+const decoded = a.list.map(function(item) {
+    return {
+        name: item[0],
+        rawAddr: item[2],
+        addr: toHexAddress(item[2]),
+        amount: item[3]
+    }
+})
+
+const starting_point = 0
+if (!Number.isInteger(starting_point) || starting_point < 0 || starting_point >= decoded.length) {
+    throw new Error('starting_point 超出范围: ' + starting_point)
+}
+
+console.log('准备从第 ' + (starting_point + 1) + ' 条开始，共 ' + decoded.length + ' 条')
+console.log('执行钱包: ' + connectedAccount)
+
+for (var i = starting_point; i < decoded.length; i++) {
+    const item = decoded[i]
+    const amount = web3.utils.toWei(item.amount.toString(), 'ether')
+    console.log('depositing ' + item.amount + ' WJ to ' + item.rawAddr + ' (' + item.name + ')...')
+
+    try {
+        const receipt = await wj_contract.methods
+            .transfer(item.addr, amount)
+            .send({from: connectedAccount})
+        console.log('success: ' + item.name + ', tx=' + receipt.transactionHash)
+    } catch (error) {
+        console.error('交易失败，已停止后续发放:', item.name, item.rawAddr, error)
+        throw error
+    }
+}
+
+console.log('全部发放完成，共处理 ' + (decoded.length - starting_point) + ' 条')
