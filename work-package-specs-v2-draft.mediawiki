@@ -1,0 +1,634 @@
+<!-- Jouleverse WP specs v2 草案 (拟 rev9)
+     起草: 小新 | 发起: 教链(J-25) | 2026-08-25
+     状态: 草案, 待社区 review -> CGC 批准 -->
+
+== 说明 Preface ==
+
+本文档是 Jouleverse 核心资产（20% 部分）所支持的核心基础工作的'''规范 + 操作指引'''草案（v2）。
+
+* 对'''贡献者'''：回答"我想做/做了某项工作，归哪个工作包？要不要自己报？报到哪里？"
+* 对'''统计员'''：回答"每个数字从哪里取？怎么核验？"
+* 对'''项目经理 / repo maintainer'''：明确第一层把关责任。
+* 对'''CGC'''：提供争议裁决与修订的依据。
+
+=== 相对现行版的核心变化 ===
+
+# '''废除「标准工作包 / 非标工作包 / 混合工作包」的 WP 级分类'''——颗粒度细化到'''工作项'''，每个工作包内部区分「标准化工作项」（统计员直接按标准拉取数据统计）与「非标工作项」（贡献者先自行上报，统计员再汇总核验）。
+# 新增「快速导航总表」与「统计员数据来源清单」，规范+指引双重属性。
+# 文中 {{注|改进建议}} 为暂不生效的改进提案，随 v2 一并讨论，采纳与否不影响正文规则。
+
+层次（Layer）：
+# 共识 Consensus - 目标：增强共识，去中心化
+# 社群 Community - 目标：更多的人, builder, contributor, user
+# 应用 Application - 目标：孵化或验证工具型/生态型DApp的PoC，并透过EcoFund等机制推动生态繁荣
+
+=== 核心概念 ===
+
+{| class="wikitable"
+! 概念
+! 定义
+|-
+| '''工作项'''
+| PoWh 统计的最小颗粒。每项工作都归属唯一的工作包
+|-
+| '''标准化工作项'''
+| 有客观事实源（链上数据或 GitHub 公开记录），由统计员按既定标准直接取数统计，'''无需贡献者自行上报'''
+|-
+| '''非标工作项'''
+| 无固定计件标准或事实源在个人手中，需贡献者按第 4 节格式'''自行上报'''到指定 issue，统计员汇总核验
+|-
+| '''产出物'''
+| 可工作代码 / 已合并 PR / 已定稿文档 / 链上交易记录。非标上报必附产出物链接
+|}
+
+=== 流程一图流 ===
+
+ 贡献者：  做事 → 产生产出物（PR/文档/链上记录）
+               ↓ 仅非标工作项
+          按 §4 格式上报到对应 WP issue 评论区（当月内）
+
+ 统计员：  标准化项 ← 按 §6 来源清单逐项取数
+          非标项   ← 遍历各 WP issue 评论解析汇总
+               ↓
+          出月度表 → 群发公示自查 72h → PR 到 workspace/data
+               ↓
+          CGC 审查通过 → 链上执行发放（tx hash 归档回 repo）
+
+== 快速导航总表 ==
+
+用法：先在「我做的工作」列找到你的工作类型，即可确定归属与报法。
+
+=== 标准化工作项（无需自行上报，统计员直接取数） ===
+
+{| class="wikitable"
+! 我做的工作
+! 归属
+! 计件标准
+! 统计员取数来源
+|-
+| 多签钱包签名响应
+| WP-1
+| 0.5h/月/钱包/签名人
+| 链上多签交易 + 当月在册签名人名单
+|-
+| 运行节点（记账/见证/RPC/审计/测试）
+| WP-2
+| 5h/月/独立IP节点
+| 审计员月度节点报告
+|-
+| CGC 预定会议、签到、纪要整理归档
+| WP-6
+| 0.5h/0.5h/2h 每次会议
+| open-meetings issue 与纪要 merge 记录；链上 CheckIn 事件
+|-
+| CGC 链上签到（考勤替代，slash 依据）
+| WP-6
+| 见 slash 规则
+| 链上 CheckIn 合约事件
+|}
+
+=== 非标工作项（需自行上报到对应 issue） ===
+
+{| class="wikitable"
+! 我做的工作
+! 归属
+! 上报位置
+! 产出物要求
+|-
+| 链代码开发/审计/debug/节点搭建文档
+| WP-7
+| workspace #7
+| PR/commit 链接
+|-
+| 区块浏览器开发维护
+| WP-8
+| workspace #8
+| PR/commit 链接
+|-
+| JTI 相关开发
+| WP-10
+| workspace #10
+| PR/commit 链接
+|-
+| nostr 加V服务运维
+| WP-11
+| workspace #11
+| PR/commit 链接
+|-
+| 合规/投融资/EcoFund 方案与落地
+| WP-12
+| workspace #12
+| 文档/方案链接
+|-
+| 知识库内容贡献、编辑 review & merge、网站建设、白皮书
+| WP-13
+| workspace #13
+| how/wiki merged PR 链接
+|-
+| Relay/GOD 开发
+| WP-14
+| workspace #14
+| PR/commit 链接
+|-
+| 治理合约开发、治理机制研究、JIP/JEEP 提案、genesis treasury & tokenomics 记账
+| WP-15
+| workspace #15
+| PR/issue/提案链接
+|-
+| 链上红包开发
+| WP-16
+| workspace #16
+| PR/commit 链接
+|-
+| PoWh 工具开发、本规范修订
+| WP-3
+| workspace #3
+| PR/issue 链接
+|-
+| JNSDAO 各项运营（拍卖、公众号、官网等）
+| WP-5
+| workspace #5
+| 见 WP-5 详则
+|-
+| 社群建设各项（KYC 引导、组长工作等）
+| WP-4
+| workspace #4
+| 见 WP-4 详则
+|}
+
+== 各工作包详则 ==
+
+每个 WP 统一模板：【A. 标准化工作项】【B. 非标工作项】两张子表。
+
+状态标注：🟢 活跃 ｜ ⏸ 暂停（保留规范，暂停激励）｜ 🗄 仅运维 ｜ 💤 非活跃
+
+=== WP-1 核心多签钱包管理 Co-owner of core multi-sigs　🟢 共识层 ===
+
+讨论区：https://github.com/Jouleverse/workspace/issues/1
+
+'''A. 标准化工作项'''
+
+{| class="wikitable"
+! 工作项
+! 计件标准
+! 取数来源
+|-
+| 多签响应（划拨预算、增减签名人审查执行）
+| 0.5h/月/钱包/每位当月在册签名人
+| 链上多签交易记录；当月在册签名人名单
+|}
+
+* 质量要求：24h 内响应，最迟不超过 48h。
+* 名单变更当月，该钱包工作量归新入多签人。
+* 纳入核心管理的多签钱包：创世金库、节点质押、投票权质押（多签人资格均为记账节点）。
+* 参与/退出：申请 → 资格审查 → CGC 批准 → 链上加/移除。
+
+{{注|改进建议}} 每月统计前对三个多签钱包跑一次 getOwners() 快照存档到 repo，作为"当月在册"的唯一依据，避免事后争议。
+
+=== WP-2 节点运行维护 Node Operation & Maintenance　🟢 共识层 ===
+
+讨论区：https://github.com/Jouleverse/workspace/issues/2
+
+'''A. 标准化工作项'''
+
+{| class="wikitable"
+! 工作项
+! 计件标准
+! 取数来源
+|-
+| 节点运维（含主机租赁折算、搭建、升级、组网投票响应、安全/故障响应）
+| 5h/月/独立IP节点（每人每种类型最多 1 个：见证+rpc/relay/审计、记账、测试）
+| '''审计员月度节点报告'''（节点在线率、类型、独立 IP 清单）
+|}
+
+* 质量要求：节点稳定运行；至少一种联络方式 7×24h 畅通；响应通常 24h 内，最迟 48h。
+* slash 规则：CGC 当月未链上签到 → 组长(WP-4)和见证节点(WP-2)激励减记为 0；记账节点(WP-2)减记为 0.5h。
+* 退出：申请 → CGC 批准 → 记账节点链上投票移除 → 审计移除 → 退还质押。
+* 节点搭建参考：[https://how.jouleverse.com/#!network/mainnet-setup-guide.md 节点搭建流程]
+
+{{注|改进建议}} 当前以审计员报告为准（改动最小）。中期可将节点清单结构化为 repo 内 nodes.yaml（地址/IP/类型/运维人/生效月份），审计员报告与之交叉核验；记账节点名单以链上共识集为最终依据。是否推进由社区另行讨论。
+
+=== WP-3 工作量证明统计和执行 PoWh statistics & execution　🟢 共识层 ===
+
+讨论区：https://github.com/Jouleverse/workspace/issues/3
+
+'''A. 标准化工作项'''
+
+{| class="wikitable"
+! 工作项
+! 计件标准
+! 取数来源
+|-
+| 统计（Excel 处统计数据 3h + 协调跟踪 1h）
+| 4h/月/轮值统计主管
+| 月度轮值分工记录（随统计 PR 写明）
+|-
+| GitHub 数据录入
+| 2h/月
+| data 目录 PR 提交记录
+|-
+| 合并（含全局数据检查）
+| 1h/月
+| merge 记录
+|-
+| 执行发放
+| 2h/月
+| 链上 wJ 发放 tx hash（归档至 data/powh-transactionHash-*）
+|}
+
+'''B. 非标工作项'''
+
+{| class="wikitable"
+! 工作类型
+! 上报位置
+! 说明
+|-
+| PoWh 工具开发、本规范的优化整理与条款解读
+| workspace #3
+| 含 AI Agent 辅助统计工具等
+|}
+
+* 组织听证属统计职责范围，不另计件。
+* 质量要求：次月发放上月激励，延迟不超过 2 个月。
+* 统计组流程沿用 rev7：月初通知 → 统计 → 主管复核 → 群发公示自查 72h → PR → CGC 审查 → 执行；统计岗与复核岗不得同一人。
+
+{{注|改进建议}} 轮值分工（统计主管/录入/合并/执行各是谁）应作为固定字段写入每月统计 PR 头部，成为取数依据。
+
+=== WP-4 社群建设 Community Engagement　⏸ 暂停 ===
+
+''状态：暂停（2026.8 起）。保留规范文本备查，暂停期间不进行 PoWh 统计与发放。恢复须经 CGC 决议。''
+
+讨论区：https://github.com/Jouleverse/workspace/issues/4
+
+以下为暂停前规则存档。
+
+'''A. 标准化工作项'''
+
+{| class="wikitable"
+! 工作项
+! 计件标准
+! 取数来源
+|-
+| 新增用户激励
+| 0.5h/独立新增JTI
+| JTI 合约链上首次认证事件
+|-
+| 留存且活跃用户激励
+| 0.1h/独立JTI
+| 链上活跃 JTI + 项目方分组报告，剔除当月新增
+|-
+| KYC 审核和 JTI 认证发放
+| 0.2h/独立JTI
+| JTI 发放记录 + 组长登记
+|}
+
+'''B. 非标工作项'''：新手引导、分组群答疑、信息群发等，报 workspace #4。
+
+{{注|改进建议}} 若恢复运行，「活跃」口径建议向纯链上定义（同期有交易的 JTI）过渡，减少对项目方自报的依赖。
+
+=== WP-5 JNSDAO　⏸ 暂停 ===
+
+''状态：暂停（2026.8 起）。保留规范文本备查，恢复须经 CGC 决议。''
+
+讨论区：https://github.com/Jouleverse/workspace/issues/5
+
+以下为暂停前规则存档。
+
+'''A. 标准化工作项'''
+
+{| class="wikitable"
+! 工作项
+! 计件标准
+! 取数来源
+|-
+| 拍卖会协调 / 记录录入
+| 0.5h/场 + 0.5h/场
+| 链上拍卖交易 + 官网实录
+|-
+| 拍品铸造发放 submit / confirm
+| 1h/场 + 0.5h/场
+| 链上多签交易
+|-
+| 官网内容更新（拍卖实录、收支记录）
+| 0.5h/场
+| 官网页面
+|}
+
+'''B. 非标工作项'''
+
+{| class="wikitable"
+! 工作类型
+! 计件标准
+|-
+| 新人分配入组及跟进（JTI 认证 + JNS 域名）
+| 0.5h/新成员
+|-
+| 公众号文章编辑
+| 0.5h/篇
+|}
+
+{{注|改进建议}} 公众号文章发布后应将标题+链接+日期归档到 repo，使取数可脱离微信生态核验。
+
+=== WP-6 核心治理会议 Core Governance Conference (CGC)　🟢 社群层 ===
+
+讨论区：https://github.com/Jouleverse/workspace/issues/6
+
+'''A. 标准化工作项'''
+
+{| class="wikitable"
+! 工作项
+! 计件标准
+! 取数来源
+|-
+| 预定会议 & 通知
+| 0.5h/次
+| open-meetings 议题 issue 创建记录
+|-
+| 参会签到
+| 0.5h/次
+| 同上
+|-
+| 议题征集 & 纪要整理归档（书记员）
+| 2h/次
+| open-meetings/core/CGC年月日.md 的 merge 定稿记录（定稿即有效产出物）
+|}
+
+* 会议开放参与，凡 DAO 成员乃至任何有兴趣者皆可参加；核心贡献者有义务参与。
+* 考勤：不做出席考核（since 2025/3），改为每月链上签到；未签到的 slash 规则见 WP-2/WP-4。
+* CGC 发言分两类：（一）自由讨论不计 PoWh；（二）主题发言按实际演讲时长，报告到'''具体工作所属的工作包'''（依据书记员纪要中的议题类型标记与时长记录），不报告到 WP-6。
+* 纪要时限：周二晚 18:00 前讨论区发言可被采纳进纪要，当晚 20:00 前 open-meetings 与《焦耳通讯》网站定稿并 PR（rev8）。
+
+=== WP-7 链代码开发 Chain dev　🟢 共识层 ===
+
+讨论区：https://github.com/Jouleverse/workspace/issues/7
+
+'''B. 非标工作项'''
+
+{| class="wikitable"
+! 工作类型
+! 产出物位置
+|-
+| 链代码合规定制、debug、部署验证、geth 上游跟进
+| audit repo、jouleverse-node repo（chain source 暂未开放）
+|-
+| 网络状态审计监控、问题推动解决
+| https://github.com/Jouleverse/audit
+|-
+| 相关文档编写与节点搭建支持
+| how.jouleverse.com（内容本身报 WP-13，见划界说明）
+|}
+
+* 质量要求：critical bug = 0。
+* '''划界'''：链上链代码、节点 repo、审计 repo 的开发 → WP-7；一切 wiki/知识库/网站/白皮书内容 → WP-13。
+
+=== WP-8 区块浏览器 Block Explorer　🟢 应用层 ===
+
+讨论区：https://github.com/Jouleverse/workspace/issues/8
+
+'''B. 非标工作项'''：explorer repo 维护/开发/bug fix；jscan.jnsdao.com 代运维（孵化期）；生态探索性有限支持（EcoFund 运转前）。报 workspace #8，附 PR 链接。
+
+长期目标：区块浏览器剥离 core 独立运作（如同 etherscan 之于以太坊）。质量按开源标准，不提供保证。
+
+=== WP-10 JTI认证相关开发 JTI dev　🟢 社群层 ===
+
+讨论区：https://github.com/Jouleverse/workspace/issues/10
+
+'''B. 非标工作项'''：jti2 repo 维护/开发/bug fix。报 workspace #10，附 PR 链接。
+
+愿景：可信身份认证的非垄断性初级方案；长期应有更多独立认证方案涌现，不排除权威机构上链认证。
+
+=== WP-11 nostr相关开发　🗄 仅运维 社群层 ===
+
+讨论区：https://github.com/Jouleverse/workspace/issues/11
+
+'''B. 非标工作项'''：nostr-gen repo 加V服务代运维。报 workspace #11。
+
+历史遗留工作，仅维持运维；或可并入 JNSDAO 工作包（待议）。
+
+=== WP-12 合规、投融资和生态基金 Compliance, Funding & EcoFund related　🟢 核心层 ===
+
+讨论区：https://github.com/Jouleverse/workspace/issues/12
+
+'''B. 非标工作项'''：合规路径调研方案、外部资本撬动方案、EcoFund 机制设计与落地。报 workspace #12，附文档/方案链接。质量要求：取得实际结果。
+
+参与路径：调查研究 → 输出方案 → CGC 形成共识 → 执行。
+
+=== WP-13 白皮书和网站（知识库） Whitepaper and website　🟢 核心层 ===
+
+讨论区：https://github.com/Jouleverse/workspace/issues/13
+
+'''B. 非标工作项'''
+
+{| class="wikitable"
+! 工作类型
+! 产出物位置
+|-
+| 知识库内容贡献（技术文档、教程等）
+| Jouleverse/how、Jouleverse/wiki 的 PR
+|-
+| 知识库编辑 review & fix & merge
+| 同上，merged PR 记录即产出物
+|-
+| "官网"建设与探索
+| 相关 repo/文档
+|-
+| 技术白皮书组织撰写
+| 相关文档
+|}
+
+* jouleverse.com 域名续费与管理为'''无偿贡献'''（core 无法币流入流出），不计 PoWh。
+* '''规则修订（v2 关键变更之一）'''：知识库（how.jouleverse.com / wiki.jouleverse.com，repo 含 <code>Jouleverse/how</code> 与 <code>Jouleverse/wiki</code> 两处）的'''内容贡献、功能开发、编辑 review & merge 一律计入 WP-13'''。废除旧版"内容贡献计入相关具体工作所属 WP（如节点搭建文档报 WP-7）"的表述——与社区既有实践对齐（如《PoWh 统计操作指南》报 WP-13 的先例）。
+
+=== WP-14 Relay开发 Relay dev　🟢 核心层 ===
+
+讨论区：https://github.com/Jouleverse/workspace/issues/14
+
+'''B. 非标工作项'''：GOD（Gas On Demand）系统开发（go-relay 暂未开放）、合规支付通道接入、去中心化 relay network 建设。报 workspace #14。质量要求：critical bug = 0。
+
+=== WP-15 核心治理工具集开发 core governance toolset dev　🟢 核心层 ===
+
+讨论区：https://github.com/Jouleverse/workspace/issues/15
+
+'''B. 非标工作项'''
+
+{| class="wikitable"
+! 工作类型
+! 产出物位置
+|-
+| 治理合约及前端（多签/Wrapper/veJ/timelock/Governance）
+| genesis-treasury、WJOULE、governance repo
+|-
+| 治理机制研究与方案实施（去中心化与抗治理攻击）
+| 文档/方案
+|-
+| 治理提案（JIP/JEEP 等）撰写与宣讲
+| jips/jeeps repo issue
+|-
+| genesis treasury & tokenomics 相关文档、记账
+| 暂归本 WP
+|}
+
+质量要求：critical bug = 0。
+
+'''范围澄清（v2 关键变更之一）'''：治理合约、治理机制研究、JIP/JEEP 提案明确归 WP-15——消除历史上同类工作在 WP-3 与 WP-15 间漂移的歧义。
+
+=== WP-16 链上红包开发 On-chain Redpacket dev　🟢 应用层 ===
+
+讨论区：https://github.com/Jouleverse/workspace/issues/16
+
+'''B. 非标工作项'''：redpacket repo（合约）+ explorer 集成（前端）的开发维护；生态探索性有限支持（EcoFund 运转前）。报 workspace #16。特色：结合 JTI 的 anti-sybil 与分组定向。
+
+=== WP-9 飞翔的J纪念徽章 Flying J　💤 非活跃 ===
+
+JNSDAO 奥德赛历史遗产，无进一步工作。规范文本存档见 wiki 旧版。
+
+== 非标工作量上报规范 ==
+
+=== 统一格式模板（v2 强制） ===
+
+ {昵称}（{Core ID}）{YYYY.M}月非标工时报告：
+
+ WP-{N} {全名}：(总计: Xh)
+ - YYYY.M.D Xh: {事务简述} [产出物链接](URL)
+ - ...
+
+ 总计：XX h
+
+示例：
+
+ 教链（J-25）2026.7月非标工时报告：
+
+ WP-15 核心治理工具集开发：(总计: 4h)
+ - 2026.7.21 4h: JIP-6 + JEEP-7 提案撰写 + ENS 架构调研
+   [jips#6](https://github.com/Jouleverse/jips/issues/6) [jips#7](https://github.com/Jouleverse/jips/issues/7)
+
+ 总计：4h
+
+=== 规则 ===
+
+# 头部固定格式：<code>{昵称}（{Core ID}）{YYYY.M}月非标工时报告</code>；WP 名称使用本规范的标准全名，禁止简称。
+# 每行必须附产出物链接（PR/issue/文档/链上 tx）。'''无链接不计数'''，统计员有权剔除。
+# 最小精度 0.5h；只报生产性时间（针对有效产出物的 coding/写文档/debug/review 等；纯学习、聊天交流、开会不报）。
+# 时间窗口：当期报当期，过期不补报。截止时间为'''次月 5 日 24:00'''（v2 明确化，此前仅口头"月初通知"）。
+# 直接发到对应 WP 的 issue 评论区。
+
+=== 三层把关（沿用） ===
+
+# 工作包的"项目经理"们（开发类通常为 repo maintainers）：第一层 review，确保生产性时间且效率合理。
+# 轮值统计委员：横向对齐，质疑显著不合理报告直至否决。
+# CGC 全体审查；统计表 GitHub 完全公开；强烈异议项目组织听证答辩。
+
+== 统计员 SOP（数据来源清单） ==
+
+标准化工作项逐项取数；非标工作项解析 issue 评论后按下表交叉核验。
+
+{| class="wikitable"
+! 来源
+! 类型
+! 服务于
+! 获取方式
+|-
+| 链上多签交易 + 签名人名单快照
+| 链上
+| WP-1
+| RPC 查询，每月快照存档
+|-
+| 审计员月度节点报告
+| GitHub/审计渠道
+| WP-2
+| 审计员每月提交
+|-
+| CheckIn 合约事件
+| 链上
+| WP-6 签到、WP-2/4 slash 判定
+| fetch_checkin.py（现成脚本，出月度签到表含去重）
+|-
+| open-meetings issue 创建与纪要 merge 记录
+| GitHub
+| WP-6
+| repo 提交历史
+|-
+| JTI 合约认证事件
+| 链上
+| WP-4（恢复后）、WP-2 资格核对
+| 仿 checkin 脚本扫描
+|-
+| 各 WP issue 评论区上报
+| GitHub
+| 全部非标项
+| 按模板解析，AI Agent 辅助
+|-
+| data/powh-data-*.mediawiki 月度表
+| GitHub
+| 全部
+| workspace repo，202210 至今连续
+|-
+| data/powh-transactionHash-data-*.mediawiki
+| GitHub+链上
+| 执行闭环核验
+| 半年度归档
+|}
+
+统计流程（沿用 rev7 并明确化）：月初群通知（统计主管）→ 标准项取数 + 非标项汇总 → 主管复核（非同一人）→ 群发公示自查满 72h 无异议 → PR 至 workspace/data → CGC 审查 → 链上执行 → tx hash 回归档。
+
+统计表列规则：当月有统计的 WP 才建列；列名统一为 <code>WP-{N} {全名}</code>，与本文档一致。
+
+== 附录 ==
+
+=== 本版（rev9 拟）主要变更摘要 ===
+
+{| class="wikitable"
+! #
+! 变更
+! 理由
+|-
+| 1
+| 废除 WP 三级分类，标准/非标细化到工作项粒度
+| 每个 WP 内部实为混合，WP 级标签颗粒过粗且易误导
+|-
+| 2
+| WP-13 知识库规则改为内容贡献一律归 WP-13
+| 消除 spec 与社区实践的矛盾
+|-
+| 3
+| WP-15 明确纳入 JIP/JEEP 提案与治理机制研究
+| 消除同类工作 WP-3/15 漂移
+|-
+| 4
+| 非标上报截止时间明确为次月 5 日 24:00
+| 此前无成文时限
+|-
+| 5
+| 非标上报强制附产出物链接
+| 可追溯性；为 AI 辅助统计打基础
+|-
+| 6
+| WP-4、WP-5 标注暂停
+| 2026.8 教链确认
+|-
+| 7
+| WP-2 节点清单以审计员月度报告为准
+| 改动最小的现状固化
+|-
+| 8
+| 新增快速导航总表、统计员 SOP 与数据来源清单
+| 规范+指引双重属性
+|-
+| 9
+| 统计表列名与 spec 统一
+| 消除列名漂移
+|}
+
+=== 随文改进提案（注释项汇总，另行讨论，不阻塞 rev9） ===
+
+# 多签名单月度链上快照存档（WP-1）
+# 节点清单 nodes.yaml 结构化（WP-2，中期）
+# 轮值分工字段化写入统计 PR（WP-3）
+# WP-4 活跃口径向纯链上定义过渡（WP-4 恢复时）
+# 公众号文章归档 repo 化（WP-5 恢复时）
+# JTI 链上月度报表自动化（WP-4/2）
+# 上报↔GitHub 活动 AI 交叉核验（依赖上报强制链接落地后）
+
+=== 修订历史说明 ===
+
+沿袭现行版本序列（prev1 → prev0 → rev1…rev8，详见现行 work-package-specs.mediawiki 附录），本版为 '''rev9'''。经 CGC 批准后填入生效月份与批准会议记录。
