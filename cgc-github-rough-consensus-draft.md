@@ -1,4 +1,4 @@
-# Jouleverse Core CGC GitHub Rough Consensus 议事办法（内部讨论稿 v0.2）
+# Jouleverse Core CGC Rough Consensus 议事办法（内部讨论稿 v0.2）
 
 > 发起：教链（J-25）｜起草：小新｜日期：2026-08-25
 > 状态：**内部讨论稿**，供社区评议。成熟后拟正式化为 JEEP 提案（建议编号 JEEP-7），经 CGC 批准后施行。
