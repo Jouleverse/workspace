@@ -1,7 +1,8 @@
-# Jouleverse Core CGC Rough Consensus 议事办法（内部讨论稿 v0.2）
+# Jouleverse Core CGC Rough Consensus 议事办法（试行版 v1.0）
 
-> 发起：教链（J-25）｜起草：小新｜日期：2026-08-25
-> 状态：**内部讨论稿**，供社区评议。成熟后拟正式化为 JEEP 提案（建议编号 JEEP-7），经 CGC 批准后施行。
+> 发起：教链（J-25）｜起草：小新｜日期：2026-08-25｜试行：2026-09-18
+> 状态：**试行版（v1.0）**。经 **CGC 会议 2026-08-30 判定已达成粗糙共识（Rough Consensus）**，即日起作为 Core 轨议事办法试行；后续拟正式化为 JEEP 提案（建议编号 JEEP-7）。
+> 决议记录：CGC 会议 2026-08-30 判定已达成粗糙共识（Rough Consensus）——参会芳芳 J-1、微尘 J-53、Koant J-0 会上赞同，Bataroc J-67 会后在会议讨论区表态赞同。会议记录：https://github.com/Jouleverse/open-meetings/blob/main/core/CGC20260830.md
 > 定位：JIP/JEEP 提案流程的操作细则——规定如何依托 GitHub 形成 rough consensus 并衔接 CGC 会议判定与执行。
 
 ---
@@ -124,4 +125,4 @@ Jouleverse Core 的治理动作已天然发生在 GitHub 上：提案以 issue/P
 
 ---
 
-*讨论稿 v0.2 · 小新 · 2026-08-27 · 征集意见中*
+*试行版 v1.0 · 小新 · 2026-09-18 · 经 CGC 会议 2026-08-30 判定达成粗糙共识后试行*
