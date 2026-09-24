@@ -51,31 +51,31 @@
 ! ''&nbsp;''
 ! ''&nbsp;''
 |- style="background:#f6f6f6"
-! [[https://github.com/jouleverse/workspace/issues/1|多签]]<br/>/个
+! 多签<br/>/个
 ! 汇总<br/>/wh
-! [[https://github.com/jouleverse/workspace/issues/2|记账节点]]<br/>/个
-! [[https://github.com/jouleverse/workspace/issues/2|见证节点]]<br/>/个
+! 记账节点<br/>/个
+! 见证节点<br/>/个
 ! 汇总<br/>/wh
 ! 汇总CGC有效<br/>/wh
-! [[https://github.com/jouleverse/workspace/issues/3|非标上报]]<br/>/wh
+! 非标上报<br/>/wh
 ! 统计主管<br/>/次
 ! 统计<br/>/次
 ! 录入<br/>/次
 ! 合并<br/>/次
-! [[https://github.com/jouleverse/workspace/issues/3|执行]]<br/>/次
+! 执行<br/>/次
 ! 汇总<br/>/wh
 ! [[https://github.com/Jouleverse/open-meetings/tree/main/core|会议预定]]<br/>/次
 ! [[https://github.com/Jouleverse/open-meetings/tree/main/core|会议主持]]<br/>/次
 ! [[https://github.com/Jouleverse/open-meetings/tree/main/core|会议发言]]<br/>/次
 ! 汇总<br/>/wh
-! [[https://github.com/jouleverse/workspace/issues/7|非标上报]]<br/>/wh
-! [[https://github.com/jouleverse/workspace/issues/8|非标上报]]<br/>/wh
+! 非标上报<br/>/wh
+! 非标上报<br/>/wh
 ! [[https://github.com/Jouleverse/wiki|github报告]]<br/>/wh
 ! [[https://github.com/Jouleverse/wiki|编辑]]<br/>/篇
 ! [[https://github.com/Jouleverse/wiki|审校]]<br/>/篇
 ! [[https://github.com/Jouleverse/wiki|投稿]]<br/>/wh
 ! 汇总<br/>/wh
-! [[https://github.com/jouleverse/workspace/issues/15|非标上报]]<br/>/wh
+! 非标上报<br/>/wh
 ! 工作量<br/>/wh
 ! 激励<br/>/万wJ
 ! 凑整<br/>1200万
@@ -87,9 +87,9 @@
 |-
 | '''J-18''' || @Timothyxie513 || 1 || 3 || 1.5 || 1 || 1 || 10 || 10 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 11.5 || 53.07 || &nbsp; || 53.07
 |-
-| '''J-25''' || @hmisty || 1 || 3 || 1.5 || 1 || 1 || 10 || 10 || 7 [[https://github.com/Jouleverse/workspace/issues/3#issuecomment-5519336627|↗]] || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 7 || &nbsp; || &nbsp; || 4 || 2 || &nbsp; || 24 [[https://github.com/Jouleverse/workspace/issues/8#issuecomment-5519035577|↗]] || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || 6 [[https://github.com/Jouleverse/workspace/issues/15#issuecomment-5519338174|↗]] || 50.5 || 233.07 || &nbsp; || 233.07
+| '''J-25''' || @hmisty || 1 || 3 || 1.5 || 1 || 1 || 10 || 10 || 7&nbsp;[[https://github.com/Jouleverse/workspace/issues/3#issuecomment-5519336627|↗]] || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 7 || &nbsp; || &nbsp; || 4 || 2 || &nbsp; || 24&nbsp;[[https://github.com/Jouleverse/workspace/issues/8#issuecomment-5519035577|↗]] || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || 6&nbsp;[[https://github.com/Jouleverse/workspace/issues/15#issuecomment-5519338174|↗]] || 50.5 || 233.07 || &nbsp; || 233.07
 |-
-| '''J-29''' || @29n || 1 || 3 || 1.5 || 1 || 1 || 10 || 10 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 7 [[https://github.com/Jouleverse/workspace/issues/3#issuecomment-5350229945|↗]] || 14 || &nbsp; || &nbsp; || &nbsp; || 0 || 1 [[https://github.com/Jouleverse/workspace/issues/7#issuecomment-5522443788|↗]] || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 26.5 || 122.3 || &nbsp; || 122.3
+| '''J-29''' || @29n || 1 || 3 || 1.5 || 1 || 1 || 10 || 10 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 7&nbsp;[[https://github.com/Jouleverse/workspace/issues/3#issuecomment-5350229945|↗]] || 14 || &nbsp; || &nbsp; || &nbsp; || 0 || 1&nbsp;[[https://github.com/Jouleverse/workspace/issues/7#issuecomment-5522443788|↗]] || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 26.5 || 122.3 || &nbsp; || 122.3
 |-
 | '''J-4''' || @LouLanFisherman || 1 || &nbsp; || &nbsp; || 1 || 1 || 10 || 10 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 10 || 46.15 || &nbsp; || 46.15
 |-
@@ -153,7 +153,7 @@
 * 本月名册 '''29 人'''（表头已固定），行序按多签 → 记账 → 见证 → 无节点贡献者。
 
 === 2. 表头与读法 ===
-* '''折算系数'''：表头第二行（斜体）为单位工作量折算成小时数的系数；工时 = 工作量 × 折算系数。标「非标上报/wh」的列直接填上报小时数（折算系数 = 1）。
+* '''折算系数'''：见表格第一行说明（斜体）。
 * '''列头即数据源'''：列名文字本身即是该列取数来源的链接；非标上报类的工作量，格内 `↗` 另链到该条工作量的原始上报评论（双向互链）。
 * `汇总CGC有效/wh` = 按当月链上签到 slash 后的有效值（记账节点未签到减记为 0.5h、见证节点减记为 0）。
 * `激励/万wJ` = 工作量 × 1200 ÷ 当月总工作量（260h），向下截断到 0.01 万wJ；`凑整1200万` 由创世金库补差，使总额恰为 1200 万wJ。
