@@ -1,0 +1,192 @@
+<!-- 2026年8月 PoWh 原始数据溯源表（raw）· v1.3
+     性质：原始数据溯源表（raw）。统计流程中最先出现、最详细的一层；由本表提纯、精炼出汇总表 powh-data-202608.mediawiki，供执行空投者依表发放。
+     数据来源：链上（POPBadge 签到 / 多签 getOwners）、workspace issues 各 WP 上报评论、open-meetings 会议纪要、Jouleverse/wiki blog 署名区；8 月起不再经飞书中转。
+     已核验：2026-09-24 由小Roc 按公开数据源逐格独立复算，与飞书《2026年8月powh复核明细表》29 人 × 13 列零差异；总工作量 260h、激励 1199.84 万wJ + 创世金库 0.16 万wJ = 1200 万wJ。
+-->
+{| class="wikitable" style="font-size:85%; text-align:center"
+|+ '''2026年8月 PoWh 原始数据溯源表（raw）'''　——　本表为原始数据溯源表；同月数据汇总见 [[https://github.com/Jouleverse/workspace/blob/main/data/powh-data-202608.mediawiki|powh-data-202608.mediawiki]]
+|-
+| colspan="32" style="text-align:left; background:#f2f2f2" | ''【表头第二行·折算系数说明】把 JV 规定的单位工作量（1 次 / 1 个 / 1 篇…）折算成小时数的系数；'''工时（wh）= 工作量（X 次 / X 个 / X 篇…）× 折算系数'''。例：多签 1 个 = 0.5h；记账节点 1 个 = 5h；会议主持 1 次 = 2h。工作量单位（件 / 次 / 个 / 篇）写在列名里；标「非标上报/wh」的列不设折算系数，直接填上报小时数（折算系数 = 1）。''
+|-
+! rowspan="3" | Core ID
+! rowspan="3" | [[https://github.com/Jouleverse/workspace/blob/main/core-contributors.md|CORE<br/>基本信息]]
+! rowspan="3" | [[https://jscan.f7t.cn/#/core/checkin/|链上签到<br/>签1/未签0]]
+! colspan="2" | [[https://github.com/Jouleverse/workspace/issues/1|WP-1 核心多签钱包管理]]
+! colspan="4" | [[https://github.com/Jouleverse/workspace/issues/2#issuecomment-5522350385|WP-2 节点运行维护]]
+! colspan="7" | [[https://github.com/Jouleverse/workspace/issues/3|WP-3 工作量证明统计和执行]]
+! colspan="4" | [[https://github.com/Jouleverse/open-meetings/tree/main/core|WP-6 核心治理会议]]
+! colspan="1" | [[https://github.com/Jouleverse/workspace/issues/7|WP-7 链代码开发]]
+! colspan="1" | [[https://github.com/Jouleverse/workspace/issues/8|WP-8 区块浏览器]]
+! colspan="5" | [[https://github.com/Jouleverse/wiki|WP-13 白皮书和网站（知识库）]]
+! colspan="1" | [[https://github.com/Jouleverse/workspace/issues/15|WP-15 核心治理工具集开发]]
+! colspan="4" | 合计 / 激励
+|- style="background:#f6f6f6"
+! ''0.5''
+! ''=工作量×0.5''
+! ''5''
+! ''5''
+! ''=工作量×5''
+! ''slash 后''
+! ''1''
+! ''2''
+! ''4''
+! ''2''
+! ''1''
+! ''2''
+! ''=合计''
+! ''0.5''
+! ''2''
+! ''0.5''
+! ''=合计''
+! ''1''
+! ''1''
+! ''1''
+! ''1''
+! ''0.5''
+! ''2''
+! ''=合计''
+! ''1''
+! ''=各列之和''
+! ''=工作量×1200÷260''
+! ''&nbsp;''
+! ''&nbsp;''
+|- style="background:#f6f6f6"
+! 多签<br/>/个
+! 汇总<br/>/wh
+! 记账节点<br/>/个
+! 见证节点<br/>/个
+! 汇总<br/>/wh
+! 汇总CGC有效<br/>/wh
+! 非标上报<br/>/wh
+! 统计主管<br/>/次
+! 统计<br/>/次
+! 录入<br/>/次
+! 合并<br/>/次
+! 执行<br/>/次
+! 汇总<br/>/wh
+! [[https://github.com/Jouleverse/open-meetings/tree/main/core|会议预定]]<br/>/次
+! [[https://github.com/Jouleverse/open-meetings/tree/main/core|会议主持]]<br/>/次
+! [[https://github.com/Jouleverse/open-meetings/tree/main/core|会议发言]]<br/>/次
+! 汇总<br/>/wh
+! 非标上报<br/>/wh
+! 非标上报<br/>/wh
+! [[https://github.com/Jouleverse/wiki|github报告]]<br/>/wh
+! [[https://github.com/Jouleverse/wiki|编辑]]<br/>/篇
+! [[https://github.com/Jouleverse/wiki|审校]]<br/>/篇
+! [[https://github.com/Jouleverse/wiki|投稿]]<br/>/wh
+! 汇总<br/>/wh
+! 非标上报<br/>/wh
+! 工作量<br/>/wh
+! 激励<br/>/万wJ
+! 凑整<br/>1200万
+! 激励额度<br/>(凑整后)
+|-
+| '''J-0''' || @koant-bit || 1 || 3 || 1.5 || 1 || 1 || 10 || 10 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || 3 || 3 || 4 || 9.5 || &nbsp; || &nbsp; || &nbsp; || 2 || 2 || &nbsp; || 3 || &nbsp; || 24 || 110.76 || &nbsp; || 110.76
+|-
+| '''J-9''' || @liujiaqiid || 0 || 3 || 1.5 || 1 || 0 || 5 || 0.5 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 2 || 9.23 || &nbsp; || 9.23
+|-
+| '''J-18''' || @Timothyxie513 || 1 || 3 || 1.5 || 1 || 1 || 10 || 10 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 11.5 || 53.07 || &nbsp; || 53.07
+|-
+| '''J-25''' || @hmisty || 1 || 3 || 1.5 || 1 || 1 || 10 || 10 || 7&nbsp;[[https://github.com/Jouleverse/workspace/issues/3#issuecomment-5519336627|↗]] || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 7 || &nbsp; || &nbsp; || 4 || 2 || &nbsp; || 24&nbsp;[[https://github.com/Jouleverse/workspace/issues/8#issuecomment-5519035577|↗]] || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || 6&nbsp;[[https://github.com/Jouleverse/workspace/issues/15#issuecomment-5519338174|↗]] || 50.5 || 233.07 || &nbsp; || 233.07
+|-
+| '''J-29''' || @29n || 1 || 3 || 1.5 || 1 || 1 || 10 || 10 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 7&nbsp;[[https://github.com/Jouleverse/workspace/issues/3#issuecomment-5350229945|↗]] || 14 || &nbsp; || &nbsp; || &nbsp; || 0 || 1&nbsp;[[https://github.com/Jouleverse/workspace/issues/7#issuecomment-5522443788|↗]] || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 26.5 || 122.3 || &nbsp; || 122.3
+|-
+| '''J-4''' || @LouLanFisherman || 1 || &nbsp; || &nbsp; || 1 || 1 || 10 || 10 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 10 || 46.15 || &nbsp; || 46.15
+|-
+| '''J-6''' || @lii17 || 1 || &nbsp; || &nbsp; || 1 || 1 || 10 || 10 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 10 || 46.15 || &nbsp; || 46.15
+|-
+| '''J-7''' || @240616-ming || 1 || &nbsp; || &nbsp; || 1 || 1 || 10 || 10 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 10 || 46.15 || &nbsp; || 46.15
+|-
+| '''J-17''' || @gjw00001 || 1 || &nbsp; || &nbsp; || 1 || 1 || 10 || 10 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 10 || 46.15 || &nbsp; || 46.15
+|-
+| '''J-31''' || @kylin || 1 || &nbsp; || &nbsp; || 1 || 1 || 10 || 10 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 10 || 46.15 || &nbsp; || 46.15
+|-
+| '''J-33''' || @tuoling1314 || 1 || &nbsp; || &nbsp; || 1 || 0 || 5 || 5 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 5 || 23.07 || &nbsp; || 23.07
+|-
+| '''J-34''' || @Astudysunny || 0 || &nbsp; || &nbsp; || 1 || 1 || 10 || 0.5 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 0.5 || 2.3 || &nbsp; || 2.3
+|-
+| '''J-37''' || @zhm114 || 1 || &nbsp; || &nbsp; || 1 || 0 || 5 || 5 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 5 || 23.07 || &nbsp; || 23.07
+|-
+| '''J-53''' || @fangsheng-sudo || 1 || &nbsp; || &nbsp; || 1 || 1 || 10 || 10 || &nbsp; || &nbsp; || 1 || 1 || &nbsp; || &nbsp; || 6 || &nbsp; || 1 || 5 || 4.5 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 20.5 || 94.61 || &nbsp; || 94.61
+|-
+| '''J-14''' || @lingxingshui123 || 0 || &nbsp; || &nbsp; || &nbsp; || 1 || 5 || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 0 || 0 || &nbsp; || 0
+|-
+| '''J-27''' || @sizimao || 1 || &nbsp; || &nbsp; || &nbsp; || 1 || 5 || 5 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 5 || 23.07 || &nbsp; || 23.07
+|-
+| '''J-42''' || @jason8605 || 1 || &nbsp; || &nbsp; || &nbsp; || 1 || 5 || 5 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 5 || 23.07 || &nbsp; || 23.07
+|-
+| '''J-52''' || @uwangshang || 1 || &nbsp; || &nbsp; || &nbsp; || 1 || 5 || 5 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 5 || 23.07 || &nbsp; || 23.07
+|-
+| '''J-54''' || @brone2018 || 1 || &nbsp; || &nbsp; || &nbsp; || 1 || 5 || 5 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 5 || 23.07 || &nbsp; || 23.07
+|-
+| '''J-57''' || @TigerGaoJiaLi || 1 || &nbsp; || &nbsp; || &nbsp; || 1 || 5 || 5 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 5 || 23.07 || &nbsp; || 23.07
+|-
+| '''J-58''' || @sing201100 || 1 || &nbsp; || &nbsp; || &nbsp; || 1 || 5 || 5 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 5 || 23.07 || &nbsp; || 23.07
+|-
+| '''J-59''' || @blizzardlx || 1 || &nbsp; || &nbsp; || &nbsp; || 1 || 5 || 5 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 5 || 23.07 || &nbsp; || 23.07
+|-
+| '''J-60''' || @sheeplinjie || 1 || &nbsp; || &nbsp; || &nbsp; || 1 || 5 || 5 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 5 || 23.07 || &nbsp; || 23.07
+|-
+| '''J-61''' || @caicai6677 || 1 || &nbsp; || &nbsp; || &nbsp; || 1 || 5 || 5 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 5 || 23.07 || &nbsp; || 23.07
+|-
+| '''J-65''' || @edwardlong9996 || 0 || &nbsp; || &nbsp; || &nbsp; || 1 || 5 || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 0 || 0 || &nbsp; || 0
+|-
+| '''J-66''' || @huikygit || 1 || &nbsp; || &nbsp; || &nbsp; || 1 || 5 || 5 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 5 || 23.07 || &nbsp; || 23.07
+|-
+| '''J-67''' || @Bataroc || 1 || &nbsp; || &nbsp; || &nbsp; || 1 || 5 || 5 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 1 || &nbsp; || 3 || 2 || 1 || 1 || 3.5 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 11.5 || 53.07 || &nbsp; || 53.07
+|-
+| '''J-69''' || @lmhlmh888888-coder || 0 || &nbsp; || &nbsp; || &nbsp; || 1 || 5 || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || 0 || 0 || &nbsp; || 0
+|-
+| '''J-12''' || @lanybon || 1 || &nbsp; || &nbsp; || &nbsp; || 0 || 0 || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 2 || 2 || &nbsp; || 3 || &nbsp; || 3 || 13.84 || &nbsp; || 13.84
+|- style="background:#fbf7e8"
+| colspan="3" | '''创世金库''' || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || '''0.16''' || '''0.16'''
+|- style="background:#fbf7e8"
+| colspan="2" | '''纵列合计''' || '''24''' || '''15''' || '''7.5''' || '''14''' || '''25''' || '''195''' || '''166''' || '''7''' || '''&nbsp;''' || '''1''' || '''1''' || '''1''' || '''7''' || '''30''' || '''5''' || '''5''' || '''14''' || '''19.5''' || '''1''' || '''24''' || '''&nbsp;''' || '''4''' || '''4''' || '''0''' || '''6''' || '''6''' || '''260''' || '''1199.84''' || '''&nbsp;''' || '''1200'''
+|}
+|}
+
+== 备注 ==
+
+=== 1. 本表性质与定位 ===
+* 本表是'''原始数据溯源表（raw）'''：统计流程中'''最先出现、最详细'''的一层，代替原来的飞书统计表格，作为中间数据表。
+* 所有数字直接来自公开数据源（链上 + GitHub issue/PR + 会议纪要），任何人均可复算；由本表提纯、精炼出汇总表（`powh-data-YYYYMM.mediawiki`），供执行空投者依表发放。
+* 本月名册 '''29 人'''（表头已固定），行序按多签 → 记账 → 见证 → 无节点贡献者。
+
+=== 2. 表头与读法 ===
+* '''折算系数'''：见表格第一行说明（斜体）。
+* '''列头即数据源'''：列名文字本身即是该列取数来源的链接；非标上报类的工作量，格内 `↗` 另链到该条工作量的原始上报评论（双向互链）。
+* `汇总CGC有效/wh` = 按当月链上签到 slash 后的有效值（记账节点未签到减记为 0.5h、见证节点减记为 0）。
+* `激励/万wJ` = 工作量 × 1200 ÷ 当月总工作量（260h），向下截断到 0.01 万wJ；`凑整1200万` 由创世金库补差，使总额恰为 1200 万wJ。
+* 符号约定：`0` = 当月确认为 0；其余除有数据者外，默认留空（空格）。
+
+=== 3. WP-1「当月在册签名人」的链上依据 ===
+* 每月统计前对三个核心多签钱包各跑一次 `getOwners()` 快照，作为「当月在册签名人」的依据。
+* '''2026-09-24 链上实测（只读 `eth_call`，selector `0xa0e67e2b`）'''：三个钱包各 5 位签名人、名单完全一致 ——
+** 创世金库多签 GT `0x3B717119878E2db1AA7df46F5AdcF9766A01706F`
+** 节点PoS质押 `0xDb11694Ed05Db4a6230BDFd0914094FE7CE73646`
+** 投票权PoS质押 `0xB17b6812f3Ed0eb0Df6e9F1D308C975B5daa8dC3`
+* 5 位签名人 ↔ Core 映射（来源：`script/contracts-reference.md` 姓名↔地址 ＋ `core-contributors.md` 姓名↔Core）：
+** `0xB313C0de…5Fe76` = 教链 = '''J-25'''｜`0xA2029982…9Ba1c` = Jacky = '''J-9'''｜`0x3bD7F1E5…e7104` = Koant = '''J-0'''｜`0xb23823CB…d1489` = 谢勇 = '''J-18'''｜`0x5d1CA5f6…E21BB` = Jeff = '''J-29'''
+* 即本月在册签名人 = J-0 / J-9 / J-18 / J-25 / J-29，各 3 个钱包 × 0.5h = '''1.5h/人'''（5 人合计 7.5h）。
+* 快照文件 `data/sig-snapshot-202608.json` 尚未存档（快照脚本开发中）；本表先以上述链上实测结果作为依据。
+
+=== 4. 本月无统计的 WP（不建列） ===
+* WP-4 社群建设、WP-5 JNSDAO、WP-9 飞翔的J纪念徽章、WP-10 JTI认证相关开发、WP-11 nostr相关开发、WP-12 合规投融资与生态基金、WP-14 Relay开发、WP-16 链上红包开发 —— 2026 年 8 月工作量均为 0。
+
+=== 5. 待确认 ===
+* WP-3「统计主管」列暂时留空：该角色与「统计」是否并列，待统计组讨论确定后回填；WP-3 汇总按 8 月复核口径 30h 计（含该角色 2h），故其数值暂大于该 WP 各子列之和。
+
+=== 6. 数据源清单（逐列） ===
+* 链上签到：链上 POPBadge 合约 `0xCb1429da13cE40e75519148e796C6D58dD6b1a8E` 的铸章记录（入口页 [[https://jscan.f7t.cn/#/core/checkin/|jscan.f7t.cn/#/core/checkin/]]）；8 月（UTC+8）共 33 枚铸章 = 33 位 Core：名册内 24 人、名册外 9 人（J-1/J-39/J-43/J-44/J-47/J-49/J-55/J-62/J-63）。
+* WP-1 多签人：链上三个多签钱包 `getOwners()`（见 §3）。
+* WP-2 记账/见证：`Jouleverse/workspace` issue #2 的《2026年8月 节点统计》（29n，2026-09-03）→ [[https://github.com/Jouleverse/workspace/issues/2#issuecomment-5522350385|#issuecomment-5522350385]]；已扣除审计未通过者（J-5 记账、J-24/J-43 见证）。
+* WP-3 非标：J-25「WP-3 PoWh 统计和执行 总计 7h」→ [[https://github.com/Jouleverse/workspace/issues/3#issuecomment-5519336627|#issuecomment-5519336627]]。
+* WP-3 执行：J-29「执行 202512-202606 共 7 个月份」→ [[https://github.com/Jouleverse/workspace/issues/3#issuecomment-5350229945|#issuecomment-5350229945]]。
+* WP-3 轮值角色（统计/录入/合并）：按前月（`powh-data-202607.mediawiki`）表头惯例 —— 统计 J-53、录入 J-53、检查及合并 J-67。
+* WP-6 会议：`Jouleverse/open-meetings` 定稿纪要 `core/CGC20260802.md`、`CGC20260809.md`、`CGC20260816.md`、`CGC20260823.md`、`CGC20260830.md` 的「会务人员 / 贡献区」，以及 `Jouleverse/wiki` blog 发布版署名（本月 5 场：预定 J-0×3 / J-67×2；主持兼书记员 J-0×3 / J-67×1 / J-53×1；讨论区发言 J-53×5 / J-0×4 / J-25×4 / J-67×1）。
+* WP-7 / WP-8 / WP-15：issue #7（J-29，1h）、issue #8（J-25，24h）、issue #15（J-25，6h）；对应评论见列头链接与格内 `↗`。
+* WP-13 编辑/审校：`Jouleverse/wiki` `blog/2026/202608/` 四篇会议纪要末尾署名区（每篇标「编辑：」「审校：」）→ J-0 编辑 2 篇 + 审校 2 篇；J-12 编辑 2 篇 + 审校 2 篇。
+
+=== 7. 数值核对方式 ===
+* 结构校验：解析器逐行验收（三层表头 + 折算系数说明行 + 折算系数行 + 29 数据行 × 32 列 + 创世金库 / 纵列合计），每行覆盖列数均为 32。
+* 数值校验：29 人各列取值全部来自 §6 公开数据源；并与「不读汇总口径」的独立复算结果逐列交叉一致；各 WP 汇总、工作量、激励按原表公式复算一致（总量 260h；激励 1199.84 + 创世金库 0.16 = 1200 万wJ）。
