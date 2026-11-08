@@ -4,7 +4,7 @@
      数据来源：链上（POPBadge 铸章签到 / 三个核心多签钱包 getOwners）+ GitHub（workspace issue 上报、open-meetings 定稿纪要、Jouleverse/wiki blog 署名、workspace 名册）。
      已核验：2026-11-04 由小Roc（J-67 的助理 agent）按公开数据源逐格独立复算并做六道验收（结构/来源/公式/符号/双向对账/盲算）；v2 于 2026-11-08 按定案口径重算复验。总工作量 171.0h、激励 1199.85 万wJ + 创世金库 0.15 万wJ = 1200 万wJ。
      待追认：Q1/Q3/Q4（WP-3 单人配置与复核人计价）—— 详见文末 §7。（Q7–Q11 已于 2026-11-08 定案。）
-     变更记录：v1.0 = 首版（2026-11-04，29 行 / 165.5h）；v2.0 = 2026-11-08 按定案口径并入 J-5、J-43，行集 31 行 / 171.0h（Q7 方案 B）；v3.0 = 2026-11-08 按行集规则 B（审计未通过 = 无节点身份、且无其他工时 → 不出行）删除 J-57/J-58/J-60 三行零值，行集 28 行，金额不变（171.0h / 1199.85 万wJ / 金库 0.15）。
+     变更记录：v1.0 = 首版（2026-11-04，29 行 / 165.5h）；v2.0 = 2026-11-08 按定案口径并入 J-5、J-43，行集 31 行 / 171.0h（Q7 方案 B）；v3.0 = 2026-11-08 按行集规则 B（审计未通过 = 无节点身份、且无其他工时 → 不出行）删除 J-57/J-58/J-60 三行零值，行集 28 行，金额不变（171.0h / 1199.85 万wJ / 金库 0.15）；v3.1 = 2026-11-08 与 8 月 raw / 名册交叉核对后更正 J-6 的 github（`@lii17` → `@lii1717`），并补「github 以名册为准」的取数规则，金额不变。
 -->
 {| class="wikitable" style="font-size:85%; text-align:center"
 |+ '''2026年9月 PoWh 原始数据溯源表（raw）'''　——　本表为原始数据溯源表（计算层）；同月数据汇总表 powh-data-202609.mediawiki 本轮未生成，待本表定稿后另提 PR
@@ -92,7 +92,7 @@
 |-
 | '''J-5''' || @mengal || 0 || &nbsp; || &nbsp; || 1 || &nbsp; || 5 || 0.5 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || 0.5 || 3.50 || &nbsp; || 3.50
 |-
-| '''J-6''' || @lii17 || 0 || &nbsp; || &nbsp; || 1 || 1 || 10 || 0.5 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || 0.5 || 3.50 || &nbsp; || 3.50
+| '''J-6''' || @lii1717 || 0 || &nbsp; || &nbsp; || 1 || 1 || 10 || 0.5 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || 0.5 || 3.50 || &nbsp; || 3.50
 |-
 | '''J-7''' || @240616-ming || 1 || &nbsp; || &nbsp; || 1 || 1 || 10 || 10 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || 0 || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; || 0 || 10 || 70.17 || &nbsp; || 70.17
 |-
@@ -202,6 +202,7 @@
 ** 本月只算这两场（0830 会议属 8 月，已计入 8 月表）。
 * '''WP-7 非标'''：Jeff J-29「2026.9 Wh 报告：… 总计: 1 h」→ [[https://github.com/Jouleverse/workspace/issues/7#issuecomment-5952732044|issue #7 #issuecomment-5952732044]]。归列说明见【Q8】。
 * '''WP-13 编辑/审校'''：[[https://github.com/Jouleverse/wiki/tree/main/blog/2026/202609|Jouleverse/wiki blog/2026/202609]] 三篇会议纪要（0830 / 0906 / 0913）末尾署名区（每篇标「编辑：」「审校：」）→ '''J-0 编辑 1 篇 + 审校 2 篇；J-12 编辑 2 篇 + 审校 1 篇'''。三篇署名均非空，无"留空即不计"情形。
+* '''CORE 基本信息列的 github'''：一律以 [[https://github.com/Jouleverse/workspace/blob/main/core-contributors.md|core-contributors.md]] 登记值为准，不从历史表沿抄。本表 v3.1 更正一处历史笔误：J-6 原写 `@lii17`（该账号 2026-10-31 才创建、无仓库，非本人），已按名册更正为 `@lii1717`（2019 年创建）；8 月 raw 表内同一笔误遗留未改。
 * '''名册'''：[[https://github.com/Jouleverse/workspace/blob/main/core-contributors.md|core-contributors.md]]。行集 '''28 行''' = 8 月 29 行 + 新增 J-5、J-43 − 移除 J-57、J-58、J-60（口径卡 §4 行集规则，2026-11-08 定案 Q7 方案 B + 行集规则 B）。
 * '''口径来源'''：本月口径卡（J-67 于 2026-11-04 拍板）、`reference/jouleverse-stats/JV-PoWh统计-完整流程与Agent实操手册.md` v2.0。
 
