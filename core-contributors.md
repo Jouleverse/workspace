@@ -46,7 +46,7 @@ core成员内自然演化形成的办事机构如下：（更新日期：2024.12
 🆔J9 | Jacky | ✅ | [@liujiaqiid](https://github.com/liujiaqiid) | j3xvnz346sndhdlw9fpyv2jejdu4n8t6w0gzzagj | - | 2022/10/1
 🆔J10 | 锴 | ✅ | - | j3al76p8xms720ljvcy54n8eq0pj8dp9xmpz8ktk | 0xjustry.j | 2023/2/1
 🆔J11 | 摩卡 | ✅ | - | j33zje66g58x86a6hzlwd4qdgljdeaacwktrdafw | j.j | 2022/10/1
-🆔J12 | 如行 | ✅ | - | j34k8vu06uk6xdjyjwdvfyhxv9ks084khhf23ugy | hao.j | 2023/7/26
+🆔J12 | 如行 | ✅ | [@lanybon](https://github.com/lanybon) | j34k8vu06uk6xdjyjwdvfyhxv9ks084khhf23ugy | hao.j | 2023/7/26
 🆔J13 | 元宇星河 (机构) (联络人：刘子君) | ✅ | - | j36ce2hlenul0uugv3wychn6nrhcfyag9ms6rnru | yuanyuxinghe.j | 2023/7/26
 🆔J14 | ucanfilm (机构) (联络人：凌杏水) | ✅ | [@lingxingshui123](https://github.com/lingxingshui123) | j3ewsj8n3d2h7tuk76r7csq0t3jgg4qg79uaeh0v | -- | 2023/7/26
 🆔J15 | 张恩畅 | ✅ | [@enchang1](https://github.com/enchang1) | j3qvychlfcv8ve3u2vvfjehxajunkd388xedu32x | dashu.j | 2023/7/26
@@ -60,7 +60,7 @@ core成员内自然演化形成的办事机构如下：（更新日期：2024.12
 🆔J23 | 琰熙 | ✅ | [@Yanxi02](https://github.com/Yanxi02) | j33ku4ugqvnfn8m32pex8h2h94vpk4dafuxfppst | aibao.j | 2024/1/21 |
 🆔J24 | gwendol(c) | ✅ | - | j333uz7r9kxev8euzuak8h07n29rr8cn9f3488pu | gwendol.j | 2024/1/23
 🆔J25 | 教链(evan) | ✅ | [@hmisty](https://github.com/hmisty) | j35ftg4f98et9zuhsm2sw8h7sy3fpm970tde8xjm | evan.j | 2022/10/1
-🆔J26 | 严光红 | ✅ | [@YGH200](https://github.com/240616-ming) | j3ggr8rtywse6tzqe2umn7ulsryhsnnlarf73lna | ygh.j | 2024/1/30
+🆔J26 | 严光红 | ✅ | [@YGH200](https://github.com/YGH200) | j3ggr8rtywse6tzqe2umn7ulsryhsnnlarf73lna | ygh.j | 2024/1/30
 🆔J27 | 狮子猫 | ✅ | [@sizimao](https://github.com/sizimao) | j33g2fzlxkr0m3at5wx0s7vgxyq3cmvfpzx3jgak | sizimao.j | 2024/1/30 |
 🆔J28 | 老谢 | ✅ | [@Dambo36142](https://github.com/Dambo36142) | j3909fc2gpyy6y3lr0u9l6m5h8yu2p2zkuamgaxr | dambo.j | 2024/1/30
 🆔J29 | Jeff | ✅ | [@29n](https://github.com/29n) | j3t5w2tajsvfe2sxldhqc2g7vp44e7ugdmzd263x | 1688.j | 2024/1/31
